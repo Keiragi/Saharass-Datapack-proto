@@ -27,7 +27,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:1,lore_length:2,price:1,value:1,can_sell:true,\"Saharass\":\"Sub\",\"Number\":0}"
+              "tag": "{rarity:1,lore_length:2,price:0,value:0,can_sell:true,\"Saharass\":\"Sub\",\"Number\":0}"
             },
             {
               "function": "set_lore",
@@ -84,16 +84,16 @@
                   "has_consume_particles": false
                 },
                 "use_remainder": {
-                  "id": "wooden_sword",
+                  "id": "creeper_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/weapon/sword/wood\"}",
-                    "minecraft:item_model": "wooden_sword",
+                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/scroll/creeper\"}",
+                    "minecraft:item_model": "creeper_banner_pattern",
                     "minecraft:custom_model_data": 0,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
-                          "id": "wooden_sword_none_attack",
+                          "id": "creeper_banner_pattern_none_attack",
                           "type": "attack_damage",
                           "amount": -1,
                           "operation": "add_multiplied_total",
