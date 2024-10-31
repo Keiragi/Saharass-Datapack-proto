@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 57,
+    "description": "Saharass Data Pack"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "advancement/.*"
+      }
+    ]
+  }
+}
