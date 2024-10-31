@@ -4,51 +4,118 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:creeper_banner_pattern",
+          "type": "item",
+          "name": "creeper_banner_pattern",
           "functions": [
             {
-              "function": "minecraft:set_name",
+              "function": "set_name",
               "target": "item_name",
               "name": {
                 "text": "空のスクロール",
-                "color": "yellow"
+                "color": "white"
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "function": "set_components",
+              "components": {
+                "item_model": "creeper_banner_pattern",
+                "unbreakable": {},
+                "enchantment_glint_override": false,
+                "hide_additional_tooltip": {},
+                "!banner_patterns": {}
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{rarity:1,lore_length:2,price:1,value:1,can_sell:true,\"Saharass\":\"Sub\",\"Number\":0}"
+            },
+            {
+              "function": "set_lore",
+              "mode": "append",
               "lore": [
                 [
                   {
-                    "keybind": "key.use",
+                    "text": "",
                     "color": "#D8D8D8",
                     "italic": false
+                  },
+                  {
+                    "keybind": "key.use"
                   },
                   {
                     "text": "で使用できる。"
                   }
                 ],
-                {
-                  "text": "教会でスキルをセットしよう。",
-                  "color": "#D8D8D8",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all"
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "教会でスキルをセットしよう。"
+                  }
+                ]
+              ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:consumable": {
-                  "consume_seconds": 2147483647,
-                  "animation": "block"
-                },
-                "!minecraft:banner_patterns": {}
+              "function": "toggle_tooltips",
+              "toggles": {
+                "trim": false,
+                "dyed_color": false,
+                "enchantments": true,
+                "stored_enchantments": false,
+                "unbreakable": false,
+                "can_break": false,
+                "can_place_on": false,
+                "attribute_modifiers": true
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Saharass:Sub,Number:0}"
+              "function": "set_components",
+              "components": {
+                "use_cooldown": {
+                  "seconds": 1,
+                  "cooldown_group": "Skill"
+                },
+                "consumable": {
+                  "consume_seconds": 0,
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_remainder": {
+                  "id": "wooden_sword",
+                  "count": 1,
+                  "components": {
+                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/weapon/sword/wood\"}",
+                    "minecraft:item_model": "wooden_sword",
+                    "minecraft:custom_model_data": 0,
+                    "attribute_modifiers": {
+                      "modifiers": [
+                        {
+                          "id": "wooden_sword_none_attack",
+                          "type": "attack_damage",
+                          "amount": -1,
+                          "operation": "add_multiplied_total",
+                          "slot": "mainhand"
+                        }
+                      ],
+                      "show_in_tooltip": false
+                    },
+                    "use_cooldown": {
+                      "seconds": 1,
+                      "cooldown_group": "Skill"
+                    },
+                    "unbreakable": {
+                      "show_in_tooltip": false
+                    },
+                    "lore": [
+                      "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
+                      "{\"italic\":false,\"text\":\"バグが起きているということ。\"}"
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
