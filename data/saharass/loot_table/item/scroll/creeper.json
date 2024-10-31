@@ -87,8 +87,9 @@
                   "id": "creeper_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/scroll/creeper\"}",
+                    "custom_data": "{\"Number\":0,\"Used\":1b,Loottable:\"saharass:item/scroll/creeper\"}",
                     "minecraft:item_model": "creeper_banner_pattern",
+                    "minecraft:item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "minecraft:custom_model_data": 0,
                     "attribute_modifiers": {
                       "modifiers": [
