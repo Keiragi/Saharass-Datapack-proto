@@ -1,0 +1,66 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE301",
+          "color": "yellow"
+        },
+        {
+          "text": " アース",
+          "color": "gold"
+        },
+        {
+          "text": "+",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "地面に強い衝撃を与える。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "浮いている相手には当たらない。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE004"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE203\uE203\uE201"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Switch,Number:32}"
+    }
+  ]
+  

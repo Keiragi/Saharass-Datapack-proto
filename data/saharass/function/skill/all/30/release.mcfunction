@@ -1,0 +1,1 @@
+execute as @e[type=#saharass:enemy,nbt={NoAI:1b,PortalCooldown:0}] run data modify entity @s[tag=!NoAI] NoAI set value 0b

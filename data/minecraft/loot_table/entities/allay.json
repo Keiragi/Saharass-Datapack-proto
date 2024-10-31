@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:food": {}
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "天使の心臓",
+                "color": "#850f0f",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "概念として残った亡骸の一部。",
+                  "color": "dark_red",
+                  "italic": false
+                },
+                {
+                  "text": "ときおり声が聞こえる...",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Saharass:Other,ItemID:0,Cursed:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

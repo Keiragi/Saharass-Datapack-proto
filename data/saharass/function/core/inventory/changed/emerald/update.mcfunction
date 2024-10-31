@@ -1,0 +1,1 @@
+$item modify entity @s container.$(Slot) saharass:special/pouch/emerald

@@ -1,0 +1,62 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE302", 
+          "color": "yellow"
+        },
+        {
+          "text": " エスケープ",
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "ダンジョンから一瞬で脱出する。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "周りのプレイヤーにも効果がある。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE004"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE203\uE203\uE202"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Sub,Number:37}"
+    }
+  ]
+  

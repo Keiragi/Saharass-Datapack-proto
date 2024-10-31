@@ -1,0 +1,52 @@
+{
+    "criteria": {
+        "Emerald_pouch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_bundle",
+                        "predicates": {
+                            "minecraft:custom_data": "{Special:1b,Saharass:pouch,Use:emerald}"
+                        }
+                    }
+                ]
+            }
+        },
+        "Ender_pouch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_bundle",
+                        "predicates": {
+                            "minecraft:bundle_contents": {
+                                "items": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "Get_Emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Emerald_pouch",
+            "Ender_pouch",
+            "Get_Emerald"
+        ]
+    ],
+    "rewards": {
+        "function": "saharass:core/inventory/changed/"
+    }
+}

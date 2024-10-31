@@ -1,0 +1,1 @@
+$execute if score $Strength HealthCalculation matches 0.. run effect give @s strength 30 $(Heroics)

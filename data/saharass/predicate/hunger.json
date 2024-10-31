@@ -1,0 +1,73 @@
+[
+    {
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 39
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 79
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 119
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 159
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 199
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "hunger": {
+                            "amplifier": 239
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

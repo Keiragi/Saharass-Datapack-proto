@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "items": "minecraft:crossbow"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "saharass:.debug/crossbow"
+    }
+  }
+  

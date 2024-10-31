@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "yourname": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[yourname]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "yourname"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:object/interaction/book/"
+  }
+}

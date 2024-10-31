@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "Bell": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[Bell]}"
+                }
+            }
+        },
+        "Flower_Church": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[Flower_Church]}"
+                }
+            }
+        },
+        "Boots_oubai": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[Boots_oubai]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Bell",
+            "Flower_Church",
+            "Boots_oubai"
+        ]
+    ],
+    "rewards": {
+        "function": "saharass:object/interaction/other/"
+    }
+}

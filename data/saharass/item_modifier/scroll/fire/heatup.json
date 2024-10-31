@@ -1,0 +1,62 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE302", 
+          "color": "yellow"
+        },
+        {
+          "text": " ヒートアップ",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "全身を滾らせ、リミッターを解除する。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "30秒間、スキルのクールタイムが半分になる。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE001"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE203\uE203\uE201"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Sub,Number:7}"
+    }
+  ]
+  

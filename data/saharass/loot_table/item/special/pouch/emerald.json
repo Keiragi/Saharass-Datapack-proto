@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "text": "エメラルドポーチ",
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "ショップ",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uE209",
+                    "color": "white"
+                  },
+                  {
+                    "text": "で渡すと決済をしてくれる。",
+                    "color": "#D8D8D8"
+                  }
+                ],
+                {
+                  "text": "調べると現在の所持数が表示される。",
+                  "color": "#D8D8D8",
+                  "italic": false
+                },
+                {
+                  "text": "                          ",
+                  "color": "dark_gray",
+                  "strikethrough": true
+                },
+                [
+                  {
+                    "text": "エメラルド所持数：",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "HaveEmerald"
+                    },
+                    "color": "green"
+                  }
+                ],
+                {
+                  "text": "                          ",
+                  "color": "dark_gray",
+                  "strikethrough": true
+                },
+                {
+                  "text": "✦ 特殊【ノーマル】",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:bundle_contents": {},
+                "minecraft:custom_data": "{Special:1b,Saharass:pouch,Use:emerald,Emerald_Pouch:1b}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

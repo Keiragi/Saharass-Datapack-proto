@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=Water,nbt={PortalCooldown:0}] at @s run function saharass:skill/all/11/killarrow

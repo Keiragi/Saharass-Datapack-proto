@@ -1,0 +1,2 @@
+$execute if score @s SkillNumber matches $(Number) run title @s actionbar {"underlined":true,"color":"white","text":"メインスキルが設定されました"}
+$execute unless score @s SkillNumber matches $(Number) run function saharass:skill/core/switch/macro {"Number":"$(Number)"}

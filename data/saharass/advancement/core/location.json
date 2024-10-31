@@ -1,0 +1,223 @@
+{
+  "criteria": {
+    "fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -3,
+                "max": 4
+              },
+              "y": {
+                "min": -39,
+                "max": -35
+              },
+              "z": {
+                "min": 22,
+                "max": 25
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -24,
+                "max": -21
+              },
+              "y": {
+                "min": -39,
+                "max": -35
+              },
+              "z": {
+                "min": -3,
+                "max": 4
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -3,
+                "max": 4
+              },
+              "y": {
+                "min": -39,
+                "max": -35
+              },
+              "z": {
+                "min": -24,
+                "max": -21
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "earth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 22,
+                "max": 25
+              },
+              "y": {
+                "min": -39,
+                "max": -35
+              },
+              "z": {
+                "min": -3,
+                "max": 4
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "passive": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "on_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 25,
+                "max": 28
+              },
+              "y": {
+                "min": 0,
+                "max": 3
+              },
+              "z": {
+                "min": 54,
+                "max": 57
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "out_town": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "minecraft:overworld"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "x": {
+                        "min": -63,
+                        "max": 64
+                      },
+                      "z": {
+                        "min": -63,
+                        "max": 64
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "in_cemetery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "x": {
+                      "min": -8,
+                      "max": 0
+                    },
+                    "y": {
+                      "min": 1,
+                      "max": 9
+                    },
+                    "z": {
+                      "min": -56,
+                      "max": -48
+                    }
+                  },
+                  "dimension": "minecraft:overworld"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire",
+      "water",
+      "wind",
+      "earth",
+      "passive",
+      "on_portal",
+      "out_town",
+      "in_cemetery"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:core/location"
+  }
+}

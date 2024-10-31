@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "実績",
+    "description": "説明文",
+    "background": "minecraft:textures/block/black_concrete.png"
+  },
+  "parent": "saharass:display/achievement/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

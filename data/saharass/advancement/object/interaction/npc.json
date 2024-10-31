@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "minister": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[Minister]}"
+        }
+      }
+    },
+    "ghost": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 13000,
+              "max": 23000
+            },
+            "period": 24000
+          }
+        ],
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[Ghost]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minister",
+      "ghost"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:object/interaction/npc/"
+  }
+}

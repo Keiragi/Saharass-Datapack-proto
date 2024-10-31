@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "tetoshia": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[tetoshia]}"
+        }
+      }
+    },
+    "oubai": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[oubai]}"
+        }
+      }
+    },
+    "moco": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[moco]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tetoshia",
+      "oubai",
+      "moco"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:object/interaction/named/"
+  }
+}

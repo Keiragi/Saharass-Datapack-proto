@@ -1,0 +1,1 @@
+execute as @e[type=shulker_bullet,tag=Bullet,nbt={PortalCooldown:0}] at @s run function saharass:skill/all/25/killbullet

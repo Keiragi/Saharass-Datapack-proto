@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "text": "アクロバット状態"
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "※アクロバット状態のため外せません！",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:binding_curse": 1
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:glider": {}
+    }
+  }
+]

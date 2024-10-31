@@ -1,0 +1,1 @@
+execute as @e[type=#saharass:enemy,scores={SacredFire_Count=2}] run function saharass:skill/all/4/fire/damage

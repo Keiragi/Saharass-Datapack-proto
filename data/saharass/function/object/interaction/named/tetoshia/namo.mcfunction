@@ -1,0 +1,1 @@
+$data modify storage saharass:tetoshia namo set value "$(namo)$(namoadd)"

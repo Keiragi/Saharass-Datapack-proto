@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "Main": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":Main}"
+          }
+        }
+      }
+    },
+    "Sub": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":Sub}"
+          }
+        }
+      }
+    },
+    "Switch": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":Switch}"
+          }
+        }
+      }
+    },
+    "Special": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":Special}"
+          }
+        }
+      }
+    },
+    "Other": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":Other}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Main",
+      "Sub",
+      "Switch",
+      "Special",
+      "Other"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:skill/core/use_item/"
+  }
+}

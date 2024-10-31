@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": {
+                "text": "木の短剣",
+                "color": "white"
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "wooden_sword",
+                "custom_model_data": 1,
+                "unbreakable": {},
+                "enchantment_glint_override": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{rarity:1,lore_length:2,base_item_name:\"木の短剣\",item_group_name:\"短剣\",price:10,value:2,can_sell:true,Saharass:Main}"
+            },
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "軽く、リーチの短い剣。"
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "素早く降ることができる。"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{weapon:\"sword\",grade:0}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "wooden_sword_attack_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "wooden_sword_attack_range",
+                  "attribute": "minecraft:entity_interaction_range",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "wooden_sword_sweeping_damage_ratio",
+                  "attribute": "minecraft:sweeping_damage_ratio",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "wooden_sword_attack_speed",
+                  "attribute": "attack_speed",
+                  "amount": -1.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{ui:{enchantable:1b}}"
+            },
+            {
+              "function": "toggle_tooltips",
+              "toggles": {
+                "trim": false,
+                "dyed_color": false,
+                "enchantments": false,
+                "stored_enchantments": false,
+                "unbreakable": false,
+                "can_break": false,
+                "can_place_on": false,
+                "attribute_modifiers": true
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

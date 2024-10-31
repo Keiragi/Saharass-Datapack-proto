@@ -1,0 +1,64 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE301", 
+          "color": "yellow"
+        },
+        {
+          "text": " スーパーノヴァ",
+          "color": "red",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "数多の粉塵とともに大爆発を起こす。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "自身もダメージを受ける。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE001",
+            "color": "gold"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE205\uE205\uE206"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Switch,Number:10}"
+    }
+  ]
+  

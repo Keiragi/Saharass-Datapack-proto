@@ -1,0 +1,1 @@
+$damage @s $(Damage) player_attack by @p[tag=Attacker]

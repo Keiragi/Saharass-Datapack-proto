@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "空のスクロール",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "で使用できる。"
+                  }
+                ],
+                {
+                  "text": "教会でスキルをセットしよう。",
+                  "color": "#D8D8D8",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block"
+                },
+                "!minecraft:banner_patterns": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Saharass:Sub,Number:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

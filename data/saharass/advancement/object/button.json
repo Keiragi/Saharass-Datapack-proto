@@ -1,0 +1,71 @@
+{
+    "criteria": {
+        "moco_enter": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "x": {
+                                    "min": 45,
+                                    "max": 46
+                                },
+                                "y": {
+                                    "min": 14,
+                                    "max": 15
+                                },
+                                "z": {
+                                    "min": 11,
+                                    "max": 12
+                                }
+                            },
+                            "block": {
+                                "blocks": "#minecraft:buttons"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "moco_exit": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "x": {
+                                    "min": 43,
+                                    "max": 44
+                                },
+                                "y": {
+                                    "min": 16,
+                                    "max": 17
+                                },
+                                "z": {
+                                    "min": 17,
+                                    "max": 18
+                                }
+                            },
+                            "block": {
+                                "blocks": "#minecraft:buttons"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "moco_enter",
+            "moco_exit"
+        ]
+    ],
+    "rewards": {
+        "function": "saharass:object/button/"
+    }
+}

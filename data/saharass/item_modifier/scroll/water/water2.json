@@ -1,0 +1,66 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE301", 
+          "color": "yellow"
+        },
+        {
+          "text": " ウォータ",
+          "color": "aqua"
+        },
+        {
+          "text": "+",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "圧縮した水の弾を放つ。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "弾は5回貫通する。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE002"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE203\uE203\uE201"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Switch,Number:12}"
+    }
+  ]
+  

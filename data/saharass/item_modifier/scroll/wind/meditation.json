@@ -1,0 +1,62 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE302", 
+            "color": "yellow"
+        },
+        {
+          "text": " 瞑想【凪】",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "精神を統一させ、体力を徐々に回復する。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "移動すると効果が切れる。",
+          "color": "#D8D8D8",
+          "italic": false
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE003"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE203\uE203\uE202"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Sub,Number:23}"
+    }
+  ]
+  

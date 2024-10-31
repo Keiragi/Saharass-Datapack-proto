@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "Skill"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "block",
+        "sound": "intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:iron_sword",
+        "count": 1,
+        "components": {
+          "minecraft:use_cooldown": {
+            "seconds": 1,
+            "cooldown_group": "Skill"
+          }
+        }
+      },
+      "minecraft:custom_data": "{Saharass:Main}"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": [
+        {
+          "text": "\uE301", 
+          "color": "yellow"
+        },
+        {
+          "text": " ライトニング",
+          "color": "green",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "鳴神が槌は厄災也。",
+          "color": "gray"
+        },
+        {
+          "text": "魂の輪廻を司るその力は、",
+          "color": "gray"
+        },
+        {
+          "text": "命尽し大地を揺るがす。",
+          "color": "gray"
+        },
+        {
+          "text": "                          ",
+          "color": "dark_gray",
+          "strikethrough": true
+        },
+        [
+          {
+            "text": "属性：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE003",
+            "color": "yellow"
+          }
+        ],
+        [
+          {
+            "text": "コスト：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "\uE201\uE201\uE201"
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{Saharass:Switch,Number:30}"
+    }
+  ]
+  
