@@ -1,53 +1,38 @@
+
 {
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_sword"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "minecraft:use_remainder": {
-              "id": "minecraft:wooden_sword",
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_custom_data",
+              "tag": "{\"カスタムデータ名\":1b}"
+            },
+            {
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [
-                  "{\"italic\":false,\"text\":\"このメッセージが見られるなら、バグが起きているということ。\"}"
-                ],
-                "minecraft:custom_data": "{\"Used\":1b}",
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "id": "wooden_sword_none_attack",
-                      "type": "minecraft:attack_damage",
-                      "amount": -1,
-                      "operation": "add_multiplied_total",
-                      "slot": "mainhand"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                },
-                "minecraft:use_cooldown": {
+                "use_cooldown": {
                   "seconds": 1,
-                  "cooldown_group": "Skill"
+                  "cooldown_group": "クールダウングループ名"
                 },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
+                "consumable": {
+                  "consume_seconds": 0,
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_remainder": {
+                  "id": "wooden_sword",
+                  "components": {
+                    "custom_data": "{\"Used\":1b,Loottable:\"このファイルのパス\"}"
+                  }
                 }
               }
-            },
-            "minecraft:consumable": {
-              "consume_seconds": 0
-            },
-            "minecraft:use_cooldown": {
-              "seconds": 1,
-              "cooldown_group": "Skill"
             }
-          }
+          ]
         }
       ]
     }
