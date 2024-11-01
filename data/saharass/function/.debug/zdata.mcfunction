@@ -18,5 +18,6 @@ scoreboard objectives add WaterVail dummy
 scoreboard objectives add hb.Motion dummy
 scoreboard objectives add Acrobat_Mode dummy
 scoreboard objectives add HaveEmerald dummy
+scoreboard objectives add Use_Item dummy
 
 team add Players
