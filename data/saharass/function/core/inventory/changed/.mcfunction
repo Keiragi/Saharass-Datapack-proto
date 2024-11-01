@@ -1,8 +1,10 @@
 execute if entity @s[advancements={saharass:core/inventory_changed={Get_Emerald=true}}] run function saharass:core/inventory/changed/get_emerald/
 
+execute if entity @s[advancements={saharass:core/inventory_changed={Item_Used=true}}] run function saharass:core/inventory/changed/used_item/ with entity @s SelectedItem.components.minecraft:custom_data
+
 
 
 advancement revoke @s only saharass:core/inventory_changed
 #function saharass:core/inventory/changed/emerald/
 
-#playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1
