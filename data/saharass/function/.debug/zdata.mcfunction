@@ -19,5 +19,6 @@ scoreboard objectives add hb.Motion dummy
 scoreboard objectives add Acrobat_Mode dummy
 scoreboard objectives add HaveEmerald dummy
 scoreboard objectives add Use_Item dummy
+scoreboard objectives add Set_SkillNumber trigger
 
 team add Players
