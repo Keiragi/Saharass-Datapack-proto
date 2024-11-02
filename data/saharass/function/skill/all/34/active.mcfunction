@@ -1,4 +1,4 @@
-execute unless entity @e[type=arrow,tag=Trap_Weak,distance=..30] run function saharass:skill/all/33/notrap
+execute unless entity @e[type=arrow,tag=Trap_Weak,distance=..30] run function saharass:skill/all/34/place
 #演出
 execute if entity @e[type=arrow,tag=Trap_Weak,distance=..30] run title @s actionbar [{"color":"gold","text":"トラップ【ウィーク】"}]
 execute as @n[type=arrow,tag=Trap_Weak,distance=..30] at @s run playsound minecraft:block.beacon.deactivate player @a[distance=..32] ~ ~ ~ 1 1 0.3
