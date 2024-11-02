@@ -1,1 +1,1 @@
-$function saharass:skill/core/special/$(Saharass)/$(Use)/
+$function saharass:skill/core/special/$(Special)/$(Use)/
