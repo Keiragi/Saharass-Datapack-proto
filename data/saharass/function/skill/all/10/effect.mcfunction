@@ -16,3 +16,5 @@ particle minecraft:large_smoke ~ ~ ~ 7 7 7 0 50
 
 particle dust_color_transition{from_color:[1.000,0.369,0.000],scale:1,to_color:[0.000,0.000,0.000]} ~ ~1 ~ 7 7 7 0 80
 particle dust{color:[1.000,0.267,0.000],scale:1} ~ ~1 ~ 7 7 7 0 80
+
+execute positioned ~ ~1 ~ rotated 0 0 summon area_effect_cloud run function saharass:skill/all/10/shockwave/
