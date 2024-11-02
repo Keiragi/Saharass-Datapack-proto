@@ -9,6 +9,15 @@
         }
       }
     },
+    "depositor": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[Depositor]}"
+        }
+      }
+    },
     "ghost": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
@@ -32,6 +41,7 @@
   "requirements": [
     [
       "minister",
+      "depositor",
       "ghost"
     ]
   ],
