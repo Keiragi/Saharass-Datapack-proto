@@ -1,6 +1,0 @@
-#防具
-armor
-armor_toughness(ネザライト)
-
-attack_damage
-attack_speed
