@@ -3,6 +3,7 @@ title @s actionbar [{"color":"green","obfuscated":true,"text":"A"},{"bold":true,
 effect give @s hunger 1 239 true
 #時間で増加するスコアボード作成
 scoreboard objectives add Timer_Lightning minecraft.custom:minecraft.play_time "タイマー(ライトニング)"
+#scoreboard objectives setdisplay sidebar Timer_Lightning
 #発動中の人数を記録
 scoreboard players add $Board Timer_Lightning 1
 #先に発動した人がいると既に進んでるのでリセット
