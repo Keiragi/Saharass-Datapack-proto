@@ -3,7 +3,7 @@ execute if entity @s[advancements={saharass:core/inventory_changed={Get_Emerald_
 
 execute if entity @s[advancements={saharass:core/inventory_changed={Ender_pouch=true}}] if predicate saharass:item/special/bundle/set_ender run function saharass:core/inventory/changed/ender_pouch/
 
-execute if entity @s[advancements={saharass:core/inventory_changed={Item_Used=true}}] run function saharass:core/inventory/changed/used_item/ with entity @s SelectedItem.components.minecraft:custom_data
+execute if entity @s[advancements={saharass:core/inventory_changed={Item_Used=true}}] run function saharass:core/inventory/changed/used_item/
 
 advancement revoke @s only saharass:core/inventory_changed
 
