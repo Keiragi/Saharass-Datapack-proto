@@ -1,6 +1,3 @@
-#クールダウン用エフェクト
-effect give @s unluck 1 255 true
-
 #データストレージにスコアボードの値を代入
 execute store result storage saharass:temporary Skill.Number int 1 run scoreboard players get @s SkillNumber
 

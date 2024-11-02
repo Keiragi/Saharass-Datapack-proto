@@ -1,8 +1,6 @@
-#クールダウン用エフェクト
-effect give @s unluck 1 255 true
-
-#データストレージにスコアボードの値を代入
-#execute store result storage saharass:temporary Skill.Number int 1 run scoreboard players get @s SkillNumber
-
-#スキルを特定、コストの確認、発動
-function saharass:skill/core/sub/macro with entity @s SelectedItem.components.minecraft:custom_data
+#コストの配列から取り出してスコアボードに代入
+$execute store result score @s SkillCost run data get storage saharass:skill Cost[$(Number)]
+#必要満腹度があればスキルの発動
+$execute if predicate saharass:foodcheck run function saharass:skill/all/$(Number)/
+#無ければエラーメッセージ
+execute unless predicate saharass:foodcheck run function saharass:skill/core/nosatisfaction
