@@ -4,22 +4,34 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lime_bundle",
+          "type": "item",
+          "name": "nautilus_shell",
           "functions": [
             {
-              "function": "minecraft:set_name",
+              "function": "set_name",
               "target": "item_name",
-              "name": [
-                {
-                  "text": "エメラルドポーチ",
-                  "color": "green"
-                }
-              ]
+              "name": {
+                "text": "エメラルドポーチ",
+                "color": "green"
+              }
             },
             {
-              "function": "minecraft:set_lore",
+              "function": "set_components",
+              "components": {
+                "item_model": "lime_bundle",
+                "enchantment_glint_override": true,
+                "hide_additional_tooltip": {},
+                "!minecraft:bundle_contents": {}
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{rarity:1,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Special\",\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
+            },
+            {
+              "function": "set_lore",
               "entity": "this",
+              "mode": "append",
               "lore": [
                 [
                   {
@@ -70,14 +82,48 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "mode": "replace_all"
+              ]
             },
             {
-              "function": "minecraft:set_components",
+              "function": "toggle_tooltips",
+              "toggles": {
+                "trim": false,
+                "dyed_color": false,
+                "enchantments": true,
+                "stored_enchantments": false,
+                "unbreakable": false,
+                "can_break": false,
+                "can_place_on": false,
+                "attribute_modifiers": true
+              }
+            },
+            {
+              "function": "set_components",
               "components": {
-                "!minecraft:bundle_contents": {},
-                "minecraft:custom_data": "{Special:1b,Saharass:pouch,Use:emerald,Emerald_Pouch:1b}"
+                "use_cooldown": {
+                  "seconds": 1,
+                  "cooldown_group": "Special"
+                },
+                "consumable": {
+                  "consume_seconds": 0,
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_remainder": {
+                  "id": "nautilus_shell",
+                  "count": 1,
+                  "components": {
+                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/special/pouch/emerald\"}",
+                    "minecraft:item_model": "lime_bundle",
+                    "minecraft:custom_model_data": 0,
+                    "!minecraft:bundle_contents": {},
+                    "item_name": "{\"color\":\"green\",\"text\":\"エメラルドポーチ\"}",
+                    "lore": [
+                      "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
+                      "{\"italic\":false,\"text\":\"バグが起きているということ。\"}"
+                    ]
+                  }
+                }
               }
             }
           ]
