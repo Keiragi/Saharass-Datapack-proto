@@ -20,7 +20,6 @@
               "components": {
                 "item_model": "wooden_sword",
                 "unbreakable": {},
-                "enchantment_glint_override": false,
                 "hide_additional_tooltip": {}
               }
             },

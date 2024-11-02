@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":Main}"
+            "minecraft:custom_data": "{\"Saharass\":\"Main\"}"
           }
         }
       }
@@ -15,7 +15,7 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":Sub}"
+            "minecraft:custom_data": "{\"Saharass\":\"Sub\"}"
           }
         }
       }
@@ -25,7 +25,7 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":Switch}"
+            "minecraft:custom_data": "{\"Saharass\":\"Switch\"}"
           }
         }
       }
@@ -35,7 +35,7 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":Special}"
+            "minecraft:custom_data": "{\"Saharass\":\"Special\"}"
           }
         }
       }
@@ -45,7 +45,7 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":Other}"
+            "minecraft:custom_data": "{\"Saharass\":\"Other\"}"
           }
         }
       }
