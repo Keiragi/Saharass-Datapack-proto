@@ -34,6 +34,16 @@
         ]
       }
     },
+    "Get_Emerald_Block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald_block"
+          }
+        ]
+      }
+    },
     "Item_Used": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -51,6 +61,7 @@
     [
       "Ender_pouch",
       "Get_Emerald",
+      "Get_Emerald_Block",
       "Item_Used"
     ]
   ],
