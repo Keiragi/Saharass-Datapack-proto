@@ -21,7 +21,8 @@
                 "item_model": "lime_bundle",
                 "enchantment_glint_override": true,
                 "hide_additional_tooltip": {},
-                "!minecraft:bundle_contents": {}
+                "!minecraft:bundle_contents": {},
+                "max_stack_size": 1
               }
             },
             {
@@ -120,7 +121,7 @@
                     "item_name": "{\"color\":\"green\",\"text\":\"エメラルドポーチ\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
-                      "{\"italic\":false,\"text\":\"バグが起きているということ。\"}"
+                      "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"
                     ]
                   }
                 }
