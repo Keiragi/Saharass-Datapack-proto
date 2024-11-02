@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "empty": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "saharass:core/inventory/changed/full_inventory/full"
+  }
+}
