@@ -123,7 +123,7 @@
                   "id": "wooden_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/weapon/sword/wood\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,Loottable:\"saharass:item/weapon/sword/wood\"}",
                     "minecraft:item_model": "wooden_sword",
                     "minecraft:custom_model_data": 0,
                     "attribute_modifiers": {
