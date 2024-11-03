@@ -4,7 +4,8 @@
       "target": "item_name",
       "name": [
         {
-          "text": "\uE301"
+          "text": "\uE301",
+          "color": "yellow"
         },
         {
           "text": " インフェルノ",
