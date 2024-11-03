@@ -1,5 +1,5 @@
 playsound minecraft:item.firecharge.use player @a[distance=..16] ~ ~1 ~ 1 1
-title @s actionbar [{"color":"red","text":"ファイア"},{"color":"yellow","text":"+"}]
+title @s actionbar [{"color":"red","text":"ファイア✦"}]
 particle dust_color_transition{from_color:[1.0,0.804,0.169],to_color:[1.0,0.125,0.023],scale:2} ~ ~1 ~ 0.2 0.1 0.2 5 4 force
 particle dust_color_transition{from_color:[1.0,0.859,0.392],to_color:[1.0,0.494,0.153],scale:2} ~ ~1 ~ 0.2 0.1 0.2 5 4 force
 particle flame ~ ~1 ~ 0.1 0.1 0.1 0.05 8 force

@@ -1,4 +1,4 @@
-title @s actionbar [{"color":"gold","text":"エスケープ"},{"color":"yellow","text":"+"}]
+title @s actionbar [{"color":"gold","text":"エスケープ"}]
 
 particle minecraft:firework ~ ~1 ~ -0.5 -0.5 -0.5 0.1 25
 particle minecraft:end_rod ~ ~1 ~ -0.5 -0.5 -0.5 0.1 25
