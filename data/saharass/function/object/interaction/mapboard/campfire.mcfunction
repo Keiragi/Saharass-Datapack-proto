@@ -1,5 +1,6 @@
-tp @s ~ ~ ~ 180 20
-function saharass:object/chair/chair1
+rotate @s 180 20
+function saharass:object/interaction/chair/sitdown
+ride @s mount 3556bd3a-6ecb-496e-a4cd-520d6fe24ea6
 playsound minecraft:entity.player.teleport player @s 24.5 1 20.5 0.5 2
 particle minecraft:instant_effect 24.5 1 20.5 0.2 0.5 0.2 1 20 force
 title @s times 0.5s 0.9s 0.5s
