@@ -1,4 +1,4 @@
-
+stopsound @s * entity.villager.ambient
 playsound entity.villager.ambient neutral @s ~ ~ ~ 1 1
 
 tellraw @s[predicate=!saharass:sneaking] ""
