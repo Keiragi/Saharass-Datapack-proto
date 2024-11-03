@@ -56,7 +56,7 @@
     },
     {
       "function": "minecraft:set_custom_data",
-      "tag": "{Saharass:Sub,Number:7}"
+      "tag": "{\"Saharass\":\"Sub\",Number:7}"
     }
   ]
   
