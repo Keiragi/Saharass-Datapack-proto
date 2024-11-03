@@ -58,7 +58,7 @@
     },
     {
       "function": "minecraft:set_custom_data",
-      "tag": "{Saharass:Switch,Number:20}"
+      "tag": "{\"Saharass\":\"Switch\",Number:20}"
     }
   ]
   
