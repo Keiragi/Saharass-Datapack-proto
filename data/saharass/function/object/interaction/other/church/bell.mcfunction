@@ -1,2 +1,1 @@
-playsound block.bell.use player @a[distance=..16] ~ ~ ~ 1 1 0.1
-effect give @s unluck 1 255 true
+playsound block.bell.use block @a[distance=..32] ~ ~ ~ 1 1 0
