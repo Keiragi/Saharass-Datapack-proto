@@ -4,8 +4,8 @@
     "target": "item_name",
     "name": [
       {
-        "text": "\uE302", 
-          "color": "yellow"
+        "text": "\uE302",
+        "color": "yellow"
       },
       {
         "text": " 火事場力",
