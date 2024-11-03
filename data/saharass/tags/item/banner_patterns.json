@@ -7,6 +7,8 @@
       "guster_banner_pattern",
       "mojang_banner_pattern",
       "piglin_banner_pattern",
-      "creeper_banner_pattern"
+      "creeper_banner_pattern",
+      "field_masoned_banner_pattern",
+      "bordure_indented_banner_pattern"
     ]
   }
