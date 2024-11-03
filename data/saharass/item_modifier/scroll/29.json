@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE302", 
+          "color": "yellow"
+      },
+      {
+        "text": " トルネード ✦",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "大きな風を巻き上げ、周囲の相手を",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "自分のところへ引き寄せる。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
+        {
+          "text": "属性：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE003"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE201"
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Sub\",Number:29}"
+  }
+]
