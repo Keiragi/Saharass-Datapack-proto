@@ -8,7 +8,7 @@ data modify storage saharass:skill set.add.text3 set value "大ぼうぎょ"
 data modify storage saharass:skill set.add.score3 set value 35
 data modify storage saharass:skill set.add.text4 set value "トラップ【ダメージ】"
 data modify storage saharass:skill set.add.score4 set value 33
-data modify storage saharass:skill set.add.text5 set value "ギガグラビティ"
+data modify storage saharass:skill set.add.text5 set value "じゅうりょく"
 data modify storage saharass:skill set.add.score5 set value 38
 data modify storage saharass:skill set.add.text6 set value "アース+"
 data modify storage saharass:skill set.add.score6 set value 32
