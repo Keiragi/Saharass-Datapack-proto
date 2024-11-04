@@ -1,3 +1,3 @@
 particle entity_effect{color:[0.561,0.957,1.000,1.00]} ^ ^ ^2 0 0 0 0 1
-tp @s ~ ~ ~ ~10 ~
+rotate @s ~10 ~
 execute unless entity @s[y_rotation=0] at @s run function saharass:skill/all/14/normal/ring
