@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "Chair": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": {
+            "type": "player"
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Chair\"]}"
+          }
+        }
+      },
+      "Deposit": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": {
+            "type": "player"
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Deposit\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "Chair",
+            "Deposit"
+        ]
+    ],
+    "rewards": {
+      "function": "saharass:object/interaction/shared/"
+    }
+  }
+  

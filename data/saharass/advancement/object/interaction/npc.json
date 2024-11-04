@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[Minister]}"
+          "nbt": "{Tags:[\"Minister\"]}"
         }
       }
     },
@@ -14,7 +14,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[Depositor]}"
+          "nbt": "{Tags:[\"Depositor\"]}"
         }
       }
     },
@@ -33,7 +33,7 @@
         ],
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[Ghost]}"
+          "nbt": "{Tags:[\"Ghost\"]}"
         }
       }
     }

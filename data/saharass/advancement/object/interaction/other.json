@@ -5,7 +5,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[Bell]}"
+                    "nbt": "{Tags:[\"Bell\"]}"
                 }
             }
         },
@@ -14,7 +14,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[Flower_Church]}"
+                    "nbt": "{Tags:[\"Flower_Church\"]}"
                 }
             }
         },
@@ -23,7 +23,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[Boots_oubai]}"
+                    "nbt": "{Tags:[\"Boots_oubai\"]}"
                 }
             }
         }
