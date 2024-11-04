@@ -7,4 +7,7 @@ playsound minecraft:entity.firework_rocket.large_blast master @a[distance=..16] 
 
 tellraw @a ["* ",{"selector":"@s"}," は「",{"color":"gold","text":"エスケープ"},"」で脱出した！"]
 
-execute in minecraft:overworld positioned 26 1 51 run function saharass:skill/all/37/tp
+#execute in minecraft:overworld positioned 26 1 51 run function saharass:skill/all/37/tp
+
+summon area_effect_cloud ~ ~1 ~ {Particle:{type:"portal"},Radius:1f,Duration:200}
+summon area_effect_cloud ~ ~1 ~ {Particle:{type:"composter"},Radius:1f,Duration:200}
