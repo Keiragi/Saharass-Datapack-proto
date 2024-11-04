@@ -12,6 +12,7 @@ tellraw @s [{"bold":true,"color":"yellow","text":"\n～魂と決意の間～\n"}
 team join Players @s
 effect give @s absorption 1 0 true
 effect give @s minecraft:hunger 1 255 true
+scoreboard players set @s Acrobat_Mode 1
 
 #フラグ設定
 #scoreboard players set @s Flag_Register 0
