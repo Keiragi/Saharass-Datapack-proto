@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:nautilus_shell",
+  "base": "minecraft:iron_sword",
+  "result": {
+    "components": {
+      "minecraft:custom_data": "{Saharass:Main}"
+    },
+    "id": "minecraft:diamond_sword"
+  },
+  "template": "minecraft:diamond"
+}
