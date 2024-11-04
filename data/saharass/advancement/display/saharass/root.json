@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
+    },
+    "title": "Saharass",
+    "description": "\"登録されました\"",
+    "background": "minecraft:textures/block/black_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  }
+}

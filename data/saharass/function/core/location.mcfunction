@@ -10,3 +10,4 @@ execute if entity @s[advancements={saharass:core/location={out_town=true}}] run 
 execute if entity @s[advancements={saharass:core/location={in_cemetery=true}}] if predicate saharass:time/night run function saharass:object/interaction/npc/ghost/cemetery
 
 advancement revoke @s only saharass:core/location
+
