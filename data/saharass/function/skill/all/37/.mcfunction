@@ -10,7 +10,7 @@ execute in minecraft:overworld positioned 26 1 51 run function saharass:skill/al
 summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:dirt"},Radius:0.5f,Duration:200,Tags:["Escape_Portal"]}
 summon area_effect_cloud ~ ~1 ~ {Particle:{type:"firework"},Radius:0.25f,Duration:200,Tags:["Escape_Portal"]}
 
-summon text_display ~ ~1.25 ~ {billboard:"vertical",brightness:{sky:15,block:15},text:'"クリックで脱出"',Tags:["Escape_Portal"]}
+summon text_display ~ ~1.25 ~ {billboard:"vertical",brightness:{sky:15,block:15},text:'"右クリックで脱出！"',Tags:["Escape_Portal"]}
 summon interaction ~ ~ ~ {height:1.5,Tags:["Escape_Portal"]}
 forceload add ~ ~ ~ ~
 schedule function saharass:skill/all/37/schedule 10s append
