@@ -18,16 +18,11 @@ tp @s[tag=!Register] -22 5.5 -51 180 -10
 
 title @s clear
 
-execute if entity @s[tag=Register,advancements={saharass:core/location={fire=true}}] run function saharass:elements/first/fire
-execute if entity @s[tag=Register,advancements={saharass:core/location={water=true}}] run function saharass:elements/first/water
-execute if entity @s[tag=Register,advancements={saharass:core/location={wind=true}}] run function saharass:elements/first/wind
-execute if entity @s[tag=Register,advancements={saharass:core/location={earth=true}}] run function saharass:elements/first/earth
+execute if entity @s[tag=Register] run function saharass:elements/first/
+execute if entity @s[tag=!Register] run function saharass:elements/seconds/
 
-execute if entity @s[tag=!Register,advancements={saharass:core/location={fire=true}}] run function saharass:elements/seconds/fire
-execute if entity @s[tag=!Register,advancements={saharass:core/location={water=true}}] run function saharass:elements/seconds/water
-execute if entity @s[tag=!Register,advancements={saharass:core/location={wind=true}}] run function saharass:elements/seconds/wind
-execute if entity @s[tag=!Register,advancements={saharass:core/location={earth=true}}] run function saharass:elements/seconds/earth
-
+#ガイド達成
+advancement grant @s only saharass:display/saharass/root
 
 #scoreboard players set @s Flag_Register 1
 tag @s remove Register

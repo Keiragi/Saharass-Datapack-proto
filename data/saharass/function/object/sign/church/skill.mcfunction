@@ -2,6 +2,9 @@
 scoreboard players enable @s Set_SkillNumber
 tag @s add SkillSelecting
 
+#ガイド達成
+advancement grant @s only saharass:display/saharass/set_skill
+
 execute if entity @s[tag=UseFire] run function saharass:object/sign/church/tellraw/fire/
 execute if entity @s[tag=UseWater] run function saharass:object/sign/church/tellraw/water/
 execute if entity @s[tag=UseWind] run function saharass:object/sign/church/tellraw/wind/
