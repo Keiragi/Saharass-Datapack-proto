@@ -1,3 +1,6 @@
+trigger Set_SkillNumber set 0
+tag @s remove SkillSelecting
+
 tp @s 0 -35.5 0
 rotate @s[tag=UseFire] 0 0
 rotate @s[tag=UseWater] 90 0
