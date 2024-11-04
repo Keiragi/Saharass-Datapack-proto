@@ -145,6 +145,7 @@
                     "unbreakable": {
                       "show_in_tooltip": false
                     },
+                    "item_name": "{\"color\": \"white\",\"text\":\"木の斧\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"
