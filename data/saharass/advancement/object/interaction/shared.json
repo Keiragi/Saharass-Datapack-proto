@@ -23,12 +23,25 @@
             "nbt": "{Tags:[\"Deposit\"]}"
           }
         }
+      },
+      "Escape": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": {
+            "type": "player"
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Escape_Portal\"]}"
+          }
+        }
       }
     },
     "requirements": [
         [
             "Chair",
-            "Deposit"
+            "Deposit",
+            "Escape"
         ]
     ],
     "rewards": {
