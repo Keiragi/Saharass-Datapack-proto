@@ -8,6 +8,6 @@ particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 10
 #execute if predicate saharass:equipped/feather run item modify entity @s armor.chest saharass:skill/acrobat/feather
 attribute @s minecraft:safe_fall_distance base set 256
 
-item modify entity @s weapon.mainhand saharass:scroll/wind/acrobat/active
+#item modify entity @s weapon.mainhand saharass:scroll/24/active
 
 schedule function saharass:skill/all/24/schedule/ 1t

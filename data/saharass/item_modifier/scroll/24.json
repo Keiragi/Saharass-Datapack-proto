@@ -4,7 +4,7 @@
     "target": "item_name",
     "name": [
       {
-        "text": "\uE302", 
+        "text": "\uE302",
         "color": "yellow"
       },
       {
@@ -16,26 +16,27 @@
   {
     "function": "minecraft:set_lore",
     "lore": [
-        {
-          "text": "使用するとアクロバット状態となり、",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "アクロバットジャンプができるようになる。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "(使用時に説明文が変化)",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
+      {
+        "text": "You are The Feather.",
+        "color": "aqua",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "使用するとアクロバットモードに切り替える。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "空中でジャンプキーを押し直すと特殊なジャンプが発動する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
       [
         {
           "text": "属性：",
