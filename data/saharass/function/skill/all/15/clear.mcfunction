@@ -15,3 +15,5 @@ effect clear @s weakness
 effect clear @s weaving
 effect clear @s wind_charged
 effect clear @s wither
+
+particle entity_effect{color:[0.569,0.984,1.000,1.00]} ~ ~1 ~ 0.1 0.1 0.1 0 2
