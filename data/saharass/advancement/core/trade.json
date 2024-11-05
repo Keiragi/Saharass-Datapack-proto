@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "trade": {
+      "conditions": {},
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "saharass:core/shop/trade"
+  }
+}

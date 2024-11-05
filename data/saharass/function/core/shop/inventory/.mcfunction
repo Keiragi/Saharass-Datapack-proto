@@ -1,0 +1,1 @@
+data modify storage saharass:stuff Inventory set from entity @s Inventory
