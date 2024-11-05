@@ -3,9 +3,6 @@
       "Chair": {
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
-          "player": {
-            "type": "player"
-          },
           "entity": {
             "type": "minecraft:interaction",
             "nbt": "{Tags:[\"Chair\"]}"
@@ -15,9 +12,15 @@
       "Deposit": {
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
-          "player": {
-            "type": "player"
-          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Deposit\"]}"
+          }
+        }
+      },
+      "Deposit2": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
           "entity": {
             "type": "minecraft:interaction",
             "nbt": "{Tags:[\"Deposit\"]}"
@@ -27,9 +30,6 @@
       "Escape": {
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
-          "player": {
-            "type": "player"
-          },
           "entity": {
             "type": "minecraft:interaction",
             "nbt": "{Tags:[\"Escape_Portal\"]}"
@@ -41,6 +41,7 @@
         [
             "Chair",
             "Deposit",
+            "Deposit2",
             "Escape"
         ]
     ],
