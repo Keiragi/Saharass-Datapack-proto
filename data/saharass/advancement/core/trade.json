@@ -1,7 +1,13 @@
 {
   "criteria": {
     "trade": {
-      "conditions": {},
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Trade_Item\":1b}"
+          }
+        }
+      },
       "trigger": "minecraft:villager_trade"
     }
   },
