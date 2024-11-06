@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "Spear": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_player_attack"
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{\"weapon\":\"spear\"}"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "requirements": [
+    [
+      "Spear"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:core/combat/attack/"
+  }
+}
