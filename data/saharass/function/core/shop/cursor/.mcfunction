@@ -4,4 +4,5 @@ execute summon item_display run function saharass:core/shop/cursor/data_get
 execute store result score #Price HaveEmerald run data get storage saharass:temporary Item.Trade.components.minecraft:custom_data.price
 #所持金が値段より多ければ購入
 execute if score @s HaveEmerald >= #Price HaveEmerald run function saharass:core/shop/buy/ with storage saharass:temporary Item.Trade.components.minecraft:custom_data
+execute unless score @s HaveEmerald >= #Price HaveEmerald run function saharass:core/shop/buy/not_enough with storage saharass:temporary Item.Trade.components.minecraft:custom_data
 
