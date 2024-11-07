@@ -21,8 +21,9 @@ title @s clear
 execute if entity @s[tag=Register] run function saharass:elements/first/
 execute if entity @s[tag=!Register] run function saharass:elements/seconds/
 
-#ガイド達成
+#進捗を解放
 advancement grant @s only saharass:display/saharass/root
+advancement grant @s only saharass:display/dairy/root
 
 #scoreboard players set @s Flag_Register 1
 tag @s remove Register
