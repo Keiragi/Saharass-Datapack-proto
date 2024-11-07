@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 1,
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "saharass:item/material/mine/amethyst_shard"
+        }
+      ]
+    }
+  ]
+}
