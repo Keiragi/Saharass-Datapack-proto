@@ -40,7 +40,7 @@ execute in minecraft:overworld run tp @s 33.29 28.53 38.44 146.27 29.89
 
 particle dust_color_transition{from_color:[0.000,0.867,1.000],scale:2,to_color:[0.800,0.980,1.000]} ~ ~1 ~ 0 0 0 5 100 normal
 
-
+#✅✦☑✔❇✳✴ℹ
 
 #1 effect give @s hunger 1 39 true
 #2 effect give @s hunger 1 79 true

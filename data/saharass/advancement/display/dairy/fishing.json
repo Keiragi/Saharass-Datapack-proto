@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": "採集・釣りをする\uF829",
+    "description": [
+      {
+        "text": "釣竿を持って池"
+      },
+      {
+        "color": "white",
+        "text": "\uE213"
+      },
+      {
+        "text": "に行こう\n"
+      },
+      {
+        "text": "                            ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      {
+        "text": "\n報酬：魚（ランダム）×3"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "saharass:display/dairy/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [],
+        "item": {}
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  }
+}

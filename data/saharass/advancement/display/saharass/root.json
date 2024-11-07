@@ -16,5 +16,8 @@
     "requirement": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+      "function": "saharass:world/visit"
   }
 }
