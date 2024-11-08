@@ -1,3 +1,4 @@
-scoreboard players operation PrevDay SynClock = Day SynClock
+scoreboard players operation Prev_YYYYMMDD SynClock = YYYYMMDD SynClock
 
-say 日付が変わりました
+tellraw @a [{"text":"\n日付が変わりました。\n\uE215"},{"color":"yellow","text":"デイリータスク"},{"text":"がリセットされます。\n"}]
+advancement revoke @a from saharass:display/dairy/clear
