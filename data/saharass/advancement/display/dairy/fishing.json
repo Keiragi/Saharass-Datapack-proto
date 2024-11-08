@@ -10,7 +10,7 @@
       },
       {
         "color": "white",
-        "text": "\uE213"
+        "text": "\uE506"
       },
       {
         "text": "に行こう\n"
@@ -24,10 +24,10 @@
         "text": "\n報酬：魚（ランダム）×3"
       }
     ],
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "saharass:display/dairy/root",
+  "parent": "saharass:display/dairy/clear",
   "criteria": {
     "requirement": {
       "conditions": {
@@ -36,5 +36,8 @@
       },
       "trigger": "minecraft:fishing_rod_hooked"
     }
+  },
+  "rewards": {
+    "function": "saharass:quest/dairy/fishing/"
   }
 }

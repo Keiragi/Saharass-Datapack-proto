@@ -3,14 +3,14 @@
     "icon": {
       "id": "minecraft:amethyst_shard"
     },
-    "title": "採集・鉱石を掘る\uF829",
+    "title": "採集・採掘をする\uF829",
     "description": [
       {
         "text": "採掘場"
       },
       {
         "color": "white",
-        "text": "\uE212"
+        "text": "\uE505"
       },
       {
         "text": "から炭鉱へ行こう\n"
@@ -21,20 +21,20 @@
         "strikethrough": true
       },
       {
-        "text": "\n報酬：アメジスト×3"
+        "text": "\n報酬：アメジストの欠片×3"
       }
     ],
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "saharass:display/dairy/root",
+  "parent": "saharass:display/dairy/clear",
   "criteria": {
     "requirement": {
       "conditions": {
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{\"Mine_Material\":1b}"
+              "minecraft:custom_data": "{\"Mine_Dropped\":1b}"
             }
           }
         ]
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "saharass:quest/mining/"
+    "function": "saharass:quest/dairy/mining/"
   }
 }

@@ -10,7 +10,7 @@
       },
       {
         "color": "white",
-        "text": "\uE214"
+        "text": "\uE507"
       },
       {
         "text": "へ\n"
@@ -24,13 +24,16 @@
         "text": "\n報酬：レベルアップ×1"
       }
     ],
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "saharass:display/dairy/root",
+  "parent": "saharass:display/dairy/clear",
   "criteria": {
     "requirement": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "saharass:quest/dairy/dungeon/"
   }
 }
