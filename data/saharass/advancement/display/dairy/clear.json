@@ -3,13 +3,13 @@
     "icon": {
       "id": "minecraft:enchanted_golden_apple"
     },
-    "title": "デイリータスクを３つ完了する\uF829",
+    "title": "デイリータスクを完了する ",
     "description": [
       {
         "text": "遊んでくれてありがとう\n"
       },
       {
-        "text": "                                         ",
+        "text": "                                ",
         "color": "dark_gray",
         "strikethrough": true
       },
@@ -17,13 +17,33 @@
         "text": "\n報酬：エンチャントされた金のリンゴ×1"
       }
     ],
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false
   },
   "parent": "saharass:display/dairy/root",
   "criteria": {
-    "requirement": {
+    "1": {
+      "trigger": "impossible"
+    },
+    "2": {
+      "trigger": "impossible"
+    },
+    "3": {
       "trigger": "impossible"
     }
+  },
+  "requirements": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:quest/dairy/clear/"
   }
 }
