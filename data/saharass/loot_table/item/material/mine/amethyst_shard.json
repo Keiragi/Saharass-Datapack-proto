@@ -12,22 +12,21 @@
               "target": "item_name",
               "name": {
                 "text": "アメジストの欠片",
-                "color": "white"
+                "color": "yellow"
               }
             },
             {
               "function": "set_components",
               "components": {
                 "item_model": "amethyst_shard",
-                "enchantment_glint_override": false,
+                "enchantment_glint_override": true,
                 "hide_additional_tooltip": {},
-                "!minecraft:bundle_contents": {},
                 "max_stack_size": 64
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:1,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Material\",\"Type\":\"Amethyst\",\"Mine_Material\":1b}"
+              "tag": "{rarity:2,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Material\",\"Type\":\"Amethyst\",\"Mine_Dropped\":1b}"
             },
             {
               "function": "set_lore",
@@ -59,11 +58,23 @@
                   "color": "dark_gray",
                   "strikethrough": true
                 },
-                {
-                  "text": "✦ 素材【ノーマル】",
-                  "color": "white",
-                  "italic": false
-                }
+                [
+                  {
+                    "text": "✦ 素材【",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "アンコモン",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": "】",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
               ]
             },
             {
