@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "Blast_Iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "Smelt_Iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "Smelt_Gold": {
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_smelting_raw_gold"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "Blast_Gold": {
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_raw_gold"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "Smelt_Copper": {
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_smelting_raw_copper"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "Blast_Copper": {
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_blasting_raw_copper"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "Smelt_Iron",
+      "Blast_Iron",
+      "Smelt_Gold",
+      "Blast_Gold",
+      "Smelt_Copper",
+      "Blast_Copper"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:core/craft/smelt/"
+  }
+}
