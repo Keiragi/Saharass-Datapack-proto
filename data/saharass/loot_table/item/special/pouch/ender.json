@@ -20,8 +20,7 @@
               "components": {
                 "item_model": "purple_bundle",
                 "enchantment_glint_override": true,
-                "hide_additional_tooltip": {},
-                "\"rarity\"": "uncommon"
+                "hide_additional_tooltip": {}
               }
             },
             {

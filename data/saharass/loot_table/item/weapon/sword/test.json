@@ -27,7 +27,7 @@
                 "use_remainder": {
                   "id": "wooden_sword",
                   "components": {
-                    "custom_data": "{\"Used\":1b,Loottable:\"このファイルのパス\"}"
+                    "custom_data": "{\"Used\":1b,\"Loottable\":\"このファイルのパス\"}"
                   }
                 }
               }

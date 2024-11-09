@@ -87,7 +87,7 @@
                   "id": "globe_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":0,\"Used\":1b,Loottable:\"saharass:item/scroll/globe\"}",
+                    "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/globe\"}",
                     "item_model": "globe_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "custom_model_data": 0,

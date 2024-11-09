@@ -87,7 +87,7 @@
                   "id": "flower_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":0,\"Used\":1b,Loottable:\"saharass:item/scroll/flower\"}",
+                    "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/flower\"}",
                     "item_model": "flower_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "custom_model_data": 0,

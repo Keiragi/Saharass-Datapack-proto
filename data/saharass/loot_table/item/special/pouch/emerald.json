@@ -114,7 +114,7 @@
                   "id": "nautilus_shell",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Used\":1b,Loottable:\"saharass:item/special/pouch/emerald\"}",
+                    "custom_data": "{\"Used\":1b,\"Loottable\":\"saharass:item/special/pouch/emerald\"}",
                     "minecraft:item_model": "lime_bundle",
                     "minecraft:custom_model_data": 0,
                     "!minecraft:bundle_contents": {},
