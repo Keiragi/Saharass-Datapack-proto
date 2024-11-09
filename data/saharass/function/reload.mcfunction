@@ -7,4 +7,4 @@ scoreboard objectives remove Timer_Lightning
 schedule function saharass:core/reload 5
 
 #日付更新のチェック
-schedule function saharass:core/day/check/ 5t
+schedule function saharass:core/day/check/ 1s
