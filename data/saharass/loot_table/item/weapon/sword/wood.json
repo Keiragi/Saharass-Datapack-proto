@@ -25,7 +25,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:1,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Main\"}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
             },
             {
               "function": "set_lore",

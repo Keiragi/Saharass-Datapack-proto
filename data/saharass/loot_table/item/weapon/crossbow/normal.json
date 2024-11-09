@@ -5,31 +5,27 @@
       "entries": [
         {
           "type": "item",
-          "name": "mace",
+          "name": "crossbow",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "木の斧",
+                "text": "クロスボウ",
                 "color": "white"
               }
             },
             {
-              "function": "set_custom_model_data",
-              "value": 1
-            },
-            {
               "function": "set_components",
               "components": {
-                "item_model": "wooden_axe",
+                "item_model": "crossbow",
                 "unbreakable": {},
                 "hide_additional_tooltip": {}
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Crossbow\"}"
             },
             {
               "function": "set_lore",
@@ -42,7 +38,7 @@
                     "italic": false
                   },
                   {
-                    "text": "振り下ろす用途を目的とした斧。"
+                    "text": "とても大きなクロスボウ。"
                   }
                 ],
                 [
@@ -52,47 +48,14 @@
                     "italic": false
                   },
                   {
-                    "text": "高所からの落下攻撃に特殊効果がある。"
+                    "text": "平均的な能力で扱いやすい。"
                   }
                 ]
               ]
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"axe\",grade:0}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "id": "wooden_axe_attack_damage",
-                  "attribute": "attack_damage",
-                  "amount": 4,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "wooden_axe_attack_range",
-                  "attribute": "entity_interaction_range",
-                  "amount": 1,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "wooden_axe_sweeping_damage_ratio",
-                  "attribute": "sweeping_damage_ratio",
-                  "amount": 0,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "wooden_axe_attack_speed",
-                  "attribute": "attack_speed",
-                  "amount": -2.4,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
+              "tag": "{weapon:\"crossbow\",grade:0}"
             },
             {
               "function": "set_custom_data",
@@ -124,16 +87,16 @@
                   "has_consume_particles": false
                 },
                 "use_remainder": {
-                  "id": "mace",
+                  "id": "crossbow",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,Loottable:\"saharass:item/weapon/axe/wood\"}",
-                    "minecraft:item_model": "wooden_axe",
-                    "minecraft:custom_model_data": 1,
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,Loottable:\"saharass:item/weapon/crossbow/normal\"}",
+                    "minecraft:item_model": "crossbow",
+                    "minecraft:custom_model_data": 0,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
-                          "id": "wooden_axe_none_attack",
+                          "id": "crossbow_none_attack",
                           "type": "attack_damage",
                           "amount": -1,
                           "operation": "add_multiplied_total",
@@ -145,7 +108,6 @@
                     "unbreakable": {
                       "show_in_tooltip": false
                     },
-                    "item_name": "{\"color\": \"white\",\"text\":\"木の斧\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"

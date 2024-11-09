@@ -27,7 +27,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:1,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Special\",\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Special\",\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
             },
             {
               "function": "set_lore",

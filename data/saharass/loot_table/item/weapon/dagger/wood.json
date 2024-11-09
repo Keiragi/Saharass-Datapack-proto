@@ -34,7 +34,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:1,lore_length:2,base_item_name:\"木の短剣\",item_group_name:\"短剣\",price:10,value:2,can_sell:true,Saharass:Main}"
+              "tag": "{\"rarity\":1,base_item_name:\"木の短剣\",item_group_name:\"短剣\",\"price\":10,\"value\":2,\"can_sell\":true,Saharass:Main}"
             },
             {
               "function": "set_lore",
