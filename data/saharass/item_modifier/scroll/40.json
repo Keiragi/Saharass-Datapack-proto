@@ -18,7 +18,7 @@
       "function": "minecraft:set_lore",
       "lore": [
         {
-          "text": "悠久を超える世界樹の根を召喚する。",
+          "text": "異世界の巨大樹の根を召喚する。",
           "color": "#D8D8D8",
           "italic": false
         },
