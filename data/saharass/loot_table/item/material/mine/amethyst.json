@@ -11,8 +11,8 @@
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "アメジストの欠片",
-                "color": "yellow"
+                "text": "アメジスト",
+                "color": "light_purple"
               }
             },
             {
@@ -26,7 +26,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:2,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Material\",\"Type\":\"Amethyst\",\"Mine_Dropped\":1b}"
+              "tag": "{\"rarity\":4,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Material\",\"Type\":\"Amethyst\",\"Mine_Dropped\":1b}"
             },
             {
               "function": "set_lore",
@@ -34,12 +34,12 @@
               "mode": "append",
               "lore": [
                 {
-                  "text": "不思議な魔力を宿した鉱石。",
+                  "text": "長いときの中で生成された水晶。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
                 {
-                  "text": "時を経て、独自の輝きを放つ。",
+                  "text": "強大な\"進化\"の力を秘めている。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
@@ -48,11 +48,19 @@
                   "color": "dark_gray",
                   "strikethrough": true
                 },
-                {
-                  "text": "用途：エンチャント",
-                  "color": "white",
-                  "italic": false
-                },
+                [
+                  {
+                    "text": "用途 : ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "覚醒",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
                 {
                   "text": "                          ",
                   "color": "dark_gray",
@@ -65,8 +73,8 @@
                     "italic": false
                   },
                   {
-                    "text": "アンコモン",
-                    "color": "yellow",
+                    "text": "エピック",
+                    "color": "light_purple",
                     "italic": false
                   },
                   {
