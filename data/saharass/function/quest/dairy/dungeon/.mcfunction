@@ -1,4 +1,4 @@
-data modify storage saharass:temporary Quest.Name set value "ダンジョンをクリアする"
+data modify storage saharass:temporary Quest.Name set value "探検・ダンジョンクリア"
 data modify storage saharass:temporary Quest.Reward set value "レベルアップ×1"
 function saharass:quest/core/done
 

@@ -1,7 +1,11 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:amethyst_shard"
+      "id": "minecraft:lapis_lazuli",
+      "components": {
+        "enchantment_glint_override": true
+      }
+
     },
     "title": "採集・採掘をする\uF829",
     "description": [
@@ -21,7 +25,7 @@
         "strikethrough": true
       },
       {
-        "text": "\n報酬：アメジストの欠片×3"
+        "text": "\n報酬：ラピスラズリ×3"
       }
     ],
     "show_toast": false,
@@ -31,15 +35,13 @@
   "criteria": {
     "requirement": {
       "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:custom_data": "{\"Mine_Dropped\":1b}"
-            }
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Pickaxe\":1b}"
           }
-        ]
+        }
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:item_durability_changed"
     }
   },
   "rewards": {

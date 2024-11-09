@@ -1,1 +1,0 @@
-$item modify entity @s container.$(Slot) saharass:mining/remove_dropped

@@ -26,7 +26,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{rarity:3,lore_length:2,price:10,value:2,can_sell:true,\"Saharass\":\"Consume\",\"Mine_Dropped\":1b}"
+              "tag": "{\"rarity\":3,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Consume\"}"
             },
             {
               "function": "set_lore",
@@ -34,12 +34,12 @@
               "mode": "append",
               "lore": [
                 {
-                  "text": "光り輝く金のリンゴ。",
+                  "text": "光り輝く黄金の果実。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
                 {
-                  "text": "世界樹の果実だと噂されている。",
+                  "text": "神秘的な輝きを放っている。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
@@ -48,17 +48,11 @@
                   "color": "dark_gray",
                   "strikethrough": true
                 },
-                [
-                  {
-                    "translate": "effect.minecraft.saturation",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "text": " : \uE201\uE201",
-                    "color": "white"
-                  }
-                ],
+                {
+                  "text": "満腹度回復 : \uE201\uE201",
+                  "color": "white",
+                  "italic": false
+                },
                 [
                   {
                     "translate": "再生能力",
@@ -76,7 +70,7 @@
                 ],
                 [
                   {
-                    "translate": "臨時体力",
+                    "translate": "体力追加",
                     "color": "yellow",
                     "italic": false
                   },
@@ -106,7 +100,7 @@
                 ],
                 [
                   {
-                    "translate": "炎上防止",
+                    "translate": "火傷防止",
                     "color": "gold",
                     "italic": false
                   },
