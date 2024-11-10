@@ -5,20 +5,20 @@
       "entries": [
         {
           "type": "item",
-          "name": "lapis_lazuli",
+          "name": "redstone",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "ラピスラズリ",
-                "color": "white"
+                "text": "レッドストーンダスト",
+                "color": "yellow"
               }
             },
             {
               "function": "set_components",
               "components": {
-                "item_model": "lapis_lazuli",
+                "item_model": "redstone",
                 "enchantment_glint_override": false,
                 "hide_additional_tooltip": {},
                 "max_stack_size": 64
@@ -26,7 +26,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Material\",\"Type\":\"Lapis_lazuli\",\"Mine_Dropped\":1b}"
+              "tag": "{\"rarity\":2,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Material\",\"Type\":\"redstone\",\"Mine_Dropped\":1b}"
             },
             {
               "function": "set_lore",
@@ -34,12 +34,12 @@
               "mode": "append",
               "lore": [
                 {
-                  "text": "不思議な魔力を宿した鉱石。",
+                  "text": "動力を秘める\"赤石\"と呼ばれる鉱石。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
                 {
-                  "text": "使えば武具にその力をもたらす。",
+                  "text": "ぼんやりと輝いている。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
@@ -55,8 +55,8 @@
                     "italic": false
                   },
                   {
-                    "text": "エンチャント",
-                    "color": "yellow",
+                    "text": "納品",
+                    "color": "white",
                     "italic": false
                   }
                 ],
@@ -72,8 +72,8 @@
                     "italic": false
                   },
                   {
-                    "text": "ノーマル",
-                    "color": "white",
+                    "text": "アンコモン",
+                    "color": "yellow",
                     "italic": false
                   },
                   {
