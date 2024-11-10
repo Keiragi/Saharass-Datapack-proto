@@ -1,0 +1,2 @@
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Earth.Level int 1 run xp query @s levels
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Earth.Points int 1 run xp query @s points
