@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "Mapboard": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[Guide_Mapboard]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Mapboard"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:object/interaction/guide/"
+  }
+}
