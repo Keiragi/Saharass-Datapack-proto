@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "Inferno": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:unluck": {
+                    "duration": 255
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "saharass:skill/core/use_item/using"
+  }
+}

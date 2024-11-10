@@ -1,0 +1,13 @@
+[
+  {
+    "components": {
+      "minecraft:consumable": {
+        "animation": "block",
+        "has_consume_particles": false,
+        "consume_seconds": 2147483647,
+        "sound": "intentionally_empty"
+      }
+    },
+    "function": "minecraft:set_components"
+  }
+]

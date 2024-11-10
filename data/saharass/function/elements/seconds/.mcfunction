@@ -4,6 +4,8 @@ execute if entity @s[tag=UseWater] run function saharass:elements/store/water
 execute if entity @s[tag=UseWind] run function saharass:elements/store/wind
 execute if entity @s[tag=UseEarth] run function saharass:elements/store/earth
 
+function saharass:skill/core/switch/inferno/immediate/
+
 #使っている属性のタグを削除
 tag @s remove UseFire
 tag @s remove UseWater
