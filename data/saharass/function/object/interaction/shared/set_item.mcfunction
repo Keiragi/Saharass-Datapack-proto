@@ -5,4 +5,4 @@ tag @a remove Set_item
 execute as @e[type=interaction,tag=Deposit] run data remove entity @s interaction
 execute as @e[type=interaction,tag=Deposit] run data remove entity @s attack
 
-playsound minecraft:entity.item_frame.add_item player @a[distance=..16] ~ ~ ~ 1 1
+execute if items entity @s weapon.mainhand * run playsound minecraft:entity.item_frame.add_item player @a[distance=..16] ~ ~ ~ 1 1

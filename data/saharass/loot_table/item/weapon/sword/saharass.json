@@ -5,28 +5,28 @@
       "entries": [
         {
           "type": "item",
-          "name": "wooden_shovel",
+          "name": "netherite_sword",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "木の槍",
-                "color": "white"
+                "text": "Sword of Saharass",
+                "color": "gold"
               }
             },
             {
               "function": "set_components",
               "components": {
-                "item_model": "wooden_shovel",
-                "custom_model_data": 1,
+                "item_model": "diamond_sword",
+                "custom_model_data": 2,
                 "unbreakable": {},
                 "hide_additional_tooltip": {}
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
+              "tag": "{\"rarity\":5,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
             },
             {
               "function": "set_lore",
@@ -39,53 +39,50 @@
                     "italic": false
                   },
                   {
-                    "text": "広く知られる普通の槍。"
-                  }
-                ],
-                [
-                  {
-                    "text": "",
-                    "color": "#D8D8D8",
-                    "italic": false
-                  },
-                  {
-                    "text": "平均的な能力で扱いやすい。"
+                    "text": "「あなたの思いと決意を」"
                   }
                 ]
               ]
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"spear\",grade:0}"
+              "tag": "{weapon:\"sword\",grade:0}"
             },
             {
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "id": "wooden_spear_attack_damage",
+                  "id": "saharass_sword_attack_damage",
                   "attribute": "attack_damage",
-                  "amount": 4,
+                  "amount": 6,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_spear_attack_range",
+                  "id": "saharass_sword_attack_ratio",
+                  "attribute": "attack_damage",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "saharass_sword_attack_range",
                   "attribute": "entity_interaction_range",
                   "amount": 1,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_spear_sweeping_damage_ratio",
+                  "id": "saharass_sword_sweeping_damage_ratio",
                   "attribute": "sweeping_damage_ratio",
-                  "amount": 0,
+                  "amount": 1,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_spear_attack_speed",
+                  "id": "saharass_sword_attack_speed",
                   "attribute": "attack_speed",
-                  "amount": -2.5,
+                  "amount": -2.4,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
@@ -121,16 +118,16 @@
                   "has_consume_particles": false
                 },
                 "use_remainder": {
-                  "id": "wooden_shovel",
+                  "id": "diamond_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/weapon/spear/wood\"}",
-                    "minecraft:item_model": "wooden_shovel",
-                    "minecraft:custom_model_data": 1,
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/weapon/sword/saharass\"}",
+                    "minecraft:item_model": "diamond_sword",
+                    "minecraft:custom_model_data": 2,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
-                          "id": "wooden_spear_none_attack",
+                          "id": "saharass_sword_none_attack",
                           "type": "attack_damage",
                           "amount": -1,
                           "operation": "add_multiplied_total",
@@ -146,7 +143,7 @@
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"
                     ],
-                    "item_name": "{\"color\":\"white\",\"text\":\"木の槍\"}"
+                    "item_name": "{\"color\":\"gold\",\"text\":\"Sword of Saharass\"}"
                   }
                 }
               }

@@ -12,6 +12,5 @@ playsound entity.player.levelup player @s 0 -36.5 0 1 0.5
 
 title @s times 0.5s 2s 0.5s
 title @s title ""
-title @s subtitle {"bold":true,"color":"yellow","text":"～魂と決意の間～"}
+title @s subtitle {"bold":true,"color":"yellow","text":"～思いと決意の間～"}
 
-effect give @s unluck infinite 255 true
