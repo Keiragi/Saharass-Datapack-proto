@@ -26,13 +26,23 @@
                     "nbt": "{Tags:[\"Boots_oubai\"]}"
                 }
             }
-        }
-    },
+        },
+        "Statue": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+              "entity": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"Statue\"]}"
+              }
+          }
+      }
+  },
     "requirements": [
         [
             "Bell",
             "Flower_Church",
-            "Boots_oubai"
+            "Boots_oubai",
+            "Statue"
         ]
     ],
     "rewards": {
