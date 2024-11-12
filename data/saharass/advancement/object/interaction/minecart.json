@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "To_Mineshaft": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[to_mineshaft]}"
+        }
+      }
+    },
+    "From_Mineshaft": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[from_mineshaft]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "To_Mineshaft",
+      "From_Mineshaft"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:object/interaction/minecart/"
+  }
+}
