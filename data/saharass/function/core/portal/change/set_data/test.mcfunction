@@ -1,0 +1,1 @@
+data modify entity @n[type=text_display] text set value '[{"text":"行き先\\n"},"[",{"color":"yellow","text":"テスト空間"},"]"]'

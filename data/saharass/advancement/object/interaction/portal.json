@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "Left_Click": {
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Portal]}"
+        }
+      },
+      "trigger": "player_hurt_entity"
+    },
+    "Right_Click": {
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Portal]}"
+        }
+      },
+      "trigger": "player_interacted_with_entity"
+    }
+  },
+  "requirements": [
+    [
+      "Left_Click",
+      "Right_Click"
+    ]
+  ],
+  "rewards": {
+    "function": "saharass:core/portal/change/"
+  }
+}
