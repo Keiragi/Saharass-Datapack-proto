@@ -22,7 +22,7 @@ give @p written_book[written_book_content={title:"",author:"",pages:['{"text":"\
 summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:speed",amplifier:0,duration:400,ambient:1b}]}}
 
 #サンドバッグくん
-execute in saharass:0 positioned 0 0 -3 unless entity @e[type=minecraft:endermite,dx=0,dz=0] run summon endermite 0 0 -3 {OnGround:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:999999999f,Tags:["NoAI"],CustomName:'"サンドバッグくん"',active_effects:[{id:"minecraft:regeneration",amplifier:9,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:999999999}]}
+execute in saharass:test positioned 0 0 -3 unless entity @e[type=minecraft:endermite,dx=0,dz=0] run summon endermite 0 0 -3 {OnGround:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:999999999f,Tags:["NoAI"],CustomName:'"サンドバッグくん"',active_effects:[{id:"minecraft:regeneration",amplifier:9,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:999999999}]}
 
 #そのまま食べるケーキ by tetoshiasan
 #give @p minecraft:cake[food={nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"1"},"minecraft:damage": 1,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"2"},"minecraft:damage": 2,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"3"},"minecraft:damage": 3,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"4"},"minecraft:damage": 4,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"5"},"minecraft:damage": 5,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"minecraft:block_state":{bites:"6"},"minecraft:damage": 6,"minecraft:max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8}}}}}}}}}}}}}}}}}}}]
@@ -66,3 +66,7 @@ give @p armor_stand[entity_data={id:"minecraft:armor_stand",NoGravity:1b,Invulne
 #無音
 playsound intentionally_empty
 give @p iron_sword[use_cooldown={seconds:1,cooldown_group:"Skill"},consumable={consume_seconds:0,sound:"intentionally_empty",has_consume_particles:false},use_remainder={id:"minecraft:iron_sword",count:1,components:{"minecraft:use_cooldown":{seconds:1,cooldown_group:"Main"},"minecraft:custom_data":{Saharass:Main}}}] 1
+
+
+
+execute in saharass:overworld run tp @s 77.16 -44.79 23.58 658.27 29.75

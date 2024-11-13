@@ -1,0 +1,1 @@
+data modify entity eeadbe56-6159-45d3-be80-23161dfea25e text set value '[{"text":"行き先\\n"},"[",{"bold":true,"color":"light_purple","text":"要塞"},"]"]'

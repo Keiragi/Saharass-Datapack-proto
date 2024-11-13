@@ -1,1 +1,1 @@
-data modify entity @n[type=text_display] text set value '[{"text":"行き先\\n"},"[",{"color":"yellow","text":"テスト空間"},"]"]'
+data modify entity eeadbe56-6159-45d3-be80-23161dfea25e text set value '[{"text":"行き先\\n"},"[",{"bold":true,"color":"white","text":"テスト空間"},"]"]'
