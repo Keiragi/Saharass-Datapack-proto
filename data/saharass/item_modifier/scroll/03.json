@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE302",
+        "color": "yellow"
+      },
+      {
+        "text": " 火事場力",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "体力が少ないほど攻撃力が上がる。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "次に発動するメインスキルの威力に補正が掛かる。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
+        {
+          "text": "属性：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE001"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE203"
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Sub\",Number:03}"
+  }
+]

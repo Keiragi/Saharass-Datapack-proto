@@ -20,5 +20,6 @@ scoreboard objectives add Acrobat_Mode dummy
 scoreboard objectives add HaveEmerald dummy
 scoreboard objectives add Use_Item dummy
 scoreboard objectives add Set_SkillNumber trigger
+scoreboard objectives add Timer_Count dummy
 
 team add Players

@@ -9,7 +9,7 @@ $item modify entity @s weapon.mainhand saharass:scroll/$(Number)
 #SubかSwitchかで追加のデータを設定
 execute if data entity @s SelectedItem.components.minecraft:custom_data{Saharass:Switch} run function saharass:object/sign/church/tellraw/core/edit/switch
 execute if data entity @s SelectedItem.components.minecraft:custom_data{Saharass:Sub} run function saharass:object/sign/church/tellraw/core/edit/sub
-
+tellraw @p {"entity":"@s","nbt":"SelectedItem.components.minecraft:custom_data.Saharass"}
 
 #スキルごとの独自データをセット
 $function saharass:skill/core/skill_set/set_data/$(Number)

@@ -3,7 +3,7 @@
 # 1 * (1 + 0.6) + 6 = 7.6 
 # (スキル) * (10 + レベル) /10 + (武器ダメージ)
 # (1 * 16)/10 + 6 = 1.6 + 6 = 7.6
-
+execute store result score $Strength DamageCalculation run attribute @s minecraft:attack_damage get
 #ストレージからスキルダメージを持ってきて、Totalに入れる
 $execute store result score $Skill DamageCalculation run data get storage saharass:skill Damage[$(Number)]
 scoreboard players operation $Total DamageCalculation = $Skill DamageCalculation
