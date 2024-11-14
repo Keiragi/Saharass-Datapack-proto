@@ -18,7 +18,5 @@ scoreboard players operation $Total DamageCalculation += $Weapon DamageCalculati
 #火事場力補正
 execute if score @s HealthCalculation matches 2.. run scoreboard players operation $Total DamageCalculation *= @s HealthCalculation
 scoreboard players reset @s HealthCalculation
-#ライトニングのためのダメージ保持
-scoreboard players operation @s DamageCalculation = $Total DamageCalculation
 
-execute store result storage saharass:temporary Skill.Damage int 1 run scoreboard players get @s DamageCalculation
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get $Total DamageCalculation

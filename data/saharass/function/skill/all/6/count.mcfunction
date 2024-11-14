@@ -9,7 +9,6 @@ scoreboard players operation @s Inferno_Count += $Hit Inferno_Count
 #いなければリセット
 execute unless entity @e[type=#saharass:enemy,tag=Inferno] run scoreboard players set @s Inferno_Count 0
 
-function saharass:skill/all/6/fire/damage
 tag @s add Attacker
 execute if score @s Inferno_Count matches 0 run function saharass:skill/all/6/fire/none
 execute if score @s Inferno_Count matches 1..4 run function saharass:skill/all/6/fire/low

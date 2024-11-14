@@ -4,4 +4,4 @@ execute if entity @e[type=arrow,tag=Trap_Weak,distance=..30] run title @s action
 execute as @n[type=arrow,tag=Trap_Weak,distance=..30] at @s run playsound minecraft:block.beacon.deactivate player @a[distance=..32] ~ ~ ~ 1 1 0.3
 #処理
 function saharass:skill/core/damage/ {"Number":34}
-execute as @e[type=arrow,tag=Trap_Weak,distance=..30] at @s run function saharass:skill/all/34/trap with storage saharass:temporary Skill
+execute as @e[type=arrow,tag=Trap_Weak,distance=..30] at @s run function saharass:skill/all/34/trap with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill

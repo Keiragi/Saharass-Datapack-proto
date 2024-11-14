@@ -1,4 +1,14 @@
+function #oh_my_dat:please
 function saharass:skill/core/switch/active with entity @s SelectedItem.components.minecraft:custom_data
+title @s actionbar {"underlined":true,"color":"white","text":"メインスキルが設定されました"}
+
+playsound minecraft:item.flintandsteel.use player @s ~ ~ ~ 2 0.7
+
+execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:6}
+execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:7}
+
+execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:6} unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:7}
+
 
 #インフェルノをセットしている人がいるかどうかでスコアボードを管理
 execute if entity @a[scores={SkillNumber=6..7}] run scoreboard objectives add Inferno_Timer minecraft.custom:minecraft.play_time "インフェルノ(タイマー)"

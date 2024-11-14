@@ -4,10 +4,10 @@ title @s actionbar [{"color":"gold","obfuscated":true,"text":"A"},{"bold":true,"
 #空腹
 effect give @s hunger 1 239 true
 #15m以内の敵にスキルの処理
-data modify storage saharass:temporary Skill.UUID set from entity @s UUID[0]
-execute as @e[type=#saharass:enemy,distance=..15,predicate=saharass:onground] at @s run function saharass:skill/all/40/yggdrasil with storage saharass:temporary Skill
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.UUID set from entity @s UUID[0]
+execute as @e[type=#saharass:enemy,distance=..15,predicate=saharass:onground] at @s run function saharass:skill/all/40/yggdrasil with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
 #一回だけ発動したいので上のコマンドとは別枠で実行 あんまりスマートじゃないね
-function saharass:skill/all/40/root/tp with storage saharass:temporary Skill
+function saharass:skill/all/40/root/tp with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
 
 
 #時間で増加するスコアボード作成

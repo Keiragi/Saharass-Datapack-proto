@@ -1,2 +1,2 @@
-execute store result storage saharass:temporary Skill.Number int 1 run scoreboard players get @s Set_SkillNumber
-function saharass:skill/core/skill_set/macro with storage saharass:temporary Skill
+function #oh_my_dat:please
+function saharass:skill/core/skill_set/macro with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill

@@ -9,6 +9,6 @@ scoreboard players add $Board Timer_Lightning 1
 #先に発動した人がいると既に進んでるのでリセット
 scoreboard players reset @s[scores={Timer_Lightning=1..}] Timer_Lightning
 
-function saharass:skill/all/30/thunder/lightning_1
+execute as @e[type=#saharass:enemy,distance=..10,sort=random,limit=1] at @s run function saharass:skill/all/30/thunder/
 schedule function saharass:skill/all/30/thunder/lightning_2 6 append
 schedule function saharass:skill/all/30/thunder/lightning_3 12 append

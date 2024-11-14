@@ -13,7 +13,7 @@ execute unless score @s Acrobat_Mode matches 2 unless score @s Acrobat_Mode matc
 
 tag @s add Attacker
 function saharass:skill/core/damage/sub {"Number":3}
-execute as @e[type=#saharass:enemy,distance=..5] run function saharass:skill/all/24/schedule/damage with storage saharass:temporary Skill
+execute as @e[type=#saharass:enemy,distance=..5] run function saharass:skill/all/24/schedule/damage with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
 tag @s remove Attacker
 
 scoreboard players set $strength hb.Motion 10000

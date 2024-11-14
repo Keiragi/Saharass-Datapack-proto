@@ -10,4 +10,4 @@ scoreboard players operation $Total DamageCalculation *= $1+Level/10 DamageCalcu
 execute store result score $Weapon DamageCalculation run data get entity @s SelectedItem.components.minecraft:custom_data.Damage
 scoreboard players operation $Total DamageCalculation += $Weapon DamageCalculation
 
-execute store result storage saharass:temporary Skill.Damage int 1 run scoreboard players get $Total DamageCalculation
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get $Total DamageCalculation

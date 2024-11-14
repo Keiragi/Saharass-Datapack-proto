@@ -8,4 +8,4 @@ scoreboard players operation $Total DamageCalculation *= $1+Level/10 DamageCalcu
 
 scoreboard players operation @s DamageCalculation = $Total DamageCalculation
 
-execute store result storage saharass:temporary Skill.Damage int 1 run scoreboard players get @s DamageCalculation
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get @s DamageCalculation
