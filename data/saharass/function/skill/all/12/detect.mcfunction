@@ -6,3 +6,4 @@ particle dust_color_transition{from_color:[0.663,0.714,1.0],to_color:[0.141,0.27
 execute positioned ^ ^ ^0.3 unless block ~0.25 ~0.25 ~0.25 #air run particle dust_color_transition{from_color:[0.729,1.000,0.973],scale:1,to_color:[1.000,1.000,1.000]} ~0.25 ~0.25 ~0.25 0.3 0.3 0.3 0 20
 
 execute positioned ^ ^ ^0.3 if block ~0.25 ~0.25 ~0.25 #air if entity @s[distance=..20] run function saharass:skill/all/12/detect
+execute positioned ^ ^ ^0.3 if block ~0.25 ~0.25 ~0.25 #air unless entity @s[distance=..20] run particle dust_color_transition{from_color:[0.729,1.000,0.973],scale:1,to_color:[1.000,1.000,1.000]} ~0.25 ~0.25 ~0.25 0.3 0.3 0.3 0 20
