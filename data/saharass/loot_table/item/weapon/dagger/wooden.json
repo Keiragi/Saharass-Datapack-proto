@@ -64,34 +64,34 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"sword\",grade:0}"
+              "tag": "{weapon:\"sword\",material:\"wooden\",grade:0}"
             },
             {
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "id": "wooden_sword_attack_damage",
+                  "id": "weapon_attack_damage",
                   "attribute": "minecraft:attack_damage",
                   "amount": 4,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_sword_attack_range",
+                  "id": "weapon_attack_range",
                   "attribute": "minecraft:entity_interaction_range",
                   "amount": 0,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_sword_sweeping_damage_ratio",
+                  "id": "weapon_sweeping_damage_ratio",
                   "attribute": "minecraft:sweeping_damage_ratio",
                   "amount": 0,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "wooden_sword_attack_speed",
+                  "id": "weapon_attack_speed",
                   "attribute": "attack_speed",
                   "amount": -1.0,
                   "operation": "add_value",
