@@ -13,7 +13,7 @@ scoreboard players operation $VectorX VectorCalculation -= $PlayerX VectorCalcul
 scoreboard players operation $VectorY VectorCalculation -= $PlayerY VectorCalculation
 scoreboard players operation $VectorZ VectorCalculation -= $PlayerZ VectorCalculation
 
-execute store result storage saharass:temporary Pos.AEC[0] double 0.001 run scoreboard players get $VectorX VectorCalculation
-execute store result storage saharass:temporary Pos.AEC[1] double 0.001 run scoreboard players get $VectorY VectorCalculation
-execute store result storage saharass:temporary Pos.AEC[2] double 0.001 run scoreboard players get $VectorZ VectorCalculation
+execute store result storage saharass:temporary Pos.AEC[0] double 0.002 run scoreboard players get $VectorX VectorCalculation
+execute store result storage saharass:temporary Pos.AEC[1] double 0.002 run scoreboard players get $VectorY VectorCalculation
+execute store result storage saharass:temporary Pos.AEC[2] double 0.002 run scoreboard players get $VectorZ VectorCalculation
 

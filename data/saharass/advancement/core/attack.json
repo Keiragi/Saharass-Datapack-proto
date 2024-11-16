@@ -23,11 +23,35 @@
         }
       },
       "trigger": "minecraft:player_hurt_entity"
+    },
+    "Fire_Ball": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:fireball",
+              "nbt": "{Tags:[\"Fire_Ball\"]}"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "Sandbag_kun": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{CustomName:'\"サンドバッグくん\"'}"
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
     }
   },
   "requirements": [
     [
-      "Spear"
+      "Spear",
+      "Fire_Ball",
+      "Sandbag_kun"
     ]
   ],
   "rewards": {
