@@ -52,35 +52,28 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "id": "saharass_sword_attack_damage",
+                  "id": "weapon_attack_damage",
                   "attribute": "attack_damage",
-                  "amount": 6,
+                  "amount": 35,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "saharass_sword_attack_ratio",
-                  "attribute": "attack_damage",
-                  "amount": 0.5,
-                  "operation": "add_multiplied_total",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "saharass_sword_attack_range",
+                  "id": "weapon_attack_range",
                   "attribute": "entity_interaction_range",
                   "amount": 1,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "saharass_sword_sweeping_damage_ratio",
+                  "id": "weapon_sweeping_damage_ratio",
                   "attribute": "sweeping_damage_ratio",
                   "amount": 1,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "id": "saharass_sword_attack_speed",
+                  "id": "weapon_attack_speed",
                   "attribute": "attack_speed",
                   "amount": -2.4,
                   "operation": "add_value",

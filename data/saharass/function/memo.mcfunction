@@ -70,3 +70,6 @@ give @p iron_sword[use_cooldown={seconds:1,cooldown_group:"Skill"},consumable={c
 
 
 execute in saharass:overworld run tp @s 77.16 -44.79 23.58 658.27 29.75
+
+
+#nbt={Item:{components:{"minecraft:custom_data":{Player:{Name:$(Name)}}}}}
