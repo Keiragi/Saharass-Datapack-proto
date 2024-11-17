@@ -1,2 +1,0 @@
-scoreboard objectives remove Timer_Heatup
-scoreboard objectives remove Timer_HeatupCut

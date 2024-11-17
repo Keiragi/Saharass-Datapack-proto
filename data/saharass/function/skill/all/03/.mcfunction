@@ -25,5 +25,3 @@ execute if score $HPRatio HealthCalculation matches 4.. run effect give @s resis
 
 execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Heroics int 1 run scoreboard players get $Strength HealthCalculation
 function saharass:skill/all/03/str with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
-
-execute if entity @s[tag=HeatUP] run function saharass:skill/all/08/heatup/

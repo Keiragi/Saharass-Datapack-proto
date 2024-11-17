@@ -53,8 +53,10 @@ particle dust_color_transition{from_color:[0.000,0.867,1.000],scale:2,to_color:[
 #5 effect give @s hunger 1 199 true
 #6 effect give @s hunger 1 239 true
 
-#2
-#4 177
+#Boost
+#1 88
+#2 
+#4 159
 
 #tetoshia
 give @p armor_stand[entity_data={id:"minecraft:armor_stand",Invulnerable:1b,ShowArms:1b,Small:1b,NoBasePlate:1b,Pose:{LeftArm:[0f,0f,354f],RightArm:[0f,0f,6f],LeftLeg:[0f,0f,354f],RightLeg:[0f,0f,6f],Head:[354f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":952064}},{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":1564160,"minecraft:trim":{material:"minecraft:quartz",pattern:"minecraft:tide"}}},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":1699840,"minecraft:trim":{material:"minecraft:iron",pattern:"minecraft:dune"}}},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{name:"tetoshia"},"minecraft:note_block_sound":"minecraft:entity.cat.stray_ambient"}}]}] 1
@@ -73,3 +75,5 @@ execute in saharass:overworld run tp @s 77.16 -44.79 23.58 658.27 29.75
 
 
 #nbt={Item:{components:{"minecraft:custom_data":{Player:{Name:$(Name)}}}}}
+
+#give @p oak_sign[block_entity_data={id:"oak_sign",front_text:{messages:['{"text":""}','{"text":"手記","clickEvent":{"action":"run_command","value":"function saharass:object/sign/dungeon/cave/1"}}','{"text":""}','{"text":""}']},is_waxed:1b}] 1

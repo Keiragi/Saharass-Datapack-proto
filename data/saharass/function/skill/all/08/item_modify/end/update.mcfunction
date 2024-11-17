@@ -1,0 +1,1 @@
+$item modify entity @s container.$(Slot) [{"components":{"minecraft:use_cooldown":{"cooldown_group":"Skill","seconds":1}},"function":"minecraft:set_components"}]
