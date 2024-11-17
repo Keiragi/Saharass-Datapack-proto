@@ -1,6 +1,8 @@
 #トリガーを操作可能に
+scoreboard players set @s Set_SkillNumber 0
 scoreboard players enable @s Set_SkillNumber
 tag @s add SkillSelecting
+advancement revoke @s only saharass:object/skill_cancel
 
 #ガイド達成
 advancement grant @s only saharass:display/saharass/set_skill

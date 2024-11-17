@@ -4,7 +4,7 @@ data modify storage saharass:item Set.Id set from entity @s SelectedItem.id
 $item modify entity @s weapon.mainhand saharass:scroll/$(Number)
 #スキルごとの独自データをセット
 function saharass:object/sign/church/tellraw/core/edit/sub
-execute if data entity @s SelectedItem.components.minecraft:custom_data{Number:0} run data modify storage saharass:item Set.Icon set value ""
+execute if data entity @s SelectedItem.components.minecraft:custom_data{Number:00} run data modify storage saharass:item Set.Icon set value ""
 
 $function saharass:skill/core/skill_set/set_data/$(Number)
 #上でセットしたデータからマクロを起動
