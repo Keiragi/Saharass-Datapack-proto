@@ -41,7 +41,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:slime",
-          "nbt": "{CustomName:'\"サンドバッグくん\"'}"
+          "nbt": "{Tags:[\"Sandbag_kun\"]}"
         }
       },
       "trigger": "minecraft:player_hurt_entity"

@@ -175,33 +175,40 @@
     "in_cemetery": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "position": {
-                    "x": {
-                      "min": -8,
-                      "max": 0
-                    },
-                    "y": {
-                      "min": 1,
-                      "max": 9
-                    },
-                    "z": {
-                      "min": -56,
-                      "max": -48
-                    }
-                  },
-                  "dimension": "minecraft:overworld"
-                }
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "x": {
+                "max": 0,
+                "min": -8
+              },
+              "y": {
+                "max": 9,
+                "min": 1
+              },
+              "z": {
+                "max": -48,
+                "min": -56
               }
-            ]
+            }
           }
-        ]
+        }
+      }
+    },
+    "return_hometown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "saharass:space",
+            "position": {
+              "y": {
+                "max": 55
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -214,7 +221,8 @@
       "passive",
       "on_portal",
       "out_town",
-      "in_cemetery"
+      "in_cemetery",
+      "return_hometown"
     ]
   ],
   "rewards": {
