@@ -1,0 +1,1 @@
+execute at @a as @e[type=#saharass:enemy,distance=..10] run function saharass:combat/hud/health/get_data
