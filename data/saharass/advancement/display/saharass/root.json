@@ -8,7 +8,7 @@
     },
     "title": "Saharass",
     "description": "\"登録されました\"",
-    "background": "minecraft:textures/block/black_concrete.png",
+    "background": "minecraft:textures/block/deepslate.png",
     "show_toast": false,
     "announce_to_chat": false
   },
