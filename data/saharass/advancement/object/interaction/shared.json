@@ -35,6 +35,15 @@
             "nbt": "{Tags:[\"Escape_Portal\"]}"
           }
         }
+      },
+      "Next_Floor": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Next_Floor\"]}"
+          }
+        }
       }
     },
     "requirements": [
@@ -42,7 +51,8 @@
             "Chair",
             "Deposit",
             "Deposit2",
-            "Escape"
+            "Escape",
+            "Next_Floor"
         ]
     ],
     "rewards": {
