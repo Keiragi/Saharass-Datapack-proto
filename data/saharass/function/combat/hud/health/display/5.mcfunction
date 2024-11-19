@@ -1,0 +1,1 @@
+data modify entity @s CustomName set value '[{"color":"white","text":""},{"color":"yellow","text":"|||||"},{"color":"dark_gray","text":"|||||"},""]'

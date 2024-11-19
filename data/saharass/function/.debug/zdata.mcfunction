@@ -21,5 +21,8 @@ scoreboard objectives add HaveEmerald dummy
 scoreboard objectives add Use_Item dummy
 scoreboard objectives add Set_SkillNumber trigger
 scoreboard objectives add Timer_Count dummy
+scoreboard objectives add Enemy_Health dummy
+scoreboard objectives add Enemy_MaxHealth dummy
+scoreboard objectives add Number dummy
 
 team add Players
