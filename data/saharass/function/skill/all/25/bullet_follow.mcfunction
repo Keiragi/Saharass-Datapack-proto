@@ -5,4 +5,4 @@ data modify entity @s Invulnerable set value 1b
 data modify entity @s Target set from entity @n[type=#saharass:enemy,distance=..16] UUID
 data modify entity @s Steps set value 28
 
-#data modify entity @s Motion set from storage saharass:temporary Pos.AEC
+#data modify entity @s Motion set from storage temp: Pos.AEC

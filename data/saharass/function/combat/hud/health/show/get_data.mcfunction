@@ -11,10 +11,10 @@
   #scoreboard players operation @s Enemy_Health /= @s Enemy_MaxHealth
 
 # マクロ用にストレージへスコアボードの値を代入
-  execute store result storage saharass:temporary Enemy.Health_Ratio int 1 run scoreboard players operation @s Enemy_Health /= @s Enemy_MaxHealth
+  execute store result storage temp: Enemy.Health_Ratio int 1 run scoreboard players operation @s Enemy_Health /= @s Enemy_MaxHealth
 
 # マクロ起動
-  function saharass:combat/hud/health/display/ with storage saharass:temporary Enemy
+  function saharass:combat/hud/health/display/ with storage temp: Enemy
 
 # 3秒間の戦闘タグの判別用
   effect give @s unluck 3 255 true

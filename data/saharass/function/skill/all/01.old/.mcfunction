@@ -7,9 +7,9 @@ effect give @s[tag=HeatUP] hunger 1 88 true
 
 function saharass:core/data/get/player_name
 
-data modify storage saharass:temporary Rotation.Horizontal set from entity @s Rotation[0]
-data modify storage saharass:temporary Rotation.Vertical set from entity @s Rotation[1]
+data modify storage temp: Rotation.Horizontal set from entity @s Rotation[0]
+data modify storage temp: Rotation.Vertical set from entity @s Rotation[1]
 
-execute anchored eyes positioned ^ ^ ^ summon marker run function saharass:skill/all/01.old/set_fireball_data with storage saharass:temporary Rotation
+execute anchored eyes positioned ^ ^ ^ summon marker run function saharass:skill/all/01.old/set_fireball_data with storage temp: Rotation
 
 function saharass:skill/all/01.old/schedule_fire

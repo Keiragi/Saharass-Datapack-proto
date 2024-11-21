@@ -10,7 +10,7 @@ scoreboard players operation $Total DamageCalculation = $Strength DamageCalculat
 scoreboard players operation $Total DamageCalculation += $Weapon DamageCalculation
 
 #ストレージからスキルダメージを持ってきて10足す
-$execute store result score $Skill DamageCalculation run data get storage saharass:skill Damage[$(Number)]
+$execute store result score $Skill DamageCalculation run data get storage skill: Damage[$(Number)]
 scoreboard players add $Skill DamageCalculation 10
 #攻撃力とスキル+10をかけて10で割る
 scoreboard players operation $Total DamageCalculation *= $Skill DamageCalculation

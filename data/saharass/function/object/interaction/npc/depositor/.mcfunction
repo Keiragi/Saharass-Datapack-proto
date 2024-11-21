@@ -5,7 +5,7 @@ execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_P
 #データがあればインベントリのチェック
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0] run function saharass:object/interaction/npc/depositor/return_item/effects
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0] unless predicate saharass:full_inventory run function saharass:object/interaction/npc/depositor/return_item/ with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0]
-execute if data storage saharass:temporary Result{Success:1} run function saharass:object/interaction/npc/depositor/return_item/words
-data remove storage saharass:temporary Result.Success
+execute if data storage temp: Result{Success:1} run function saharass:object/interaction/npc/depositor/return_item/words
+data remove storage temp: Result.Success
 
 rotate @n[type=minecraft:villager] facing entity @s

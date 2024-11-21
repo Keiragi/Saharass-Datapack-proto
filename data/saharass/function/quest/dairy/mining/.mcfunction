@@ -1,5 +1,5 @@
-data modify storage saharass:temporary Quest.Name set value "採集・採掘をする"
-data modify storage saharass:temporary Quest.Reward set value "ラピスラズリ×3"
+data modify storage temp: Quest.Name set value "採集・採掘をする"
+data modify storage temp: Quest.Reward set value "ラピスラズリ×3"
 function saharass:quest/core/done
 
 loot give @s loot saharass:item/material/mine/lapis_lazuli

@@ -15,7 +15,7 @@ tellraw @p {"entity":"@s","nbt":"SelectedItem.components.minecraft:custom_data.S
 $function saharass:skill/core/skill_set/set_data/$(Number)
 
 #一つ前と上でセットしたデータからマクロを起動
-function saharass:object/sign/church/tellraw/core/edit/every with storage saharass:item Set
+function saharass:object/sign/church/tellraw/core/edit/every with storage item: Set
 
 #function saharass:object/sign/church/tellraw/core/edit/each with entity @s SelectedItem.components.minecraft:custom_data
 

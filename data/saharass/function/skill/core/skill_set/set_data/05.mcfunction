@@ -1,3 +1,3 @@
 #スキルの名前、スクロールのタイプを設定
-data modify storage saharass:item Set.Name set value "灯火"
-data modify storage saharass:item Set.Color set value "red"
+data modify storage item: Set.Name set value "灯火"
+data modify storage item: Set.Color set value "red"
