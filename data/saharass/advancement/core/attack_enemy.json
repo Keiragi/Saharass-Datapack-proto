@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Enemy": {
+      "conditions": {
+        "entity": {
+          "type": "#saharass:enemy"
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "saharass:combat/hud/health/"
+  }
+}

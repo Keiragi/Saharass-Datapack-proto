@@ -1,13 +1,5 @@
 {
   "criteria": {
-    "Enemy": {
-      "conditions": {
-        "entity": {
-          "type": "#saharass:enemy"
-        }
-      },
-      "trigger": "minecraft:player_hurt_entity"
-    },
     "Spear": {
       "conditions": {
         "damage": {
@@ -57,13 +49,12 @@
   },
   "requirements": [
     [
-      "Enemy",
       "Spear",
       "Fire_Ball",
       "Sandbag_kun"
     ]
   ],
   "rewards": {
-    "function": "saharass:core/combat/attack/"
+    "function": "saharass:combat/attack/"
   }
 }
