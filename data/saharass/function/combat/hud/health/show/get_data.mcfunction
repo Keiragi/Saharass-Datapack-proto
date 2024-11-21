@@ -1,5 +1,6 @@
-# プレイヤーが近くにいるなら名前を常に表示する設定へ
+# 名前を常に表示する設定へ
   data modify entity @s CustomNameVisible set value 1b
+  team leave @s
 
 # 体力とその最大値を計算用スコアボードへ代入
   execute store result score @s Enemy_Health run data get entity @s Health
