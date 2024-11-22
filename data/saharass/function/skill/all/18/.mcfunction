@@ -1,6 +1,8 @@
-title @s actionbar [{"color":"aqua","text":"ポイズン"}]
-playsound entity.splash_potion.throw player @a[distance=..16] ~ ~ ~ 0.8 0.5 0.1
-tag @s add Poisonor
-execute positioned ^ ^ ^0.4 summon area_effect_cloud run function saharass:skill/all/18/vector
-execute anchored eyes rotated ~ ~-10 positioned ^ ^ ^0.1 summon snowball run function saharass:skill/all/18/potion
-tag @s add Poisonor
+title @s actionbar [{"color":"aqua","text":"いのちのしずく"}]
+playsound minecraft:block.amethyst_block.resonate player @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:block.water.ambient player @a[distance=..16] ~ ~ ~ 1 1
+particle minecraft:falling_water ~ ~2 ~ 0 0 0 0 10
+particle minecraft:totem_of_undying ~ ~1 ~ 0.5 0.5 0.5 0 30
+
+effect give @s saturation 1 3 true
+effect give @s instant_health 1 0 true
