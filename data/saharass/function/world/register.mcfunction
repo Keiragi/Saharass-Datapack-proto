@@ -6,7 +6,7 @@ title @s title "Saharass"
 title @s subtitle "=サハラス="
 playsound entity.player.levelup player @s ~ ~ ~ 1 0.5
 
-tellraw @s [{"bold":true,"color":"yellow","text":"\n～思いと決意の間～\n"},{"bold":false,"color":"white","text":" -The Sky Blessing-より\n"}]
+tellraw @s [{"bold":true,"color":"yellow","text":"\n 思いと決意の空間\n"},{"bold":false,"color":"white","text":" -The Sky Blessingより-\n"}]
 
 
 #プレイヤー名を個人ストレージに保存

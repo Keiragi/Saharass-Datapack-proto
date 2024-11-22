@@ -8,7 +8,7 @@
           "color": "yellow"
         },
         {
-          "text": " ポイズン",
+          "text": " いのちのしずく",
           "color": "aqua"
         }
       ]
@@ -17,12 +17,12 @@
       "function": "minecraft:set_lore",
       "lore": [
         {
-          "text": "毒性の水を相手に浴びせる。",
+          "text": "体力と満腹度を回復する。",
           "color": "#D8D8D8",
           "italic": false
         },
         {
-          "text": "ドロップアイテムが落ちることがある。",
+          "text": "少しの間、スキルが使えなくなる。",
           "color": "#D8D8D8",
           "italic": false
         },
@@ -48,7 +48,7 @@
             "italic": false
           },
           {
-            "text": "\uE203\uE203\uE201"
+            "text": "\uE203\uE203\uE203"
           }
         ]
       ],
