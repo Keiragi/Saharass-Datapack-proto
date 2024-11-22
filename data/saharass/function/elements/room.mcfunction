@@ -10,7 +10,7 @@ rotate @s[tag=UseEarth] 270 0
 particle minecraft:firework 0 -35.5 0 0 0.25 0 0.05 30 force
 playsound entity.player.levelup player @s 0 -36.5 0 1 0.5
 
-title @s times 0.5s 2s 0.5s
-title @s title ""
-title @s subtitle {"bold":true,"color":"yellow","text":"～思いと決意の間～"}
+title @s times 0 1s 1s
+title @s title {"underlined":true,"bold":true,"color":"yellow","text":"思いと決意の空間"}
+title @s subtitle {"text":"\uE000"}
 
