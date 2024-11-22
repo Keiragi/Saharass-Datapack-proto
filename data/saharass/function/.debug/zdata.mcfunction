@@ -24,6 +24,7 @@ scoreboard objectives add Timer_Count dummy
 scoreboard objectives add Enemy_Health dummy
 scoreboard objectives add Enemy_MaxHealth dummy
 scoreboard objectives add Number dummy
+scoreboard objectives add Conduit dummy
 
 team add HideName
 team add Players
