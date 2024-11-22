@@ -127,7 +127,7 @@
                   "id": "mace",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/weapon/axe/wood\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/weapon/axe/wooden\"}",
                     "minecraft:item_model": "wooden_axe",
                     "minecraft:custom_model_data": 1,
                     "attribute_modifiers": {

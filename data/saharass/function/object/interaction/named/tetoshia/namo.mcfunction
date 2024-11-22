@@ -1,1 +1,1 @@
-$data modify storage tetoshia: namo set value "$(namo)$(namoadd)"
+$data modify storage temp: tetoshia.namo set value "$(namo)$(namoadd)"

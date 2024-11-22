@@ -8,7 +8,7 @@ data modify storage skill: set.add.text3 set value "水のベール"
 data modify storage skill: set.add.score3 set value 15
 data modify storage skill: set.add.text4 set value "コンジット"
 data modify storage skill: set.add.score4 set value 17
-data modify storage skill: set.add.text5 set value "ポイズン"
+data modify storage skill: set.add.text5 set value "いのちのしずく"
 data modify storage skill: set.add.score5 set value 18
 data modify storage skill: set.add.text6 set value "ウォータ✦"
 data modify storage skill: set.add.score6 set value 12

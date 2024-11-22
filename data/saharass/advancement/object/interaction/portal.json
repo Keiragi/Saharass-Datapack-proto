@@ -26,6 +26,6 @@
     ]
   ],
   "rewards": {
-    "function": "saharass:core/portal/change/"
+    "function": "saharass:object/portal/change/"
   }
 }
