@@ -1,11 +1,19 @@
-$scoreboard players set $Skill DamageCalculation $(Number)
-scoreboard players operation $Total DamageCalculation = $Skill DamageCalculation
-#レベルを1/10してから1足す
-execute store result score $1+Level/10 DamageCalculation run data get entity @s XpLevel 0.1
-scoreboard players add $1+Level/10 DamageCalculation 1
-#スキル×レベル補正
-scoreboard players operation $Total DamageCalculation *= $1+Level/10 DamageCalculation
+function #oh_my_dat:please
 
-scoreboard players operation @s DamageCalculation = $Total DamageCalculation
+# 基礎攻撃力を取得
+  execute store result score $Strength DamageCalculation run attribute @s attack_damage base get
+  scoreboard players operation $Total DamageCalculation = $Strength DamageCalculation
 
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get @s DamageCalculation
+# ストレージからスキルダメージを持ってきて10足す
+  $execute store result score $Skill DamageCalculation run data get storage skill: Damage[$(Number)]
+  scoreboard players add $Skill DamageCalculation 10
+
+# 攻撃力とスキル+10をかけて10で割る
+  scoreboard players operation $Total DamageCalculation *= $Skill DamageCalculation
+  scoreboard players operation $Total DamageCalculation /= #10 DamageCalculation
+
+# レベルを足す
+  execute store result score $Level DamageCalculation run data get entity @s XpLevel
+  scoreboard players operation $Total DamageCalculation += $Level DamageCalculation
+
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get $Total DamageCalculation

@@ -3,13 +3,13 @@ execute unless entity @s[advancements={saharass:core/location={fire=false,water=
 
 execute if entity @s[advancements={saharass:core/location={passive=true}}] run function saharass:world/tick
 
-execute if entity @s[advancements={saharass:core/location={on_portal=true}}] run function saharass:core/portal/check/
+execute if entity @s[advancements={saharass:core/location={on_portal=true}}] run function saharass:object/portal/check/
 
 #execute if entity @s[advancements={saharass:core/location={out_town=true}}] run function saharass:object/interaction/mapboard/return
 
 execute if entity @s[advancements={saharass:core/location={in_cemetery=true}}] if predicate saharass:time/night run function saharass:object/interaction/npc/ghost/cemetery
 
-execute if entity @s[advancements={saharass:core/location={return_hometown=true}}] run function saharass:dungeon/core/return/tp
+#execute if entity @s[advancements={saharass:core/location={return_hometown=true}}] run function saharass:dungeon/core/return/tp
 
 advancement revoke @s only saharass:core/location
 
