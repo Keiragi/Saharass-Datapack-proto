@@ -1,2 +1,1 @@
-data modify entity @s Health set value 1024
-particle minecraft:item_slime ~ ~0.5 ~ 0 0 0 0 20
+execute as @e[type=slime,tag=Sandbag_kun] at @s run function saharass:combat/attack/sandbag/as_

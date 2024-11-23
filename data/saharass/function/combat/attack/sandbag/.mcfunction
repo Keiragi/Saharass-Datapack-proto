@@ -1,1 +1,2 @@
-execute as @e[type=slime,tag=Sandbag_kun] at @s run function saharass:combat/attack/sandbag/schedule
+execute store result bossbar saharass:sandbag value run data get entity @n[type=slime,tag=Sandbag_kun] Health
+schedule function saharass:combat/attack/sandbag/schedule 3s
