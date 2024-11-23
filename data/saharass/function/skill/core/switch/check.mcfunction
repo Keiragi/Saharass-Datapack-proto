@@ -1,4 +1,3 @@
-function #oh_my_dat:please
 function saharass:skill/core/switch/active with entity @s SelectedItem.components.minecraft:custom_data
 title @s actionbar {"underlined":true,"color":"white","text":"メインスキルが設定されました"}
 

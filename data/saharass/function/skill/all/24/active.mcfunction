@@ -1,13 +1,15 @@
-title @s actionbar [{"color":"green","text":"アクロバット[ON]"}]
-playsound entity.firework_rocket.launch player @s ~ ~ ~
-playsound minecraft:entity.wither.shoot player @s ~ ~ ~ 0.5 1
-particle end_rod ~ ~1 ~ 0 0 0 0.3 10
-particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 10
+# 演出
+  title @s actionbar [{"color":"green","text":"アクロバット[ON]"}]
+  playsound entity.firework_rocket.launch player @a[distance=..16] ~ ~ ~ 1 1 0.1
+  playsound minecraft:entity.wither.shoot player @a[distance=..16] ~ ~ ~ 0.5 1 0.1
+  particle end_rod ~ ~1 ~ 0 0 0 0.3 10
+  particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 10
 
-#execute unless predicate saharass:equipped/chest run item replace entity @s armor.chest with feather[minecraft:equippable={"slot":"chest"}]
-#execute if predicate saharass:equipped/feather run item modify entity @s armor.chest saharass:skill/acrobat/feather
-attribute @s minecraft:safe_fall_distance base set 256
+# モードタグ付与
+  tag @s add Acrobat_Mode
 
-#item modify entity @s weapon.mainhand saharass:scroll/24/active
+# 落下ダメージ無効化
+  attribute @s minecraft:safe_fall_distance base set 1024
 
-schedule function saharass:skill/all/24/schedule/ 1t
+# tick関数起動
+  schedule function saharass:skill/all/24/schedule/ 1t

@@ -1,1 +1,1 @@
-$damage @s $(Damage) player_attack by @p[tag=Attacker]
+$damage @s $(Damage) saharass:knockback by $(Name)

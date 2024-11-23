@@ -1,6 +1,4 @@
-function #oh_my_dat:please
-
-#スキルを特定、コストの確認、発動
-tag @s add Attacker
-function saharass:skill/core/main/macro with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
-tag @s remove Attacker
+# スキルを特定、コストの確認、発動
+  tag @s add Attacker
+  function saharass:skill/core/main/macro with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
+  tag @s remove Attacker

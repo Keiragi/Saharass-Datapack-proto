@@ -1,10 +1,11 @@
-title @s actionbar [{"color":"white","text":"アクロバット[OFF]"}]
-playsound minecraft:entity.wither.shoot player @s ~ ~ ~ 0.5 2
+# 演出
+  title @s actionbar [{"color":"white","text":"アクロバット[OFF]"}]
+  playsound minecraft:entity.wither.shoot player @a[distance=..16] ~ ~ ~ 0.5 2 0.1
 
-tag @s remove Acrobat_Enabled
-tag @s remove Acrobat_Used
+# タグリセット
+  tag @s remove Acrobat_Mode
+  tag @s remove Acrobat_Enabled
+  tag @s remove Acrobat_Used
 
-#item modify entity @s weapon.mainhand saharass:scroll/24
-
-#execute if predicate saharass:equipped/feather run item replace entity @s armor.chest with air
-attribute @s minecraft:safe_fall_distance base set 3
+# 落下ダメージ無効の消去
+  attribute @s minecraft:safe_fall_distance base set 3
