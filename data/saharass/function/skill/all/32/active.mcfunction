@@ -8,4 +8,4 @@ title @s actionbar [{"color":"gold","text":"アース✦"}]
 #空腹
 effect give @s hunger 1 79 true
 #10m以内の敵にスキルの処理
-execute as @e[type=#saharass:enemy,distance=..15,predicate=saharass:onground] at @s run function saharass:skill/all/32/damage with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill
+execute as @e[type=#saharass:enemy,distance=..15,predicate=saharass:flags/on_ground] at @s run function saharass:skill/all/32/damage with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill

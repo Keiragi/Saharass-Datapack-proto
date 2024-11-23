@@ -1,2 +1,2 @@
-execute unless entity @e[type=#saharass:enemy,distance=..10,predicate=saharass:onground] run function saharass:skill/core/noenemy {"range":"10"}
-execute if entity @e[type=#saharass:enemy,distance=..10,predicate=saharass:onground] run function saharass:skill/all/31/active
+execute unless entity @e[type=#saharass:enemy,distance=..10,predicate=saharass:flags/on_ground] run function saharass:skill/core/noenemy {"range":"10"}
+execute if entity @e[type=#saharass:enemy,distance=..10,predicate=saharass:flags/on_ground] run function saharass:skill/all/31/active
