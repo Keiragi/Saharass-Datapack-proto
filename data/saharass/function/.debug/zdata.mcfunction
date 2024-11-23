@@ -2,6 +2,7 @@
 
 scoreboard objectives add DamageCalculation dummy
 scoreboard objectives add VectorCalculation dummy
+scoreboard objectives add Food food
 scoreboard objectives add SkillNumber dummy
 scoreboard objectives add Dialog dummy
 scoreboard objectives add Dialog_Ghost dummy
@@ -25,6 +26,9 @@ scoreboard objectives add Enemy_Health dummy
 scoreboard objectives add Enemy_MaxHealth dummy
 scoreboard objectives add Number dummy
 scoreboard objectives add Conduit dummy
+scoreboard objectives add Leave_Game minecraft.custom:leave_game
 
 team add HideName
 team add Players
+
+bossbar add saharass:sandbag ""
