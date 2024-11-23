@@ -17,12 +17,6 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "You are The Feather.",
-        "color": "aqua",
-        "bold": true,
-        "italic": false
-      },
-      {
         "text": "使用するとアクロバットモードに切り替える。",
         "color": "#D8D8D8",
         "italic": false
