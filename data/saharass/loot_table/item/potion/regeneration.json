@@ -5,29 +5,48 @@
       "entries": [
         {
           "type": "item",
-          "name": "enchanted_golden_apple",
+          "name": "potion",
           "functions": [
             {
               "function": "set_name",
-              "target": "item_name",
-              "name": {
-                "text": "エンチャントされた金のリンゴ",
-                "color": "aqua"
+              "target": "custom_name",
+              "name": [
+                {
+                  "text": "再生のポーション",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "potion",
+                "enchantment_glint_override": false,
+                "hide_additional_tooltip": {},
+                "max_stack_size": 1,
+                "rarity": "common"
               }
             },
             {
               "function": "set_components",
               "components": {
-                "item_model": "enchanted_golden_apple",
-                "enchantment_glint_override": true,
-                "hide_additional_tooltip": {},
-                "max_stack_size": 64,
-                "rarity": "rare"
+                "!use_remainder": {},
+                "potion_contents": {
+                  "custom_color": 13458603,
+                  "custom_effects": [
+                    {
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "id": "regeneration"
+                    }
+                  ]
+                }
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":3,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Consume\"}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Consume\"}"
             },
             {
               "function": "set_lore",
@@ -35,12 +54,12 @@
               "mode": "append",
               "lore": [
                 {
-                  "text": "光り輝く黄金の果実。",
+                  "text": "ポーションと呼ばれる不思議な飲み物。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
                 {
-                  "text": "神秘的な輝きを放っている。",
+                  "text": "飲むと様々な力を得られる。",
                   "color": "#D8D8D8",
                   "italic": false
                 },
@@ -48,11 +67,6 @@
                   "text": "                          ",
                   "color": "dark_gray",
                   "strikethrough": true
-                },
-                {
-                  "text": "満腹度回復 : \uE201\uE201",
-                  "color": "white",
-                  "italic": false
                 },
                 [
                   {
@@ -65,52 +79,7 @@
                     "color": "white"
                   },
                   {
-                    "text": "+0.8/s（0:20）",
-                    "color": "green"
-                  }
-                ],
-                [
-                  {
-                    "translate": "体力追加",
-                    "color": "yellow",
-                    "italic": false
-                  },
-                  {
-                    "text": "\uF821\uE208\uF823: ",
-                    "color": "white"
-                  },
-                  {
-                    "text": "+8     （2:00）",
-                    "color": "green"
-                  }
-                ],
-                [
-                  {
-                    "translate": "ﾀﾞﾒｰ\uF821ｼﾞｶ\uF821ｯ\uF821ﾄ",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "\uF821\uE209\uF823: ",
-                    "color": "white"
-                  },
-                  {
-                    "text": "+20%  （5:00）",
-                    "color": "green"
-                  }
-                ],
-                [
-                  {
-                    "translate": "火傷防止",
-                    "color": "gold",
-                    "italic": false
-                  },
-                  {
-                    "text": "\uF822\uE210\uF823: ",
-                    "color": "white"
-                  },
-                  {
-                    "text": "+100%\uF822（5:00）",
+                    "text": "+0.4/s（5:00）",
                     "color": "green"
                   }
                 ],
@@ -126,8 +95,8 @@
                     "italic": false
                   },
                   {
-                    "text": "レア",
-                    "color": "aqua",
+                    "text": "ノーマル",
+                    "color": "white",
                     "italic": false
                   },
                   {

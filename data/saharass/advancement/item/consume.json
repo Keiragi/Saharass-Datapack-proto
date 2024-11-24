@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{\"Saharass\":\"Consume\"}"
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "saharass:item/consume/"
+  }
+}
