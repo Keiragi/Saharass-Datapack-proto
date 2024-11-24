@@ -27,6 +27,9 @@ scoreboard objectives add Enemy_MaxHealth dummy
 scoreboard objectives add Number dummy
 scoreboard objectives add Conduit dummy
 scoreboard objectives add Leave_Game minecraft.custom:leave_game
+scoreboard objectives add Death deathCount
+scoreboard objectives add GetEmerald dummy
+scoreboard objectives add Consume dummy
 
 team add HideName
 team add Players
