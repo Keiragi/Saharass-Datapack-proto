@@ -3,7 +3,7 @@
 
 # 使用済みタグ付与
   tag @s add Acrobat_Used
-
+playsound entity.experience_orb.pickup
 # 演出
   playsound entity.iron_golem.attack player @a ~ ~ ~ 1.5 1.5
   playsound entity.zombie.infect player @s ~ ~ ~ 1 2
