@@ -10,7 +10,7 @@
       }
     },
     "rewards": {
-      "function": "saharass:kill_enemy"
+      "function": "saharass:combat/kill/"
     }
   }
   

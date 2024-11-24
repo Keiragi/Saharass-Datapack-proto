@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-      "function": "saharass:world/visit"
+      "function": "saharass:object/town/visit"
   }
 }
