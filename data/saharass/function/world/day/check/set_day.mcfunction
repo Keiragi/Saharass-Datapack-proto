@@ -1,3 +1,6 @@
+# 計算用スコア
+  scoreboard players set #100 SynClock 100
+
 # 日付数字の初期化
   scoreboard players set YYYYMMDD SynClock 0
 

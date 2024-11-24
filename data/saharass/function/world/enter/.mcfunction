@@ -12,7 +12,7 @@
     function saharass:world/started/detect_entity
 
   # 日付更新のチェック
-    function saharass:world/day/check/
+    #function saharass:world/day/check/
 
   # 退出スコアのリセット
     scoreboard players reset @s Leave_Game
