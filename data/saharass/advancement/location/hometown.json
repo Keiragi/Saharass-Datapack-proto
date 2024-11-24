@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "in_hometown": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "saharass:core/return/"
+  }
+}
