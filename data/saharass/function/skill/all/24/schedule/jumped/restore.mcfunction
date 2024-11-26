@@ -3,7 +3,8 @@
 
 # 演出
   particle sweep_attack ~ ~0.3 ~ 0.5 0.3 0.5 0 5
-  particle minecraft:poof ~ ~0.5 ~ 1 0 1 0 40
+  particle poof ~ ~0.5 ~ 1 0 1 0 40
+  playsound entity.player.small_fall player @a[distance=..16] ~ ~ ~ 1 0.5 0.1
 
 # 個人ストレージ起動
   function #oh_my_dat:please
