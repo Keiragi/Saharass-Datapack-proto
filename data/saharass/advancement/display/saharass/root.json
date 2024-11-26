@@ -1,14 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:nether_star",
+      "id": "potion",
       "components": {
-        "minecraft:custom_model_data": 1
+        "!consumable": {},
+        "potion_contents": {
+          "custom_color": 52479
+        },
+        "item_model": "feather",
+        "enchantment_glint_override": true
       }
     },
     "title": "Saharass",
-    "description": "\"登録されました\"",
-    "background": "minecraft:textures/block/deepslate.png",
+    "description": "「あなたの思いと決意を」",
+    "background": "minecraft:textures/block/black_concrete.png",
     "show_toast": false,
     "announce_to_chat": false
   },
@@ -18,6 +23,6 @@
     }
   },
   "rewards": {
-      "function": "saharass:object/town/visit"
+    "function": "saharass:object/town/visit"
   }
 }
