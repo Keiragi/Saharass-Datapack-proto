@@ -1,6 +1,11 @@
-tag @s add Bullet
-data modify entity @s Owner set from entity @p[tag=Attacker] UUID
-data modify entity @s Invulnerable set value 1b
-#data modify entity @s PortalCooldown set value 19
+# 判別用タグ
+  tag @s add Bullet
 
-data modify entity @s Motion set from storage temp: Pos.AEC
+# 攻撃元の指定
+  data modify entity @s Owner set from storage temp: UUID.Player
+
+# 無敵付与
+  data modify entity @s Invulnerable set value 1b
+
+# 向きの代入
+  data modify entity @s Motion set from storage temp: Motion
