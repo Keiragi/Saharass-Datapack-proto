@@ -113,7 +113,7 @@
               "components": {
                 "use_cooldown": {
                   "seconds": 1,
-                  "cooldown_group": "Skill"
+                  "cooldown_group": "skill"
                 },
                 "consumable": {
                   "consume_seconds": 0,

@@ -4,7 +4,7 @@
     "components": {
       "minecraft:use_cooldown": {
         "seconds": 1,
-        "cooldown_group": "Skill"
+        "cooldown_group": "skill"
       },
       "minecraft:consumable": {
         "consume_seconds": 0,
@@ -18,7 +18,7 @@
         "components": {
           "minecraft:use_cooldown": {
             "seconds": 1,
-            "cooldown_group": "Skill"
+            "cooldown_group": "skill"
           }
         }
       },

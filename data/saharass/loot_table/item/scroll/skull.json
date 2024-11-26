@@ -76,7 +76,7 @@
               "components": {
                 "use_cooldown": {
                   "seconds": 1,
-                  "cooldown_group": "Skill"
+                  "cooldown_group": "skill"
                 },
                 "consumable": {
                   "consume_seconds": 0,
@@ -93,7 +93,7 @@
                     "custom_model_data": 0,
                     "use_cooldown": {
                       "seconds": 1,
-                      "cooldown_group": "Skill"
+                      "cooldown_group": "skill"
                     },
                     "unbreakable": {
                       "show_in_tooltip": false
