@@ -1,6 +1,5 @@
 # 演出 + コスト
   title @s actionbar [{"color":"aqua","text":"コンジット"}]
-  playsound minecraft:block.amethyst_block.resonate player @a[distance=..16] ~ ~ ~ 1 1
   playsound minecraft:block.conduit.activate player @a[distance=..16] ~ ~ ~ 1 1
   particle minecraft:nautilus ~ ~1 ~ 0.25 0.25 0.25 0.5 50
   effect give @s hunger 1 39 true
