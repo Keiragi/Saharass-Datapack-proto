@@ -44,6 +44,15 @@
             "nbt": "{Tags:[\"Next_Floor\"]}"
           }
         }
+      },
+      "Summon_Altar": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Summon_Altar\"]}"
+          }
+        }
       }
     },
     "requirements": [
@@ -52,7 +61,8 @@
             "Deposit",
             "Deposit2",
             "Escape",
-            "Next_Floor"
+            "Next_Floor",
+            "Summon_Altar"
         ]
     ],
     "rewards": {

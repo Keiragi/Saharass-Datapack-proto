@@ -1,9 +1,10 @@
 {
     "values": [
-      "minecraft:fireball",
-      "minecraft:generic",
-      "minecraft:generic_kill",
-      "minecraft:arrow",
+      "fireball",
+      "generic",
+      "generic_kill",
+      "arrow",
+      "player_attack",
       "saharass:generic",
       "saharass:knockback"
     ]

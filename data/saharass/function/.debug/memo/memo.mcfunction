@@ -69,7 +69,7 @@ summon minecraft:armor_stand 44.50 10.00 18.50 {NoGravity: 1b, Brain: {memories:
 
 #無音
 playsound intentionally_empty
-give @p iron_sword[use_cooldown={seconds:1,cooldown_group:"Skill"},consumable={consume_seconds:0,sound:"intentionally_empty",has_consume_particles:false},use_remainder={id:"minecraft:iron_sword",count:1,components:{"minecraft:use_cooldown":{seconds:1,cooldown_group:"Main"},"minecraft:custom_data":{Saharass:Main}}}] 1
+give @p iron_sword[use_cooldown={seconds:1,cooldown_group:"skill"},consumable={consume_seconds:0,sound:"intentionally_empty",has_consume_particles:false},use_remainder={id:"minecraft:iron_sword",count:1,components:{"minecraft:use_cooldown":{seconds:1,cooldown_group:"Main"},"minecraft:custom_data":{Saharass:Main}}}] 1
 
 
 
