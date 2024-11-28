@@ -35,3 +35,5 @@ team add HideName
 team add Players
 
 bossbar add saharass:sandbag ""
+bossbar add saharass:cave ""
+bossbar add saharass:cave_timer ""
