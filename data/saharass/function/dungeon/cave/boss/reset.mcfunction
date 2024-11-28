@@ -13,3 +13,6 @@
   setblock -28 -50 70 barrier
   setblock -28 -49 70 light[level=15]
 
+# HP非表示
+  bossbar set saharass:cave visible false
+  bossbar set saharass:cave_timer visible false
