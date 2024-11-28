@@ -9,4 +9,4 @@
   run function saharass:world/enter/
 
 # デバッグ用 マーカーに目印
-  execute as @e[type=minecraft:marker] at @s run particle minecraft:wax_off
+  execute as @e[type=minecraft:marker] at @s run particle electric_spark
