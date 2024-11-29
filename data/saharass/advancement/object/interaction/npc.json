@@ -1,29 +1,29 @@
 {
   "criteria": {
     "minister": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Minister\"]}"
         }
       }
     },
     "depositor": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Depositor\"]}"
         }
       }
     },
     "ghost": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:time_check",
+            "condition": "time_check",
             "value": {
               "min": 13000,
               "max": 23000
@@ -32,8 +32,17 @@
           }
         ],
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Ghost\"]}"
+        }
+      }
+    },
+    "storager": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Storager\"]}"
         }
       }
     }
@@ -42,7 +51,8 @@
     [
       "minister",
       "depositor",
-      "ghost"
+      "ghost",
+      "storager"
     ]
   ],
   "rewards": {

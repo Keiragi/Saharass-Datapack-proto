@@ -1,13 +1,13 @@
 {
   "criteria": {
     "Ender_pouch": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:purple_bundle",
+            "items": "purple_bundle",
             "predicates": {
-              "minecraft:bundle_contents": {
+              "bundle_contents": {
                 "items": {
                   "count": [
                     {
@@ -25,32 +25,44 @@
       }
     },
     "Get_Emerald": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:emerald"
+            "items": "emerald"
           }
         ]
       }
     },
     "Get_Emerald_Block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:emerald_block"
+            "items": "emerald_block"
           }
         ]
       }
     },
     "Item_Used": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{Used:1b}"
+              "custom_data": "{\"Used\":1b}"
+            }
+          }
+        ]
+      }
+    },
+    "Select_Menu": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": "{\"Menu\":1b}"
             }
           }
         ]
@@ -62,7 +74,8 @@
       "Ender_pouch",
       "Get_Emerald",
       "Get_Emerald_Block",
-      "Item_Used"
+      "Item_Used",
+      "Select_Menu"
     ]
   ],
   "rewards": {
