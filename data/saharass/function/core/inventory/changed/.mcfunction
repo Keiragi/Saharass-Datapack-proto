@@ -5,7 +5,7 @@ execute if entity @s[advancements={saharass:core/inventory_changed={Ender_pouch=
 
 execute if entity @s[advancements={saharass:core/inventory_changed={Item_Used=true}}] run function saharass:core/inventory/changed/used_item/
 
-execute if entity @s[advancements={saharass:core/inventory_changed={Select_Menu=true}}] run playsound entity.experience_orb.pickup
+execute if entity @s[advancements={saharass:core/inventory_changed={Select_Menu=true}}] run function saharass:core/inventory/changed/menu
 
 advancement revoke @s only saharass:core/inventory_changed
 

@@ -8,5 +8,8 @@
   execute if entity @a[scores={Leave_Game=1}] as @p[scores={Leave_Game=1}] \
   run function saharass:world/enter/
 
+# ポータルチェスト操作
+  execute as @a run function saharass:core/functional/ender_chest/main/
+
 # デバッグ用 マーカーに目印
-  execute as @e[type=minecraft:marker] at @s run particle electric_spark
+  execute as @e[type=marker] at @s run particle electric_spark

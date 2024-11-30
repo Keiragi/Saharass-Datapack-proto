@@ -1,1 +1,0 @@
-item replace entity @s enderchest.13 with nether_star

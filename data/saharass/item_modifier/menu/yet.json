@@ -1,0 +1,34 @@
+[
+  {
+    "function": "set_item",
+    "item": "barrier"
+  },
+  {
+    "function": "set_name",
+    "target": "item_name",
+    "name": {
+      "text": "未開放",
+      "color": "white"
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": "{\"Menu\":{\"Button\":\"not_yet\"}}"
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "text": "まだ登録されていない",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "アイテムです。",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  }
+]
