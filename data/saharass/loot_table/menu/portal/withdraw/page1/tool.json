@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "道具",
+                "bold": true
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "武器、防具、ツルハシ、釣竿",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Menu\":{\"Button\":\"withdraw/page2/tool\"}}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "hide_additional_tooltip": {},
+                "max_stack_size": 1,
+                "attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

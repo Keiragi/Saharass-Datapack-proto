@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "chest",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "entity": "this",
+              "name": {
+                "color": "green",
+                "text": "アイテムを預ける"
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "無限のストレージに保管され、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "自動的に仕分けられます。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "\uF824▸ クリックで進む",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:storage",
+                    "storage": "temp:",
+                    "path": "isClicked"
+                  },
+                  "range": 0
+                }
+              ]
+                },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "この欄のいずれかにアイテムを入れ、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "クリックまたは閉じると収納されます。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "\uF824▸ クリックで預ける",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:storage",
+                    "storage": "temp:",
+                    "path": "isClicked"
+                  },
+                  "range": 1
+                }
+              ]
+                },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Menu\":{\"Button\":\"deposit/\"}}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "hide_additional_tooltip": {},
+                "max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
