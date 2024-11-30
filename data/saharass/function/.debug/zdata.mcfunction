@@ -30,6 +30,7 @@ scoreboard objectives add Leave_Game minecraft.custom:leave_game
 scoreboard objectives add Death deathCount
 scoreboard objectives add GetEmerald dummy
 scoreboard objectives add Consume dummy
+scoreboard objectives add ItemStorage dummy
 
 team add HideName
 team add Players
