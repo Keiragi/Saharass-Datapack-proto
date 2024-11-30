@@ -19,13 +19,14 @@
               "function": "set_components",
               "components": {
                 "item_model": "wooden_sword",
+                "custom_model_data": 0,
                 "unbreakable": {},
                 "hide_additional_tooltip": {}
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"grade\":0}"
             },
             {
               "function": "set_lore",
@@ -55,7 +56,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"sword\",material:\"wooden\",grade:0}"
+              "tag": "{\"Saharass\":\"Main\",\"Type\":\"Wooden\",\"Class\":\"Sword\"}"
             },
             {
               "function": "set_attributes",
@@ -141,6 +142,7 @@
                     "unbreakable": {
                       "show_in_tooltip": false
                     },
+                    "item_name": "{\"color\": \"white\",\"text\":\"木の剣\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"

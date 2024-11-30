@@ -27,7 +27,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Pickaxe\":1b}"
+              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true}"
             },
             {
               "function": "set_lore",
@@ -95,7 +95,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"pickaxe\",grade:0}"
+              "tag": "{\"Saharass\":\"Tool\",\"Type\":\"Iron\",\"Class\":\"Pickaxe\"}"
             },
             {
               "function": "set_attributes",

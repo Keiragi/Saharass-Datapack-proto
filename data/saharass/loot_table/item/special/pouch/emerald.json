@@ -103,7 +103,7 @@
               "components": {
                 "use_cooldown": {
                   "seconds": 1,
-                  "cooldown_group": "Special"
+                  "cooldown_group": "special"
                 },
                 "consumable": {
                   "consume_seconds": 0,

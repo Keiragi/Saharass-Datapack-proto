@@ -55,7 +55,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"crossbow\",grade:0}"
+              "tag": "{\"Class\":\"crossbow\",grade:0}"
             },
             {
               "function": "set_custom_data",

@@ -11,7 +11,7 @@
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "鉄の原石",
+                "text": "石炭",
                 "color": "white"
               }
             },

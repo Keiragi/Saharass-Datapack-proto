@@ -56,7 +56,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"spear\",material:\"wooden\",grade:0}"
+              "tag": "{\"Class\":\"Spear\",Type:\"Wooden\",grade:0}"
             },
             {
               "function": "set_attributes",

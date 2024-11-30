@@ -46,7 +46,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{weapon:\"sword\",grade:0}"
+              "tag": "{\"Class\":\"Sword\",grade:0}"
             },
             {
               "function": "set_attributes",
