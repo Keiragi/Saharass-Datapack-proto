@@ -16,7 +16,7 @@
           "equipment": {
             "mainhand": {
               "predicates": {
-                "minecraft:custom_data": "{\"weapon\":\"spear\"}"
+                "minecraft:custom_data": "{\"Class\":\"Spear\"}"
               }
             }
           }
