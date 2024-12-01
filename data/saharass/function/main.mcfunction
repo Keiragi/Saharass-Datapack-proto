@@ -9,7 +9,7 @@
   run function saharass:world/enter/
 
 # ポータルチェスト操作
-  execute as @a run function saharass:core/functional/ender_chest/main/
+  execute as @a run function saharass:functional/ender_chest/main/
 
 # デバッグ用 マーカーに目印
   execute as @e[type=marker] at @s run particle electric_spark
