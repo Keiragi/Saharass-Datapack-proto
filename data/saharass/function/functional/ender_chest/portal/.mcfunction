@@ -1,26 +1,20 @@
 ##スロット9番目でエンダーチェストを開く
-# 演出
-  playsound block.chest.open player @s 44 1 -38 1 0.5 1
+playsound block.chest.open player @s 44 1 -38 1 0.5 1
 
-# Eチェストを開いたログが無ければEチェストデータを保存
+# ポータルチェストを新しく開いたら中のデータをtemp:とohmydat:に保存
   execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened \
   run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].EnderItems set from entity @s EnderItems
-  # アイテムリセット用データ
-    data modify storage temp: EnderItems set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].EnderItems
-
+  data modify storage temp: EnderItems set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].EnderItems
 
 # アイテムが残っていれば保存 todo
   execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened \
   if data storage temp: EnderItems[0] if items entity @s enderchest.* *[!custom_data~{Menu:{}}]
 
-# アイテムリセット
+# 使用記録のフラグ
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened set value 1b
+  data modify storage temp: isClicked set value 0
+
+# アイテムセット + 残りを埋める
   function saharass:functional/ender_chest/reset
-  # ポータルチェストを開いたことを記録
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened set value 1b
-    data modify storage temp: isClicked set value 0
-
-  # アイテムをセット
-    function saharass:functional/ender_chest/main/menu/place/open
-
-  # 余った枠を埋める
-    function saharass:functional/ender_chest/main/menu/place/empty
+  function saharass:functional/ender_chest/portal/open
+  function saharass:functional/ender_chest/main/menu/empty
