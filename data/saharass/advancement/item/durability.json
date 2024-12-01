@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "item_durability_changed",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": "{\"Class\":\"Pickaxe\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "saharass:item/tool/durability"
+  }
+}
