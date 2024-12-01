@@ -20,12 +20,21 @@
               "components": {
                 "item_model": "crossbow",
                 "unbreakable": {},
-                "hide_additional_tooltip": {}
+                "hide_additional_tooltip": {},
+                "rarity": "common"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Crossbow\"}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"grade\":0}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Crossbow\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
             },
             {
               "function": "set_lore",
@@ -52,14 +61,6 @@
                   }
                 ]
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Class\":\"crossbow\",grade:0}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ui:{enchantable:1b}}"
             },
             {
               "function": "toggle_tooltips",

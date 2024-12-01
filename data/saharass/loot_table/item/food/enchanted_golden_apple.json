@@ -27,7 +27,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":3,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Consume\"}"
+              "tag": "{\"value\":200,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"001\"}"
             },
             {
               "function": "set_lore",

@@ -22,12 +22,22 @@
                 "hide_additional_tooltip": {},
                 "minecraft:can_break": {
                   "blocks": "#saharass:mineable/iron"
-                }
+                },
+                "max_damage": 2147483647,
+                "rarity": "uncommon"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Pickaxe\",\"ItemID\":\"403\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
             },
             {
               "function": "set_lore",
@@ -94,10 +104,6 @@
               ]
             },
             {
-              "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Tool\",\"Type\":\"Iron\",\"Class\":\"Pickaxe\"}"
-            },
-            {
               "function": "set_attributes",
               "modifiers": [
                 {
@@ -108,10 +114,6 @@
                   "slot": "mainhand"
                 }
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ui:{enchantable:1b}}"
             },
             {
               "function": "toggle_tooltips",

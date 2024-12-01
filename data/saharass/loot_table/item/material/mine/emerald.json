@@ -26,7 +26,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":2,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Material\",\"Type\":\"Emerald\",\"Mine_Dropped\":1b}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Material\",\"ItemID\":\"207\"}"
             },
             {
               "function": "set_lore",

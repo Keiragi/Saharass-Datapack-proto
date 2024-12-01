@@ -21,12 +21,21 @@
                 "item_model": "diamond_sword",
                 "custom_model_data": 2,
                 "unbreakable": {},
-                "hide_additional_tooltip": {}
+                "hide_additional_tooltip": {},
+                "rarity": "epic"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":5,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Main\"}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"grade\":0}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"016\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
             },
             {
               "function": "set_lore",
@@ -43,10 +52,6 @@
                   }
                 ]
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Class\":\"Sword\",grade:0}"
             },
             {
               "function": "set_attributes",
@@ -80,10 +85,6 @@
                   "slot": "mainhand"
                 }
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ui:{enchantable:1b}}"
             },
             {
               "function": "toggle_tooltips",

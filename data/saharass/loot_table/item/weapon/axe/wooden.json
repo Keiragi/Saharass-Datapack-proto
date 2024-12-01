@@ -24,12 +24,21 @@
               "components": {
                 "item_model": "wooden_axe",
                 "unbreakable": {},
-                "hide_additional_tooltip": {}
+                "hide_additional_tooltip": {},
+                "rarity": "common"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"grade\":0}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"grade\":0}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"031\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
             },
             {
               "function": "set_lore",
@@ -56,10 +65,6 @@
                   }
                 ]
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"Type\":\"Wooden\",\"Class\":\"Axe\"}"
             },
             {
               "function": "set_attributes",
@@ -93,10 +98,6 @@
                   "slot": "mainhand"
                 }
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ui:{enchantable:1b}}"
             },
             {
               "function": "toggle_tooltips",

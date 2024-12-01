@@ -23,12 +23,21 @@
                 "minecraft:can_break": {
                   "blocks": "#saharass:mineable/stone"
                 },
-                "max_damage": 32
+                "max_damage": 2147483647,
+                "rarity": "uncommon"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Pickaxe\",\"ItemID\":\"404\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
             },
             {
               "function": "set_lore",
@@ -51,7 +60,7 @@
                     "italic": false
                   },
                   {
-                    "text": "代償に耐久力が極端に少ない。"
+                    "text": "周回による需要が高い。"
                   }
                 ],
                 {
@@ -95,10 +104,6 @@
               ]
             },
             {
-              "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Tool\",\"Type\":\"Golden\",\"Class\":\"Pickaxe\"}"
-            },
-            {
               "function": "set_attributes",
               "modifiers": [
                 {
@@ -116,10 +121,6 @@
                   "slot": "mainhand"
                 }
               ]
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ui:{enchantable:1b}}"
             },
             {
               "function": "toggle_tooltips",

@@ -27,7 +27,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":3,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Loot\",\"Type\":\"Cave\"}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Loot\",\"Type\":\"Cave\"}"
             },
             {
               "function": "set_lore",

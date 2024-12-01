@@ -26,7 +26,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"rarity\":1,\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Material\",\"Type\":\"Coal\",\"Mine_Dropped\":1b}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Material\",\"ItemID\":\"201\"}"
             },
             {
               "function": "set_lore",
