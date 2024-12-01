@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "coal",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "石炭",
+                "color": "white"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": []
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Menu\":{\"Button\":\"ore/coal\"}}"
+            },
+            {
+              "function": "set_lore",
+              "entity": "this",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "保管数 : ",
+                  "extra": [
+                    {
+                      "score": {
+                        "objective": "ItemStorage",
+                        "name": "$201"
+                      },
+                      "extra": [
+                        {
+                          "text": "個"
+                        }
+                      ]
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "reference",
+              "name": "saharass:menu/not_yet",
+              "conditions": [
+                {
+                  "condition": "value_check",
+                  "value": {
+                    "type": "score",
+                    "target": {
+                      "type": "fixed",
+                      "name": "$201"
+                    },
+                    "score": "ItemStorage"
+                  },
+                  "range": -1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

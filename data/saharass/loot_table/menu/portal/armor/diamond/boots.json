@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "diamond_boots",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "ダイヤモンドのブーツ",
+                "color": "white"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": []
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Menu\":{\"Button\":\"armor/diamond/boots\"}}"
+            },
+            {
+              "function": "set_lore",
+              "entity": "this",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "保管数 : ",
+                  "extra": [
+                    {
+                      "score": {
+                        "objective": "ItemStorage",
+                        "name": "$116"
+                      },
+                      "extra": [
+                        {
+                          "text": "個"
+                        }
+                      ]
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "reference",
+              "name": "saharass:menu/not_yet",
+              "conditions": [
+                {
+                  "condition": "value_check",
+                  "value": {
+                    "type": "score",
+                    "target": {
+                      "type": "fixed",
+                      "name": "$116"
+                    },
+                    "score": "ItemStorage"
+                  },
+                  "range": -1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

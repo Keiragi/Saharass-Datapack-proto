@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "custom_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "ポーション",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "消費することで恩恵が得られる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Menu\":{\"Button\":\"drink/\"}}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "hide_additional_tooltip": {},
+                "max_stack_size": 1,
+                "attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

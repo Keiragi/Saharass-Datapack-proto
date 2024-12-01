@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "bundle",
+          "name": "raw_iron",
           "functions": [
             {
               "function": "set_name",
@@ -13,7 +13,7 @@
               "entity": "this",
               "name": {
                 "color": "white",
-                "text": "特殊",
+                "text": "鉱石",
                 "bold": true
               }
             },
@@ -22,7 +22,7 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "text": "ポーチ、笛",
+                  "text": "採掘で得られる",
                   "color": "gray",
                   "italic": false
                 }
@@ -30,7 +30,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"withdraw/page2/special\"}}"
+              "tag": "{\"Menu\":{\"Button\":\"ore/\"}}"
             },
             {
               "function": "set_components",
@@ -41,7 +41,6 @@
                   "modifiers": [],
                   "show_in_tooltip": false
                 }
-                
               }
             }
           ]

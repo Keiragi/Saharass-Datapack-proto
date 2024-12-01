@@ -44,16 +44,16 @@
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:value_check",
+                  "condition": "value_check",
                   "value": {
-                    "type": "minecraft:storage",
+                    "type": "storage",
                     "storage": "temp:",
                     "path": "isClicked"
                   },
                   "range": 0
                 }
               ]
-                },
+            },
             {
               "function": "set_lore",
               "mode": "replace_all",
@@ -82,19 +82,19 @@
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:value_check",
+                  "condition": "value_check",
                   "value": {
-                    "type": "minecraft:storage",
+                    "type": "storage",
                     "storage": "temp:",
                     "path": "isClicked"
                   },
                   "range": 1
                 }
               ]
-                },
+            },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"deposit/\"}}"
+              "tag": "{\"Menu\":{\"Button\":\".deposit/\"}}"
             },
             {
               "function": "set_components",
