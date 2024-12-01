@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": {
+                "text": "ダイヤモンドのチェストプレート"
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "diamond_chestplate",
+                "custom_model_data": 0,
+                "unbreakable": {},
+                "hide_additional_tooltip": {},
+                "rarity": "rare"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"price\":50,\"value\":10,\"can_sell\":true,\"grade\":0}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"118\"}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"enchantable\":1b}}"
+            },
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "最高級の装備。"
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "あらゆる攻撃を防ぐ。"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "chestplate_armor",
+                  "attribute": "armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "chestplate_armor_toughness",
+                  "attribute": "armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "toggle_tooltips",
+              "toggles": {
+                "trim": false,
+                "dyed_color": false,
+                "enchantments": true,
+                "stored_enchantments": false,
+                "unbreakable": false,
+                "can_break": false,
+                "can_place_on": false,
+                "attribute_modifiers": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
