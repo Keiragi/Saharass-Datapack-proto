@@ -1,5 +1,5 @@
 # アイテムが入っていれば保存
-  execute if items entity @s enderchest.* *[!custom_data~{Menu:{}}] run function saharass:core/functional/ender_chest/main/menu/deposit/run/
+  execute if items entity @s enderchest.* *[!custom_data~{Menu:{}}] run function saharass:functional/ender_chest/main/menu/deposit/run/
 
 # アイテムの消去
   item replace entity @s enderchest.0 with air

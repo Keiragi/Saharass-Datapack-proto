@@ -4,4 +4,4 @@
   data modify storage temp: Chest set from entity @s EnderItems
 
 # 仕分け機構
-  function saharass:core/functional/ender_chest/main/menu/deposit/run/each_item
+  function saharass:functional/ender_chest/main/menu/deposit/run/each_item
