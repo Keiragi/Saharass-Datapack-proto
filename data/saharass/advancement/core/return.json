@@ -1,9 +1,9 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:changed_dimension",
+        "trigger": "changed_dimension",
         "conditions": {
-          "to": "minecraft:overworld"
+          "to": "overworld"
         }
       }
     },

@@ -1,46 +1,46 @@
 {
   "criteria": {
     "Bell": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Bell\"]}"
         }
       }
     },
     "Flower_Church": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Flower_Church\"]}"
         }
       }
     },
     "Boots_oubai": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Boots_oubai\"]}"
         }
       }
     },
     "Statue": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Statue\"]}"
         }
       }
     },
     "Golden_Flower": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"Golden_Flower\"]}"
         }
       }

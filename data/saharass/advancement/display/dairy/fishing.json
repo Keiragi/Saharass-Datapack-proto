@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:cod"
+      "id": "cod"
     },
     "title": "採集・釣りをする\uF829",
     "description": [
@@ -34,7 +34,7 @@
         "entity": [],
         "item": {}
       },
-      "trigger": "minecraft:fishing_rod_hooked"
+      "trigger": "fishing_rod_hooked"
     }
   },
   "rewards": {

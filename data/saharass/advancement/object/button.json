@@ -1,11 +1,11 @@
 {
     "criteria": {
         "moco_enter": {
-            "trigger": "minecraft:any_block_use",
+            "trigger": "any_block_use",
             "conditions": {
                 "location": [
                     {
-                        "condition": "minecraft:location_check",
+                        "condition": "location_check",
                         "predicate": {
                             "position": {
                                 "x": {
@@ -22,7 +22,7 @@
                                 }
                             },
                             "block": {
-                                "blocks": "#minecraft:buttons"
+                                "blocks": "#buttons"
                             }
                         }
                     }
@@ -30,11 +30,11 @@
             }
         },
         "moco_exit": {
-            "trigger": "minecraft:any_block_use",
+            "trigger": "any_block_use",
             "conditions": {
                 "location": [
                     {
-                        "condition": "minecraft:location_check",
+                        "condition": "location_check",
                         "predicate": {
                             "position": {
                                 "x": {
@@ -51,7 +51,7 @@
                                 }
                             },
                             "block": {
-                                "blocks": "#minecraft:buttons"
+                                "blocks": "#buttons"
                             }
                         }
                     }

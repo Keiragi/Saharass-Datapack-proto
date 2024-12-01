@@ -1,51 +1,51 @@
 {
   "criteria": {
     "Main": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":\"Main\"}"
+            "custom_data": "{\"Saharass\":\"Main\"}"
           }
         }
       }
     },
     "Sub": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":\"Sub\"}"
+            "custom_data": "{\"Saharass\":\"Sub\"}"
           }
         }
       }
     },
     "Switch": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":\"Switch\"}"
+            "custom_data": "{\"Saharass\":\"Switch\"}"
           }
         }
       }
     },
     "Special": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":\"Special\"}"
+            "custom_data": "{\"Saharass\":\"Special\"}"
           }
         }
       }
     },
     "Other": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Saharass\":\"Other\"}"
+            "custom_data": "{\"Saharass\":\"Other\"}"
           }
         }
       }

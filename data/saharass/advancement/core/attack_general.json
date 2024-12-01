@@ -7,7 +7,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft:is_player_attack"
+                "id": "is_player_attack"
               }
             ]
           }
@@ -16,35 +16,35 @@
           "equipment": {
             "mainhand": {
               "predicates": {
-                "minecraft:custom_data": "{\"Class\":\"Spear\"}"
+                "custom_data": "{\"Class\":\"Spear\"}"
               }
             }
           }
         }
       },
-      "trigger": "minecraft:player_hurt_entity"
+      "trigger": "player_hurt_entity"
     },
     "Fire_Ball": {
       "conditions": {
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:fireball",
+              "type": "fireball",
               "nbt": "{Tags:[\"Fire_Ball\"]}"
             }
           }
         }
       },
-      "trigger": "minecraft:player_hurt_entity"
+      "trigger": "player_hurt_entity"
     },
     "Sandbag_kun": {
       "conditions": {
         "entity": {
-          "type": "minecraft:slime",
+          "type": "slime",
           "nbt": "{Tags:[\"Sandbag_kun\"]}"
         }
       },
-      "trigger": "minecraft:player_hurt_entity"
+      "trigger": "player_hurt_entity"
     }
   },
   "requirements": [

@@ -13,7 +13,7 @@
     },
     "title": "Saharass",
     "description": "「あなたの思いと決意を」",
-    "background": "minecraft:textures/block/black_concrete.png",
+    "background": "textures/block/black_concrete.png",
     "show_toast": false,
     "announce_to_chat": false
   },

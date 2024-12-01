@@ -4,11 +4,11 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"Trade_Item\":1b}"
+            "custom_data": "{\"Trade_Item\":1b}"
           }
         }
       },
-      "trigger": "minecraft:villager_trade"
+      "trigger": "villager_trade"
     }
   },
   "rewards": {

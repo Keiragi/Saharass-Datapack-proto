@@ -4,14 +4,14 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:location_check",
+            "condition": "location_check",
             "predicate": {
-              "dimension": "minecraft:overworld"
+              "dimension": "overworld"
             }
           }
         ]
       },
-      "trigger": "minecraft:tick"
+      "trigger": "tick"
     }
   },
   "rewards": {

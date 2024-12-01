@@ -3,13 +3,13 @@
     "icon": {
       "id": "nether_star",
       "components": {
-        "minecraft:custom_model_data": 11,
+        "custom_model_data": 11,
         "enchantment_glint_override": false
       }
     },
     "title": "デイリータスク",
     "description": "ℹタスクは朝４時に\n\uF828\uF822リセットされます",
-    "background": "minecraft:textures/block/oak_planks.png",
+    "background": "textures/block/oak_planks.png",
     "show_toast": false,
     "announce_to_chat": false
   },

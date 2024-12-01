@@ -1,163 +1,163 @@
 {
   "criteria": {
     "to_appraiser": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_appraiser\"]}"
         }
       }
     },
     "to_blacksmith": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_blacksmith\"]}"
         }
       }
     },
     "to_cafe": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_cafe\"]}"
         }
       }
     },
     "to_campfire": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_campfire\"]}"
         }
       }
     },
     "to_cherry": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
       "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_cherry\"]}"
         }
       }
     },
     "to_church": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_church\"]}"
         }
       }
     },
     "to_depository": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_depository\"]}"
         }
       }
     },
     "to_guide": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_guide\"]}"
         }
       }
     },  
     "to_home": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_home\"]}"
         }
       }
     },
     "to_inn": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_inn\"]}"
         }
       }
     },
     "to_library": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_library\"]}"
         }
       }
     },
     "to_minesite": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_minesite\"]}"
         }
       }
     },
     "to_pond": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_pond\"]}"
         }
       }
     },
     "to_portal": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_portal\"]}"
         }
       }
     },
     "to_shop": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_shop\"]}"
         }
       }
     },
     "to_tavern": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_tavern\"]}"
         }
       }
     },
     "to_townhall": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"to_townhall\"]}"
         }
       }
     },
     "current": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[\"current\"]}"
         }
       }

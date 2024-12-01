@@ -5,7 +5,7 @@
     },
     "title": "スキルツリー",
     "description": "火、水、風、土",
-    "background": "minecraft:textures/block/stone_bricks.png",
+    "background": "textures/block/stone_bricks.png",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true

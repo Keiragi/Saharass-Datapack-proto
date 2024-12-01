@@ -4,12 +4,12 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:all_of",
+            "condition": "all_of",
             "terms": [
               {
-                "condition": "minecraft:inverted",
+                "condition": "inverted",
                 "term": {
-                  "condition": "minecraft:location_check",
+                  "condition": "location_check",
                   "predicate": {
                     "position": {
                       "x": {
@@ -29,16 +29,16 @@
                 }
               },
               {
-                "condition": "minecraft:location_check",
+                "condition": "location_check",
                 "predicate": {
-                  "dimension": "minecraft:overworld"
+                  "dimension": "overworld"
                 }
               }
             ]
           }
         ]
       },
-      "trigger": "minecraft:location"
+      "trigger": "location"
     }
   },
   "rewards": {

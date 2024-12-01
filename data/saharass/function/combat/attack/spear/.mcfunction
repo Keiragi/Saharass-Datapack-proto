@@ -1,4 +1,4 @@
-execute store result storage temp: Attack.Damage int 1 run attribute @s minecraft:attack_damage get 1
+execute store result storage temp: Attack.Damage int 1 run attribute @s attack_damage get 1
 tag @s add Spear_Attacker
 execute anchored eyes positioned ^ ^ ^ positioned ~-0.25 ~-0.25 ~-0.25 run function saharass:combat/attack/spear/hitbox
 execute as @e[tag=Spear_Attacked] run damage @s 4 saharass:knockback by @p[tag=Spear_Attacker]

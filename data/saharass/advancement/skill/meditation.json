@@ -1,18 +1,18 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:tick",
+        "trigger": "tick",
         "conditions": {
           "player": [
             {
-              "condition": "minecraft:any_of",
+              "condition": "any_of",
               "terms": [
                 {
-                  "condition": "minecraft:entity_properties",
+                  "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
                     "type_specific": {
-                      "type": "minecraft:player",
+                      "type": "player",
                       "input": {
                         "forward": true
                       }
@@ -20,11 +20,11 @@
                   }
                 },
                 {
-                  "condition": "minecraft:entity_properties",
+                  "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
                     "type_specific": {
-                      "type": "minecraft:player",
+                      "type": "player",
                       "input": {
                         "backward": true
                       }
@@ -32,11 +32,11 @@
                   }
                 },
                 {
-                  "condition": "minecraft:entity_properties",
+                  "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
                     "type_specific": {
-                      "type": "minecraft:player",
+                      "type": "player",
                       "input": {
                         "left": true
                       }
@@ -44,11 +44,11 @@
                   }
                 },
                 {
-                  "condition": "minecraft:entity_properties",
+                  "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
                     "type_specific": {
-                      "type": "minecraft:player",
+                      "type": "player",
                       "input": {
                         "right": true
                       }
@@ -56,11 +56,11 @@
                   }
                 },
                 {
-                  "condition": "minecraft:entity_properties",
+                  "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
                     "type_specific": {
-                      "type": "minecraft:player",
+                      "type": "player",
                       "input": {
                         "jump": true
                       }

@@ -1,7 +1,7 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:slept_in_bed"
+        "trigger": "slept_in_bed"
       }
     },
     "rewards": {

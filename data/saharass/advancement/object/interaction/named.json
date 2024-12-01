@@ -1,28 +1,28 @@
 {
   "criteria": {
     "tetoshia": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[tetoshia]}"
         }
       }
     },
     "oubai": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[oubai]}"
         }
       }
     },
     "moco": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
+          "type": "interaction",
           "nbt": "{Tags:[moco]}"
         }
       }

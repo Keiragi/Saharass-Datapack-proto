@@ -2,39 +2,39 @@
   "criteria": {
     "Blast_Iron": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+        "recipe_id": "iron_ingot_from_blasting_raw_iron"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     },
     "Smelt_Iron": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_smelting_raw_iron"
+        "recipe_id": "iron_ingot_from_smelting_raw_iron"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     },
     "Smelt_Gold": {
       "conditions": {
-        "recipe_id": "minecraft:gold_ingot_from_smelting_raw_gold"
+        "recipe_id": "gold_ingot_from_smelting_raw_gold"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     },
     "Blast_Gold": {
       "conditions": {
-        "recipe_id": "minecraft:gold_ingot_from_blasting_raw_gold"
+        "recipe_id": "gold_ingot_from_blasting_raw_gold"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     },
     "Smelt_Copper": {
       "conditions": {
-        "recipe_id": "minecraft:copper_ingot_from_smelting_raw_copper"
+        "recipe_id": "copper_ingot_from_smelting_raw_copper"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     },
     "Blast_Copper": {
       "conditions": {
-        "recipe_id": "minecraft:copper_ingot_from_blasting_raw_copper"
+        "recipe_id": "copper_ingot_from_blasting_raw_copper"
       },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "recipe_crafted"
     }
   },
   "requirements": [

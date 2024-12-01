@@ -1,55 +1,55 @@
 {
     "criteria": {
       "Chair": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Chair\"]}"
           }
         }
       },
       "Deposit": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Deposit\"]}"
           }
         }
       },
       "Deposit2": {
-        "trigger": "minecraft:player_hurt_entity",
+        "trigger": "player_hurt_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Deposit\"]}"
           }
         }
       },
       "Escape": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Escape_Portal\"]}"
           }
         }
       },
       "Next_Floor": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Next_Floor\"]}"
           }
         }
       },
       "Summon_Altar": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:interaction",
+            "type": "interaction",
             "nbt": "{Tags:[\"Summon_Altar\"]}"
           }
         }
