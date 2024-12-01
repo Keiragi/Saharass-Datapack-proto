@@ -12,6 +12,13 @@
     }
   },
   {
+    "function": "set_components",
+    "components": {
+      "hide_additional_tooltip": {},
+      "max_stack_size": 1
+    }
+  },
+  {
     "function": "set_custom_data",
     "tag": "{\"Menu\":{\"Button\":\"not_yet\"}}"
   },
