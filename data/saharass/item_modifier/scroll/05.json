@@ -1,62 +1,61 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "target": "item_name",
-      "name": [
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE302",
+        "color": "yellow"
+      },
+      {
+        "text": " 灯火",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "光を受けて体力を回復する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "場所の明るさによって回復量が変わる。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
         {
-          "text": "\uE302", 
-          "color": "yellow"
+          "text": "属性：",
+          "color": "white",
+          "italic": false
         },
         {
-          "text": " 灯火",
-          "color": "red"
+          "text": "\uE001"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE202"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-        {
-          "text": "光を受けて体力を回復する。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "場所の明るさによって回復量が変わる。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
-        [
-          {
-            "text": "属性：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE001"
-          }
-        ],
-        [
-          {
-            "text": "コスト：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE203\uE203\uE202"
-          }
-        ]
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{\"Saharass\":\"Sub\",Number:05}"
-    }
-  ]
-  
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Sub\",Number:05}"
+  }
+]

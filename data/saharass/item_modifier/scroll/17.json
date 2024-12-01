@@ -1,62 +1,61 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "target": "item_name",
-      "name": [
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE302",
+        "color": "yellow"
+      },
+      {
+        "text": " コンジット",
+        "color": "aqua"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "海洋の心の加護を受ける。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "近くの相手を自動的に攻撃する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
         {
-          "text": "\uE302", 
-          "color": "yellow"
+          "text": "属性：",
+          "color": "white",
+          "italic": false
         },
         {
-          "text": " コンジット",
-          "color": "aqua"
+          "text": "\uE002"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE202"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-        {
-          "text": "海洋の心の加護を受ける。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "近くの相手を自動的に攻撃する。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
-        [
-          {
-            "text": "属性：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE002"
-          }
-        ],
-        [
-          {
-            "text": "コスト：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE203\uE203\uE202"
-          }
-        ]
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{\"Saharass\":\"Sub\",Number:17}"
-    }
-  ]
-  
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Sub\",Number:17}"
+  }
+]

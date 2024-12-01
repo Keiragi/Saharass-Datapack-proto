@@ -1,64 +1,63 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "target": "item_name",
-      "name": [
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE301",
+        "color": "yellow"
+      },
+      {
+        "text": " ユグドラシル",
+        "color": "gold",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "異世界の巨大樹の根を召喚する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "相手の防御力を無視して攻撃する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
         {
-          "text": "\uE301", 
-          "color": "yellow"
+          "text": "属性：",
+          "color": "white",
+          "italic": false
         },
         {
-          "text": " ユグドラシル",
-          "color": "gold",
-          "bold": true
+          "text": "\uE004",
+          "color": "#00ffb7"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE201\uE201\uE201"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-        {
-          "text": "異世界の巨大樹の根を召喚する。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "相手の防御力を無視して攻撃する。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
-        [
-          {
-            "text": "属性：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE004",
-            "color": "#00ffb7"
-          }
-        ],
-        [
-          {
-            "text": "コスト：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE201\uE201\uE201"
-          }
-        ]
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{\"Saharass\":\"Switch\",Number:40}"
-    }
-  ]
-  
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Switch\",Number:40}"
+  }
+]

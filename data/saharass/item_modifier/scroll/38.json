@@ -1,62 +1,61 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "target": "item_name",
-      "name": [
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE302",
+        "color": "yellow"
+      },
+      {
+        "text": " じゅうりょく",
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "相手の重力を強くして空へ飛べなくする。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "地上の相手は足が遅くなる。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
         {
-          "text": "\uE302", 
-          "color": "yellow"
+          "text": "属性：",
+          "color": "white",
+          "italic": false
         },
         {
-          "text": " じゅうりょく",
-          "color": "gold"
+          "text": "\uE004"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE202"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-        {
-          "text": "相手の重力を強くして空へ飛べなくする。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "地上の相手は足が遅くなる。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
-        [
-          {
-            "text": "属性：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE004"
-          }
-        ],
-        [
-          {
-            "text": "コスト：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE203\uE203\uE202"
-          }
-        ]
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{\"Saharass\":\"Sub\",Number:38}"
-    }
-  ]
-  
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Sub\",Number:38}"
+  }
+]

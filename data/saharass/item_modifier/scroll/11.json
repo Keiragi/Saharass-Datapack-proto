@@ -1,62 +1,61 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "target": "item_name",
-      "name": [
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": [
+      {
+        "text": "\uE301",
+        "color": "yellow"
+      },
+      {
+        "text": " ウォータ",
+        "color": "aqua"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "圧縮した水の弾を放つ。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "弾は2回貫通する。",
+        "color": "#D8D8D8",
+        "italic": false
+      },
+      {
+        "text": "                          ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      [
         {
-          "text": "\uE301", 
-          "color": "yellow"
+          "text": "属性：",
+          "color": "white",
+          "italic": false
         },
         {
-          "text": " ウォータ",
-          "color": "aqua"
+          "text": "\uE002"
+        }
+      ],
+      [
+        {
+          "text": "コスト：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "\uE203\uE203\uE202"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-        {
-          "text": "圧縮した水の弾を放つ。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "弾は2回貫通する。",
-          "color": "#D8D8D8",
-          "italic": false
-        },
-        {
-          "text": "                          ",
-          "color": "dark_gray",
-          "strikethrough": true
-        },
-        [
-          {
-            "text": "属性：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE002"
-          }
-        ],
-        [
-          {
-            "text": "コスト：",
-            "color": "white",
-            "italic": false
-          },
-          {
-            "text": "\uE203\uE203\uE202"
-          }
-        ]
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{\"Saharass\":\"Switch\",Number:11}"
-    }
-  ]
-  
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"Saharass\":\"Switch\",Number:11}"
+  }
+]
