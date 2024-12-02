@@ -32,7 +32,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Other\",\"ItemID\":0,\"Cursed\":1b}"
+              "tag": "{\"Saharass\":\"Other\",\"ItemID\":999,\"Cursed\":1b}"
             },
             {
               "function": "set_lore",
@@ -125,7 +125,7 @@
                     "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/other/0\"}",
                     "item_model": "spider_eye",
                     "item_name": "{\"color\":\"#850f0f\",\"bold\":true,\"underlined\":true,\"text\":\"天使の心臓\"}",
-                    "custom_model_data": 0,
+                    "custom_model_data": 1,
                     "use_cooldown": {
                       "seconds": 10,
                       "cooldown_group": "heart"

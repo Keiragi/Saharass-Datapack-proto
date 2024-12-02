@@ -5,25 +5,31 @@
       "entries": [
         {
           "type": "item",
-          "name": "black_stained_glass_pane",
+          "name": "fishing_rod",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
+              "entity": "this",
               "name": {
-                "text": ""
+                "color": "white",
+                "text": "釣竿",
+                "bold": true
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Empty\":1b}}"
+              "tag": "{\"Menu\":{\"Button\":\"fishing/\"}}"
             },
             {
               "function": "set_components",
               "components": {
-                "hide_tooltip": {},
                 "hide_additional_tooltip": {},
-                "max_stack_size": 1
+                "max_stack_size": 1,
+                "attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
               }
             }
           ]
