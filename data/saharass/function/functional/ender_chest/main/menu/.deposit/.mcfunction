@@ -1,4 +1,4 @@
-execute if items entity @s enderchest.* *[!custom_data~{Menu:{}}] \
+execute if items entity @s enderchest.* *[!custom_data~{Display:1b}] \
 run playsound entity.player.teleport player @s ~ ~ ~ 1 2
 # GUI復帰
   data modify storage temp: isClicked set value 1

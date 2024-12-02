@@ -9,7 +9,7 @@
   run function saharass:world/enter/
 
 # ポータルチェスト操作
-  execute as @a if items entity @s player.cursor *[custom_data~{Menu:{}}] at @s \
+  execute as @a if items entity @s player.cursor *[custom_data~{Display:1b}] at @s \
   run function saharass:functional/ender_chest/main/clicked
 
 
