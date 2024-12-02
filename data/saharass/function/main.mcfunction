@@ -9,7 +9,9 @@
   run function saharass:world/enter/
 
 # ポータルチェスト操作
-  execute as @a run function saharass:functional/ender_chest/main/
+  execute as @a if items entity @s player.cursor *[custom_data~{Menu:{}}] at @s \
+  run function saharass:functional/ender_chest/main/clicked
+
 
 # デバッグ用 マーカーに目印
   execute as @e[type=marker] at @s run particle electric_spark
