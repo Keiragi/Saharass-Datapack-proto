@@ -45,7 +45,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"hub\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\".hub/\"}}"
             },
             {
               "function": "set_components",
