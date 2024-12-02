@@ -4,7 +4,7 @@
   scoreboard players operation #tooltip ItemStorage = #count ItemStorage
 
 # オーバーフロー対策
-  execute if score #count ItemStorage matches 0 run scoreboard players set #count ItemStorage 1
+  execute if score #count ItemStorage matches ..0 run scoreboard players set #count ItemStorage 1
   execute if score #count ItemStorage matches 100.. run scoreboard players set #count ItemStorage 99
 
 # 表示用のアイテム編集

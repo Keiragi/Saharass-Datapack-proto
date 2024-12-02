@@ -56,15 +56,15 @@
     "conditions": [
       {
         "condition": "value_check",
-        "range": -1,
         "value": {
           "type": "score",
-          "score": "ItemStorage",
           "target": {
             "type": "fixed",
-            "name": "#count"
-          }
-        }
+            "name": "#tooltip"
+          },
+          "score": "ItemStorage"
+        },
+        "range": -1
       }
     ]
   }

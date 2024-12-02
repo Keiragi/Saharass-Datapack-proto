@@ -15,7 +15,8 @@
     "function": "set_components",
     "components": {
       "hide_additional_tooltip": {},
-      "max_stack_size": 1
+      "max_stack_size": 1,
+      "item_model": "barrier"
     }
   },
   {
