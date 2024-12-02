@@ -6,9 +6,13 @@
   playsound entity.player.levelup player @s ~ ~ ~ 1 0.5
   tellraw @s [{"bold":true,"color":"yellow","text":"\n 思いと決意の空間\n"},{"bold":false,"color":"white","text":" -The Sky Blessingより-\n"}]
 
+function #oh_my_dat:please
 
 # プレイヤー名を個人ストレージに保存
   function saharass:core/data/get/player_name
+
+# メニューの設定
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChest.Scroll set from storage menu: PortalChest.Scroll
 
 # 初期設定
   team join Players @s
