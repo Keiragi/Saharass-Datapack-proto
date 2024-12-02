@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "crossbow",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "クロスボウ",
+                "bold": true
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"crossbow/\"}}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_model_data": 0,
+                "hide_additional_tooltip": {},
+                "max_stack_size": 1,
+                "attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
