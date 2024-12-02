@@ -62,7 +62,7 @@
         "items": [
           {
             "predicates": {
-              "custom_data": "{\"Menu\":{}}"
+              "custom_data": "{\"Display\":1b}"
             }
           }
         ]
