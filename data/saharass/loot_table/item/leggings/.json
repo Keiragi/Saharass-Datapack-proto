@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"leggings/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"leggings/\"}}"
             },
             {
               "function": "set_components",

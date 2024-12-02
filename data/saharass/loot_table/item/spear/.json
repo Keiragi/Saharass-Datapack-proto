@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"spear/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"spear/\"}}"
             },
             {
               "function": "set_components",

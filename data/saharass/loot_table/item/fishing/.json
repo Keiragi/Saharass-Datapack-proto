@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"fishing/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"fishing/\"}}"
             },
             {
               "function": "set_components",

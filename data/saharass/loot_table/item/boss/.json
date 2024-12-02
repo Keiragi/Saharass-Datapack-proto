@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"boss/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"boss/\"}}"
             },
             {
               "function": "set_components",

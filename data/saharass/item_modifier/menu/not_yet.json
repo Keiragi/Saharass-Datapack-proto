@@ -20,10 +20,11 @@
   },
   {
     "function": "set_custom_data",
-    "tag": "{\"Menu\":{\"Button\":\"not_yet\"}}"
+    "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"not_yet\"}}"
   },
   {
     "function": "set_lore",
+    "mode": "replace_all",
     "lore": [
       {
         "text": "まだ登録されていない",
@@ -35,7 +36,6 @@
         "color": "gray",
         "italic": false
       }
-    ],
-    "mode": "replace_all"
+    ]
   }
 ]

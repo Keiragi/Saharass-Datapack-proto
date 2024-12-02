@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"helmet/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"helmet/\"}}"
             },
             {
               "function": "set_components",

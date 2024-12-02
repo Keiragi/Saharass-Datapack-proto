@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"dagger/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"dagger/\"}}"
             },
             {
               "function": "set_components",
