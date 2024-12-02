@@ -6,10 +6,6 @@ playsound block.chest.open player @s 44 1 -38 1 0.5 1
   run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].EnderItems set from entity @s EnderItems
   data modify storage temp: EnderItems set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].EnderItems
 
-# アイテムが残っていれば保存 todo
-  execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened \
-  if data storage temp: EnderItems[0] if items entity @s enderchest.* *[!custom_data~{Menu:{}}]
-
 # 使用記録のフラグ
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PortalChestOpened set value 1b
   data modify storage temp: isClicked set value 0
