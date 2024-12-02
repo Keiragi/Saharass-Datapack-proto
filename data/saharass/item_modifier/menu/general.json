@@ -1,0 +1,71 @@
+[
+  {
+    "function": "set_attributes",
+    "modifiers": []
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "max_stack_size": 99
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": "{\"Display\":1b}"
+  },
+  {
+    "function": "set_lore",
+    "entity": "this",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "保管数 : ",
+        "extra": [
+          {
+            "score": {
+              "objective": "ItemStorage",
+              "name": "#tooltip"
+            },
+            "extra": [
+              {
+                "text": "個"
+              }
+            ]
+          }
+        ],
+        "color": "white",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_count",
+    "add": false,
+    "count": {
+      "type": "score",
+      "score": "ItemStorage",
+      "target": {
+        "type": "fixed",
+        "name": "#count"
+      }
+    }
+  },
+  {
+    "function": "reference",
+    "name": "saharass:menu/not_yet",
+    "conditions": [
+      {
+        "condition": "value_check",
+        "range": -1,
+        "value": {
+          "type": "score",
+          "score": "ItemStorage",
+          "target": {
+            "type": "fixed",
+            "name": "#count"
+          }
+        }
+      }
+    ]
+  }
+]
