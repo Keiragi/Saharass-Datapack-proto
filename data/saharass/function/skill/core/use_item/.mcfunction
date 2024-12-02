@@ -5,7 +5,7 @@
   function #oh_my_dat:please
 
 # アイテムストレージ初期化
-  data remove storage item: Set
+  data remove storage temp: Set
 
 # Switch,Special,Otherは常に発動
   function saharass:skill/core/use_item/always

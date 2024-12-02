@@ -1,4 +1,4 @@
 #スキルの名前、スクロールのタイプを設定
-data modify storage item: Set.Name set value "いのちのしずく"
-data modify storage item: Set.Color set value "aqua"
-data modify storage item: Set.Seconds set value "4"
+data modify storage temp: Set.Name set value "いのちのしずく"
+data modify storage temp: Set.Color set value "aqua"
+data modify storage temp: Set.Seconds set value "4"

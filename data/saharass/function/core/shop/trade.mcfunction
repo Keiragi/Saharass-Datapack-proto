@@ -7,7 +7,7 @@ execute if items entity @s player.cursor *[custom_data~{Trade_Item:1b}] run func
 execute if items entity @s container.* *[custom_data~{Trade_Item:1b}] run function saharass:core/shop/inventory/
 
 #エメラルドポーチの返却
-loot spawn ~ ~ ~ loot saharass:item/special/pouch/emerald
+loot spawn ~ ~ ~ loot saharass:item/special/emerald_pouch
 data modify entity @n[type=item] PickupDelay set value 0
 
 clear @s *[custom_data~{Trade_Item:1b}]

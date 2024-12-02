@@ -1,3 +1,3 @@
 #スキルの名前、スクロールのタイプを設定
-data modify storage item: Set.Name set value "空のスクロール"
-data modify storage item: Set.Color set value "white"
+data modify storage temp: Set.Name set value "空のスクロール"
+data modify storage temp: Set.Color set value "white"
