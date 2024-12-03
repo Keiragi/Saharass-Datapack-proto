@@ -195,21 +195,6 @@
           }
         }
       }
-    },
-    "return_hometown": {
-      "trigger": "location",
-      "conditions": {
-        "player": {
-          "location": {
-            "dimension": "saharass:space",
-            "position": {
-              "y": {
-                "max": 55
-              }
-            }
-          }
-        }
-      }
     }
   },
   "requirements": [
@@ -221,8 +206,7 @@
       "passive",
       "on_portal",
       "out_town",
-      "in_cemetery",
-      "return_hometown"
+      "in_cemetery"
     ]
   ],
   "rewards": {
