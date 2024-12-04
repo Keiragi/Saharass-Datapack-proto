@@ -15,4 +15,4 @@
   execute unless dimension overworld run function saharass:skill/core/use_item/in_dungeon
 
 # 検知進捗削除
-  advancement revoke @s only saharass:core/use_item
+  advancement revoke @s only saharass:item/use_item
