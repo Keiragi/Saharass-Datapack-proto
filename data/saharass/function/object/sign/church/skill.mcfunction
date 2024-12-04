@@ -13,7 +13,7 @@ execute if entity @s[tag=UseWind] run function saharass:object/sign/church/tellr
 execute if entity @s[tag=UseEarth] run function saharass:object/sign/church/tellraw/earth/
 
 #tellrawの出力
-function saharass:object/sign/church/tellraw/tellraw with storage skill: set.add
+function saharass:object/sign/church/tellraw/tellraw with storage temp: set.add
 
 #クリックするまで検知し続ける関数
 function saharass:object/sign/church/tellraw/core/schedule
