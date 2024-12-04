@@ -1,7 +1,6 @@
 [
   {
-    "function": "minecraft:set_name",
-    "target": "item_name",
+    "function": ""target": "item_name",
     "name": [
       {
         "text": "\uE301",
@@ -14,8 +13,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
-    "lore": [
+    "function": ""lore": [
       {
         "text": "小さな風で地上の相手を打ち上げる。",
         "color": "#D8D8D8",
@@ -55,7 +53,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_custom_data",
+    "function": "_data",
     "tag": "{\"Saharass\":\"Switch\",Number:21}"
   }
 ]

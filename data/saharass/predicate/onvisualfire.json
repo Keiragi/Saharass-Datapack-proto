@@ -1,8 +1,7 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{HasVisualFire:1b}"
-    }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{HasVisualFire:1b}"
   }
-  
+}

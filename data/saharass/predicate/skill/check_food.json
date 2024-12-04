@@ -1,14 +1,14 @@
 {
-  "condition": "minecraft:value_check",
+  "condition": "value_check",
   "range": {
     "min": {
-      "type": "minecraft:storage",
+      "type": "storage",
       "path": "Skill.Cost",
       "storage": "temp:"
     }
   },
   "value": {
-    "type": "minecraft:score",
+    "type": "score",
     "score": "Food",
     "target": "this"
   }

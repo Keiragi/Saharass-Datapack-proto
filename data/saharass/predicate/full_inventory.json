@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:all_of",
+  "condition": "all_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -15,7 +15,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -41,7 +41,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -54,7 +54,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -67,7 +67,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -80,7 +80,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -93,7 +93,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -119,7 +119,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -145,7 +145,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -158,7 +158,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -171,7 +171,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -184,7 +184,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -197,7 +197,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -223,7 +223,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -236,7 +236,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -249,7 +249,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -262,7 +262,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -275,7 +275,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -288,7 +288,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -301,7 +301,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -314,7 +314,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -327,7 +327,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -340,7 +340,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -353,7 +353,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -366,7 +366,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -379,7 +379,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -392,7 +392,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -405,7 +405,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -418,7 +418,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -431,7 +431,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -444,7 +444,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {
@@ -457,7 +457,7 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "condition": "entity_properties",
       "entity": "this",
       "predicate": {
         "slots": {

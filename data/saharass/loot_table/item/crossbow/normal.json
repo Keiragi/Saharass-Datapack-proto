@@ -92,8 +92,8 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/crossbow/normal\"}",
-                    "minecraft:item_model": "crossbow",
-                    "minecraft:custom_model_data": 0,
+                    "item_model": "crossbow",
+                    "custom_model_data": 0,
                     "attribute_modifiers": {
                       "modifiers": [
                         {

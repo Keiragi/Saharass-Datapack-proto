@@ -1,11 +1,11 @@
 {
-  "condition": "minecraft:entity_properties",
+  "condition": "entity_properties",
   "entity": "this",
   "predicate": {
     "slots": {
       "inventory.8": {
         "predicates": {
-          "minecraft:custom_data": "{\"Ender_Pouch\":1b}"
+          "custom_data": "{\"Ender_Pouch\":1b}"
         }
       }
     }

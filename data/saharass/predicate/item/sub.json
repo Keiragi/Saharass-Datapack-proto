@@ -1,11 +1,11 @@
 {
-  "condition": "minecraft:entity_properties",
+  "condition": "entity_properties",
   "entity": "this",
   "predicate": {
     "equipment": {
       "mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{\"Saharass\":\"Sub\"}"
+          "custom_data": "{\"Saharass\":\"Sub\"}"
         }
       }
     }

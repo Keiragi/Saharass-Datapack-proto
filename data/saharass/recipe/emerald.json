@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "category": "equipment",
   "key": {
-    "/": "minecraft:stick",
-    "#": "minecraft:amethyst_shard"
+    "/": "stick",
+    "#": "amethyst_shard"
   },
   "pattern": [
     "#",
@@ -11,7 +11,7 @@
     "/"
   ],
   "result": {
-    "id": "minecraft:iron_sword"
+    "id": "iron_sword"
   },
   "show_notification": true
 }

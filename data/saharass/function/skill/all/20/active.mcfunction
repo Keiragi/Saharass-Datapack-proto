@@ -5,5 +5,5 @@ execute positioned ~ ~0.5 ~ rotated 0 0 summon area_effect_cloud run function sa
 
 stopsound @a[distance=..5]
 
-#playsound minecraft:block.amethyst_block.resonate player @a[distance=..16] ~ ~ ~ 1 1
-playsound minecraft:block.amethyst_block.chime player @a[distance=..16] ~ ~ ~ 1 1
+#playsound block.amethyst_block.resonate player @a[distance=..16] ~ ~ ~ 1 1
+playsound block.amethyst_block.chime player @a[distance=..16] ~ ~ ~ 1 1

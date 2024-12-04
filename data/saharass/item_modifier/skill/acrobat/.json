@@ -1,12 +1,12 @@
 [
   {
-    "function": "minecraft:set_enchantments",
+    "function": "set_enchantments",
     "enchantments": {
-      "minecraft:binding_curse": 1
+      "binding_curse": 1
     },
     "conditions": [
       {
-        "condition": "minecraft:entity_scores",
+        "condition": "entity_scores",
         "entity": "this",
         "scores": {
           "Acrobat": 1
@@ -15,13 +15,13 @@
     ]
   },
   {
-    "function": "minecraft:set_components",
+    "function": "set_components",
     "components": {
-      "minecraft:glider": {}
+      "glider": {}
     },
     "conditions": [
       {
-        "condition": "minecraft:entity_scores",
+        "condition": "entity_scores",
         "entity": "this",
         "scores": {
           "Acrobat": 1
@@ -30,30 +30,30 @@
     ]
   },
   {
-    "function": "minecraft:set_components",
+    "function": "set_components",
     "components": {
-      "!minecraft:glider": {}
+      "!glider": {}
     },
     "conditions": [
       {
-        "condition": "minecraft:all_of",
+        "condition": "all_of",
         "terms": [
           {
-            "condition": "minecraft:entity_scores",
+            "condition": "entity_scores",
             "entity": "this",
             "scores": {
               "Acrobat": 0
             }
           },
           {
-            "condition": "minecraft:inverted",
+            "condition": "inverted",
             "term": {
-              "condition": "minecraft:entity_properties",
+              "condition": "entity_properties",
               "entity": "this",
               "predicate": {
                 "equipment": {
                   "chest": {
-                    "items": "minecraft:elytra"
+                    "items": "elytra"
                   }
                 }
               }
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "function": "minecraft:set_enchantments",
+    "function": "set_enchantments",
     "enchantments": {
-      "minecraft:binding_curse": 0
+      "binding_curse": 0
     },
     "add": false,
     "conditions": [
       {
-        "condition": "minecraft:entity_scores",
+        "condition": "entity_scores",
         "entity": "this",
         "scores": {
           "Acrobat": 0
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "entity": "this",
     "lore": [
       {
@@ -94,7 +94,7 @@
     "size": 1,
     "conditions": [
       {
-        "condition": "minecraft:entity_scores",
+        "condition": "entity_scores",
         "entity": "this",
         "scores": {
           "Acrobat": 1
@@ -103,15 +103,14 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
-    "lore": [
-    ],
+    "function": "set_lore",
+    "lore": [],
     "mode": "replace_section",
     "offset": 0,
     "size": 1,
     "conditions": [
       {
-        "condition": "minecraft:entity_scores",
+        "condition": "entity_scores",
         "entity": "this",
         "scores": {
           "Acrobat": 0
@@ -120,18 +119,18 @@
     ]
   },
   {
-    "function": "minecraft:set_name",
+    "function": "set_name",
     "name": {
       "text": "アクロバット"
     },
     "conditions": [
       {
-        "condition": "minecraft:entity_properties",
+        "condition": "entity_properties",
         "entity": "this",
         "predicate": {
           "equipment": {
             "chest": {
-              "items": "minecraft:feather"
+              "items": "feather"
             }
           }
         }

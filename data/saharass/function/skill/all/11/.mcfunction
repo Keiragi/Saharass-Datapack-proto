@@ -1,5 +1,5 @@
 title @s actionbar [{"color":"aqua","text":"ウォータ"}]
-playsound minecraft:entity.fish.swim player @a[distance=..16] ~ ~ ~ 0.7 1.5
+playsound entity.fish.swim player @a[distance=..16] ~ ~ ~ 0.7 1.5
 
 effect give @s hunger 1 39 true
 

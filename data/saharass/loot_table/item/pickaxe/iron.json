@@ -20,7 +20,7 @@
               "components": {
                 "item_model": "iron_pickaxe",
                 "hide_additional_tooltip": {},
-                "minecraft:can_break": {
+                "can_break": {
                   "blocks": "#saharass:mineable/iron"
                 },
                 "max_damage": 2147483647,

@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:set_name",
+    "function": "set_name",
     "target": "item_name",
     "name": [
       {
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "lore": [
       {
         "text": "炎を長いビーム状に収束して発射する。",
@@ -56,7 +56,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_custom_data",
+    "function": "set_custom_data",
     "tag": "{\"Saharass\":\"Switch\",Number:07}"
   }
 ]

@@ -3,7 +3,7 @@
 #（攻撃力）×（10 + スキル）/10 + （レベル）
 
 # attribute getすると取得が2tick前くらいの手持ちになるのでSelectedItemから取得
-  #execute store result score $Strength DamageCalculation run data get entity @s attributes.[{id:"minecraft:attack_damage"}].base
+#execute store result score $Strength DamageCalculation run data get entity @s attributes.[{id:"minecraft:attack_damage"}].base
   execute store result score $Strength DamageCalculation run attribute @s attack_damage base get
   execute store result score $Weapon DamageCalculation run data get entity @s SelectedItem.components.minecraft:attribute_modifiers.modifiers.[{id:"minecraft:weapon_attack_damage"}].amount
 

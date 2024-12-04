@@ -1,12 +1,10 @@
 {
-  "type": "minecraft:blasting",
+  "type": "blasting",
   "cookingtime": 60,
   "group": "material",
-  "ingredient": "minecraft:raw_gold",
+  "ingredient": "raw_gold",
   "result": {
-    "id": "minecraft:gold_ingot",
-    "components": {
-      
-    }
+    "id": "gold_ingot",
+    "components": {}
   }
 }

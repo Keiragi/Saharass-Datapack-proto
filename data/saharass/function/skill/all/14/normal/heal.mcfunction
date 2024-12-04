@@ -1,4 +1,4 @@
-playsound minecraft:entity.cat.ambient player @s ~ ~ ~ 0.5 1.3
+playsound entity.cat.ambient player @s ~ ~ ~ 0.5 1.3
 particle heart ~ ~2 ~ 0 0 0 0 1 normal @a
 
 

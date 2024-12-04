@@ -1,5 +1,5 @@
 #演出
-playsound minecraft:item.mace.smash_ground_heavy player @a[distance=..16] ~ ~ ~ 1 0.8 0.1
+playsound item.mace.smash_ground_heavy player @a[distance=..16] ~ ~ ~ 1 0.8 0.1
 title @s actionbar [{"color":"gold","obfuscated":true,"text":"A"},{"bold":true,"obfuscated":false,"text":" ユグドラシル "},{"obfuscated":true,"text":"A"}]
 #空腹
 effect give @s hunger 1 239 true

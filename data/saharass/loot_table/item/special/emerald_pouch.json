@@ -21,7 +21,7 @@
                 "item_model": "lime_bundle",
                 "enchantment_glint_override": true,
                 "hide_additional_tooltip": {},
-                "!minecraft:bundle_contents": {},
+                "!bundle_contents": {},
                 "max_stack_size": 1
               }
             },
@@ -115,9 +115,9 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Used\":1b,\"Loottable\":\"saharass:item/special/emerald_pouch\"}",
-                    "minecraft:item_model": "lime_bundle",
-                    "minecraft:custom_model_data": 0,
-                    "!minecraft:bundle_contents": {},
+                    "item_model": "lime_bundle",
+                    "custom_model_data": 0,
+                    "!bundle_contents": {},
                     "item_name": "{\"color\":\"green\",\"text\":\"エメラルドポーチ\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",

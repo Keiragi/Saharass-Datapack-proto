@@ -9,7 +9,7 @@
   particle firework ~ ~1 ~8 0.2 1 0.2 0.005 10
   particle firework ~ ~1 ~-8 0.2 1 0.2 0.005 10
   playsound item.firecharge.use player @a[distance=..16] ~ ~ ~ 1 1.3 0.1
-  playsound minecraft:block.bell.use player @a[distance=..16] ~ ~ ~ 1 0.7 0.1
+  playsound block.bell.use player @a[distance=..16] ~ ~ ~ 1 0.7 0.1
 
 # コスト
   effect give @s[tag=!HeatUP] hunger 1 79 true

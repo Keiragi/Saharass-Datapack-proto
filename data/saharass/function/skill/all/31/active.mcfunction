@@ -1,7 +1,7 @@
 #演出
-playsound minecraft:block.gravel.break player @a[distance=..16] ~ ~ ~ 1 0.5 0.1
-playsound minecraft:entity.blaze.hurt player @a[distance=..16] ~ ~ ~ 1 0.7 0.1
-particle block{block_state:"minecraft:dirt"} ~ ~ ~ 5 0 5 1 200 normal
+playsound block.gravel.break player @a[distance=..16] ~ ~ ~ 1 0.5 0.1
+playsound entity.blaze.hurt player @a[distance=..16] ~ ~ ~ 1 0.7 0.1
+particle block{block_state:"dirt"} ~ ~ ~ 5 0 5 1 200 normal
 execute positioned ~ ~0.5 ~ rotated 0 0 summon area_effect_cloud run function saharass:skill/all/31/aec
 title @s actionbar [{"color":"gold","text":"アース"}]
 #空腹

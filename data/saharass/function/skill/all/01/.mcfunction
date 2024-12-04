@@ -1,5 +1,5 @@
 # 演出
-  playsound minecraft:item.firecharge.use player @a[distance=..16] ~ ~1 ~ 0.5 1.4
+  playsound item.firecharge.use player @a[distance=..16] ~ ~1 ~ 0.5 1.4
   title @s actionbar [{"color":"red","text":"ファイア"}]
   particle flame ~ ~1 ~ 0.1 0.1 0.1 0.05 8 force
 

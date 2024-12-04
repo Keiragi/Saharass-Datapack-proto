@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:set_name",
+    "function": "set_name",
     "target": "item_name",
     "name": [
       {
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "lore": [
       {
         "text": "鳴神が槌は厄災也。",
@@ -59,7 +59,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_custom_data",
+    "function": "set_custom_data",
     "tag": "{\"Saharass\":\"Switch\",Number:30}"
   }
 ]

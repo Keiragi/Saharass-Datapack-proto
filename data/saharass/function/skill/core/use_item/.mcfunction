@@ -11,8 +11,8 @@
   function saharass:skill/core/use_item/always
 
 # ホームタウンかどうかのチェック
-  execute if dimension minecraft:overworld run function saharass:skill/core/use_item/in_town
-  execute unless dimension minecraft:overworld run function saharass:skill/core/use_item/in_dungeon
+  execute if dimension overworld run function saharass:skill/core/use_item/in_town
+  execute unless dimension overworld run function saharass:skill/core/use_item/in_dungeon
 
 # 検知進捗削除
   advancement revoke @s only saharass:core/use_item

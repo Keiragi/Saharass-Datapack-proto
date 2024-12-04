@@ -1,5 +1,5 @@
 # 演出
-  particle minecraft:firework ~ ~ ~ 0 0.25 0 0.05 30 force
+  particle firework ~ ~ ~ 0 0.25 0 0.05 30 force
   title @s times 1s 3s 1s
   title @s title "Saharass"
   title @s subtitle "=サハラス="
@@ -17,7 +17,7 @@ function #oh_my_dat:please
 # 初期設定
   team join Players @s
   effect give @s absorption 1 0 true
-  effect give @s minecraft:hunger 1 255 true
+  effect give @s hunger 1 255 true
   scoreboard players set @s Acrobat_Mode 1
 
 # フラグ設定

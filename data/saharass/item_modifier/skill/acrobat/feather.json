@@ -1,13 +1,13 @@
 [
   {
-    "function": "minecraft:set_name",
+    "function": "set_name",
     "target": "item_name",
     "name": {
       "text": "アクロバット状態"
     }
   },
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "lore": [
       {
         "text": "※アクロバット状態のため外せません！",
@@ -18,15 +18,15 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_enchantments",
+    "function": "set_enchantments",
     "enchantments": {
-      "minecraft:binding_curse": 1
+      "binding_curse": 1
     }
   },
   {
-    "function": "minecraft:set_components",
+    "function": "set_components",
     "components": {
-      "minecraft:glider": {}
+      "glider": {}
     }
   }
 ]

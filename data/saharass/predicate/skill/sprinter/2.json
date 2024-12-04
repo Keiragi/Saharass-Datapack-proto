@@ -1,15 +1,14 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "effects": {
-        "minecraft:speed": {
-          "amplifier": 3
-        },
-        "minecraft:jump_boost": {
-          "amplifier": 3
-        }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "speed": {
+        "amplifier": 3
+      },
+      "jump_boost": {
+        "amplifier": 3
       }
     }
   }
-  
+}

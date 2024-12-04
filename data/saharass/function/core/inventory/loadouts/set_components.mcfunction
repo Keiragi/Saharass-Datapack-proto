@@ -1,1 +1,1 @@
-$item modify entity @s container.$(Slot) [{"function":"minecraft:set_components","components":$(components)}]
+$item modify entity @s container.$(Slot) [{"function":"set_components","components":$(components)}]

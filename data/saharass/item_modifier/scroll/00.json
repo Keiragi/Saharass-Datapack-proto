@@ -50,8 +50,8 @@
         "count": 1,
         "components": {
           "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/creeper\"}",
-          "minecraft:item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
-          "minecraft:custom_model_data": 0,
+          "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
+          "custom_model_data": 0,
           "attribute_modifiers": {
             "modifiers": [
               {

@@ -1,10 +1,10 @@
 [
   {
-    "function": "minecraft:set_components",
+    "function": "set_components",
     "components": {
-      "minecraft:charged_projectiles": [
+      "charged_projectiles": [
         {
-          "id": "minecraft:arrow",
+          "id": "arrow",
           "count": 1
         }
       ]

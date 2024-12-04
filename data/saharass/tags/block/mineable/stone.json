@@ -1,8 +1,8 @@
 {
   "values": [
-    "#minecraft:coal_ores",
-    "#minecraft:iron_ores",
-    "#minecraft:lapis_ores",
-    "#minecraft:copper_ores"
+    "#coal_ores",
+    "#iron_ores",
+    "#lapis_ores",
+    "#copper_ores"
   ]
 }

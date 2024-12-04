@@ -20,7 +20,7 @@
               "components": {
                 "item_model": "stone_pickaxe",
                 "hide_additional_tooltip": {},
-                "minecraft:can_break": {
+                "can_break": {
                   "blocks": "#saharass:mineable/stone"
                 },
                 "max_damage": 2147483647,

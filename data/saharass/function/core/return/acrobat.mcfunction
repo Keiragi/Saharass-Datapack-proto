@@ -1,4 +1,4 @@
-attribute @s minecraft:safe_fall_distance base set 3
+attribute @s safe_fall_distance base set 3
 scoreboard players set @s Acrobat 0
 tag @s remove Acrobat_Enabled
 tag @s remove Acrobat_Mode

@@ -1,9 +1,8 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:glider": {}
-      }
+  {
+    "function": "set_components",
+    "components": {
+      "glider": {}
     }
-  ]
-  
+  }
+]

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:nether_star"
+      "id": "nether_star"
     },
     "title": "実績",
     "description": "説明文",
@@ -10,7 +10,7 @@
   },
   "criteria": {
     "": {
-      "trigger": "minecraft:impossible"
+      "trigger": "impossible"
     }
   }
 }

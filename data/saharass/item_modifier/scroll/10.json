@@ -1,7 +1,6 @@
 [
   {
-    "function": "minecraft:set_name",
-    "target": "item_name",
+    "function": ""target": "item_name",
     "name": [
       {
         "text": "\uE301",
@@ -15,8 +14,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
-    "lore": [
+    "function": ""lore": [
       {
         "text": "数多の粉塵とともに大爆発を起こす。",
         "color": "#D8D8D8",
@@ -57,7 +55,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_custom_data",
+    "function": "_data",
     "tag": "{\"Saharass\":\"Switch\",Number:10}"
   }
 ]

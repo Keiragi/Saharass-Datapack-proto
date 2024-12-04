@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "lore": [
       {
         "text": "You are The Feather.",

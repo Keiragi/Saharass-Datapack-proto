@@ -116,8 +116,8 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/sword/saharass\"}",
-                    "minecraft:item_model": "diamond_sword",
-                    "minecraft:custom_model_data": 2,
+                    "item_model": "diamond_sword",
+                    "custom_model_data": 2,
                     "attribute_modifiers": {
                       "modifiers": [
                         {

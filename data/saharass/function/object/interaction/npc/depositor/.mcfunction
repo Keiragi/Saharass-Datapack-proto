@@ -11,4 +11,4 @@
   data remove storage temp: Result.Success
 
 # 話した人を向く
-  rotate @n[type=minecraft:villager] facing entity @s
+  rotate @n[type=villager] facing entity @s

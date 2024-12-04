@@ -1,7 +1,7 @@
 function saharass:skill/core/switch/active with entity @s SelectedItem.components.minecraft:custom_data
 title @s actionbar {"underlined":true,"color":"white","text":"メインスキルが設定されました"}
 
-playsound minecraft:item.flintandsteel.use player @s ~ ~ ~ 2 0.7
+playsound item.flintandsteel.use player @s ~ ~ ~ 2 0.7
 
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:6}
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:7}

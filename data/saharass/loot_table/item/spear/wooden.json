@@ -126,8 +126,8 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/spear/wooden\"}",
-                    "minecraft:item_model": "wooden_shovel",
-                    "minecraft:custom_model_data": 1,
+                    "item_model": "wooden_shovel",
+                    "custom_model_data": 1,
                     "attribute_modifiers": {
                       "modifiers": [
                         {

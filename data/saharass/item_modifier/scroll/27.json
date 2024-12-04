@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:set_name",
+    "function": "set_name",
     "target": "item_name",
     "name": [
       {
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
+    "function": "set_lore",
     "lore": [
       {
         "text": "自身の機動力を一定時間飛躍的に向上させる。",
@@ -55,7 +55,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "minecraft:set_custom_data",
+    "function": "set_custom_data",
     "tag": "{\"Saharass\":\"Sub\",Number:27}"
   }
 ]
