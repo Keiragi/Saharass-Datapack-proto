@@ -31,6 +31,7 @@ scoreboard objectives add Death deathCount
 scoreboard objectives add GetEmerald dummy
 scoreboard objectives add Consume dummy
 scoreboard objectives add ItemStorage dummy
+scoreboard objectives add Inferno_Timer minecraft.custom:minecraft.play_time
 
 team add HideName
 team add Players
