@@ -1,5 +1,6 @@
 # 軽量化のために一度持ち物をストレージに
   data modify storage temp: All set from entity @s SelectedItem
+  function #oh_my_dat:please
 
 # SubかSwitchで無ければメインウェポンの処理
   execute unless data storage temp: All.components.minecraft:custom_data{Saharass:Sub} \
