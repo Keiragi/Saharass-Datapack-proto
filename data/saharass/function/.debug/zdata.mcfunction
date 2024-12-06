@@ -32,6 +32,8 @@ scoreboard objectives add GetEmerald dummy
 scoreboard objectives add Consume dummy
 scoreboard objectives add ItemStorage dummy
 scoreboard objectives add Inferno_Timer minecraft.custom:minecraft.play_time
+scoreboard objectives add Level level
+scoreboard objectives add Previous_Level dummy
 
 team add HideName
 team add Players
