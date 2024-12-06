@@ -1,6 +1,3 @@
-# ドロップアイテム
-  $execute as @a[distance=..32] run loot give @s loot $(loot)
-
 # 通知
   $tellraw @a ["\n",{"color":"light_purple","text":"[BOSS]"}," >> ",\
   {"bold":true,"color":"$(color)","text":"$(name)"},\
@@ -15,6 +12,3 @@
 
 # 帰還タイマー
   $function saharass:combat/kill/boss/timer/$(dungeon)
-
-# 自身のキル
-  kill @s
