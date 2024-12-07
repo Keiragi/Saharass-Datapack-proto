@@ -20,6 +20,7 @@ function #oh_my_dat:please
   effect give @s hunger 1 255 true
   scoreboard players set @s Acrobat_Mode 1
   scoreboard players set @s Previous_Level 1
+  attribute @s safe_fall_distance base set 1024
 
 # フラグ設定
   tag @s add Register

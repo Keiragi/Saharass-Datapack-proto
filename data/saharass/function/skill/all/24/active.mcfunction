@@ -9,7 +9,7 @@
   tag @s add Acrobat_Mode
 
 # 落下ダメージ無効化
-  attribute @s safe_fall_distance base set 1024
+#attribute @s safe_fall_distance base set 1024
 
 # tick関数起動
   schedule function saharass:skill/all/24/schedule/ 1t

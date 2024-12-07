@@ -8,4 +8,4 @@
   tag @s remove Acrobat_Used
 
 # 落下ダメージ無効の消去
-  attribute @s safe_fall_distance base set 3
+#attribute @s safe_fall_distance base set 3
