@@ -14,4 +14,4 @@
 
 
 # デバッグ用 マーカーに目印
-  execute as @e[type=marker] at @s run particle electric_spark
+#execute as @e[type=marker] at @s run particle electric_spark
