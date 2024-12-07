@@ -7,4 +7,4 @@
 # 死亡中のエンティティは検知出来ないが、乗っているマーカーから見れば出来る
   execute as @e[type=marker,distance=0..] on vehicle \
   if data entity @s {Health:0f} on passengers \
-  run function saharass:combat/kill/enemy/marker with entity @s data
+  at @s run function saharass:combat/kill/enemy/marker
