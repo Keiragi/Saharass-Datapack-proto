@@ -1,6 +1,7 @@
 [
   {
-    "function": ""target": "item_name",
+    "function": "set_name",
+    "target": "item_name",
     "name": [
       {
         "text": "\uE301",
@@ -14,7 +15,8 @@
     ]
   },
   {
-    "function": ""lore": [
+    "function": "set_lore",
+    "lore": [
       {
         "text": "数多の粉塵とともに大爆発を起こす。",
         "color": "#D8D8D8",
@@ -55,7 +57,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "_data",
+    "function": "set_custom_data",
     "tag": "{\"Saharass\":\"Switch\",Number:10}"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
-    "function": ""target": "item_name",
+    "function": "set_name",
+    "target": "item_name",
     "name": [
       {
         "text": "\uE301",
@@ -13,7 +14,8 @@
     ]
   },
   {
-    "function": ""lore": [
+    "function": "set_lore",
+    "lore": [
       {
         "text": "小さな風で地上の相手を打ち上げる。",
         "color": "#D8D8D8",
@@ -53,7 +55,7 @@
     "mode": "replace_all"
   },
   {
-    "function": "_data",
+    "function": "set_custom_data",
     "tag": "{\"Saharass\":\"Switch\",Number:21}"
   }
 ]
