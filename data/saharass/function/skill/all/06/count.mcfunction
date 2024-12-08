@@ -15,6 +15,6 @@
   execute if score @s Inferno_Count matches 0 run function saharass:skill/all/06/fire/none {"icon":""}
   execute if score @s Inferno_Count matches 1..4 run function saharass:skill/all/06/fire/low {"icon":""}
   execute if score @s Inferno_Count matches 5..8 run function saharass:skill/all/06/fire/medium {"icon":""}
-  execute if score @s Inferno_Count matches 9.. run function saharass:skill/all/06/fire/high {"icon":""}
+  execute if score @s Inferno_Count matches 9.. run function saharass:skill/all/06/fire/high {"icon":"","hunger":"39","number":"6"}
 
 tag @e[type=#saharass:enemy,tag=Inferno,distance=..16] remove Inferno
