@@ -12,5 +12,5 @@
   data modify storage temp: Set.Number set from storage temp: All.components.minecraft:custom_data.Number
 
 # スクロールはitem modifierなので別で実行
-  execute if predicate saharass:item/sub unless data storage temp: All.components.minecraft:custom_data{Number:0} run function saharass:core/inventory/changed/used_item/scroll/sub with storage temp: Set
+  execute if predicate saharass:item/sub unless data storage temp: All.components.minecraft:custom_data{Number:00} run function saharass:core/inventory/changed/used_item/scroll/sub with storage temp: Set
   execute if predicate saharass:item/switch run function saharass:core/inventory/changed/used_item/scroll/switch with storage temp: Set
