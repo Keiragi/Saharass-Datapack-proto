@@ -56,6 +56,6 @@
   },
   {
     "function": "set_custom_data",
-    "tag": "{\"Saharass\":\"Sub\",Number:23}"
+    "tag": "{\"Saharass\":\"Sub\",\"Used\":0b,Number:23}"
   }
 ]
