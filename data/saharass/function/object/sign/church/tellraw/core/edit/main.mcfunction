@@ -3,7 +3,6 @@
 
 # 演出
   playsound item.flintandsteel.use player @s ~ ~ ~ 1 0.8
-  $tellraw @s "スキルをセットしました：$(Name)"
 
 # アイテムの変化 ここにcustom_dataのタイプとスキル数字のデータ
   $item modify entity @s weapon.mainhand saharass:scroll/$(Number)
@@ -14,6 +13,9 @@
 
 # スキルごとの独自データをセット
   $function saharass:skill/core/skill_set/set_data/$(Number)
+
+# 通知
+  tellraw @s ["スキルをセットしました：",{"nbt":"Set.Name","storage":"temp:"}]
 
 # 一つ前と上でセットしたデータからマクロを起動
   function saharass:object/sign/church/tellraw/core/edit/every with storage temp: Set
