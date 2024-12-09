@@ -9,5 +9,3 @@
 
 # 無ければエラーメッセージ
   execute unless predicate saharass:skill/check_food run function saharass:skill/core/no_satisfaction
-
-#execute as @e[type=#saharass:enemy,distance=0..] at @s on attacker as @n[distance=0] if data entity @s {HurtTime:10s} run function saharass:combat/hud/health/show/get_data
