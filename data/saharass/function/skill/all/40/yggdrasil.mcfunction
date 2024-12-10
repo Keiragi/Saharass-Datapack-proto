@@ -7,4 +7,4 @@ particle block{block_state:"dirt"} ~ ~1 ~ 0.5 0.8 0.5 1 50 normal
 particle block{block_state:"dirt"} ~ ~ ~ 0.4 0 0.4 1 100 normal
 
 data merge entity @s {Motion:[0.0,0.3,0.0]}
-$damage @s $(Damage) generic_kill by @p[tag=Attacker]
+$damage @s $(Damage) generic_kill by $(Name)

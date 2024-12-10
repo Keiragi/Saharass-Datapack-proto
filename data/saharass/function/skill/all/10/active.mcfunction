@@ -5,6 +5,6 @@ function saharass:skill/all/10/effect
 #コストの自傷ダメージ
 damage @s 4 generic_kill
 
-$execute as @e[type=#saharass:enemy,distance=..5] run damage @s $(Damage) saharass:knockback by @p[tag=Attacker]
-$execute as @e[type=#saharass:enemy,distance=..10] run damage @s $(Damage) saharass:knockback by @p[tag=Attacker]
-$execute as @e[type=#saharass:enemy,distance=..20] run damage @s $(Damage) saharass:knockback by @p[tag=Attacker]
+$execute as @e[type=#saharass:enemy,distance=..5] run damage @s $(Damage) saharass:knockback by $(Name)
+$execute as @e[type=#saharass:enemy,distance=..10] run damage @s $(Damage) saharass:knockback by $(Name)
+$execute as @e[type=#saharass:enemy,distance=..20] run damage @s $(Damage) saharass:knockback by $(Name)

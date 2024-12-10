@@ -1,4 +1,4 @@
-$damage @s $(Damage) saharass:generic by @p[tag=Attacker]
+$damage @s $(Damage) saharass:generic by $(Name)
 data modify entity @s NoAI set value 1b
 data modify entity @s PortalCooldown set value 10
 execute anchored eyes run summon area_effect_cloud ^ ^ ^ {Particle:{type:"electric_spark"},Radius:0.8f,Duration:10}

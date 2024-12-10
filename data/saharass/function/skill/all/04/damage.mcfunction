@@ -1,5 +1,5 @@
 # ダメージ
-  damage @s 1 saharass:generic by @p[tag=Attacker]
+  $damage @s 1 saharass:generic by $(Name)
 
 # 3秒間炎上
   data modify entity @s Fire set value 60
