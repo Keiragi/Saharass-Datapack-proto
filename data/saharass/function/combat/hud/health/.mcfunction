@@ -1,6 +1,6 @@
 ## 攻撃したら実行
   # 進捗のリセット
-    advancement revoke @s only saharass:core/attack_enemy
+    advancement revoke @s only saharass:combat/attack_enemy
 
   # enemy(BOSS以外)が攻撃されたプレイヤーを指定→enemyの位置のモブ(自身)を再指定→攻撃されていたら実行
     execute as @e[type=#saharass:enemy,distance=0..,tag=!BOSS] at @s on attacker \
