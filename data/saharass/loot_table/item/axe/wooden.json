@@ -17,7 +17,12 @@
             },
             {
               "function": "set_custom_model_data",
-              "value": 1
+              "strings": {
+                "values": [
+                  "axe"
+                ],
+                "mode": "append"
+              }
             },
             {
               "function": "set_components",
@@ -134,7 +139,6 @@
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/axe/wooden\"}",
                     "item_model": "wooden_axe",
-                    "custom_model_data": 1,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
@@ -157,6 +161,15 @@
                     ]
                   }
                 }
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "wooden"
+                ],
+                "mode": "append"
               }
             }
           ]

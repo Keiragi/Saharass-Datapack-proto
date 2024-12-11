@@ -19,10 +19,18 @@
               "function": "set_components",
               "components": {
                 "item_model": "wooden_sword",
-                "custom_model_data": 1,
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
                 "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "dagger"
+                ],
+                "mode": "append"
               }
             },
             {
@@ -127,7 +135,6 @@
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/dagger/wooden\"}",
                     "item_model": "wooden_sword",
-                    "custom_model_data": 1,
                     "attribute_modifiers": {
                       "modifiers": [
                         {

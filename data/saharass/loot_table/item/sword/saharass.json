@@ -19,10 +19,18 @@
               "function": "set_components",
               "components": {
                 "item_model": "diamond_sword",
-                "custom_model_data": 2,
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
                 "rarity": "epic"
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "saharass_sword"
+                ],
+                "mode": "append"
               }
             },
             {
@@ -117,7 +125,6 @@
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/sword/saharass\"}",
                     "item_model": "diamond_sword",
-                    "custom_model_data": 2,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
@@ -140,6 +147,15 @@
                     "item_name": "{\"color\":\"gold\",\"text\":\"Sword of Saharass\"}"
                   }
                 }
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "saharass_sword"
+                ],
+                "mode": "append"
               }
             }
           ]

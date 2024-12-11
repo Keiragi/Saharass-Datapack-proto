@@ -90,7 +90,6 @@
                     "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/mojang\"}",
                     "item_model": "mojang_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
-                    "custom_model_data": 0,
                     "use_cooldown": {
                       "seconds": 1,
                       "cooldown_group": "skill"

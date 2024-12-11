@@ -1,14 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "potion",
+      "id": "feather",
       "components": {
-        "!consumable": {},
-        "potion_contents": {
-          "custom_color": 52479
-        },
-        "item_model": "feather",
-        "enchantment_glint_override": true
+        "custom_model_data": {
+          "colors": [
+            8181758
+          ]
+        }
       }
     },
     "title": "Saharass",

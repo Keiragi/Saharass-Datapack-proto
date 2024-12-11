@@ -18,13 +18,30 @@
               }
             },
             {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "spear"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "wooden_spear"
+                ],
+                "mode": "append"
+              }
+            },
+            {
               "function": "set_custom_data",
               "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"spear/\"}}"
             },
             {
               "function": "set_components",
               "components": {
-                "custom_model_data": 1,
                 "hide_additional_tooltip": {},
                 "max_stack_size": 1,
                 "attribute_modifiers": {

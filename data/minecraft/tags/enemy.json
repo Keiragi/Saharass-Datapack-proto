@@ -1,27 +1,27 @@
 {
-    "replace": true,
-    "values": [
-      "creeper",
-      "#illager",
-      "#illager_friends",
-      "#undead",
-      "#wither_friends",
-      "#sensitive_to_bane_of_arthropods",
-      "#sensitive_to_impaling",
-      "#sensitive_to_smite",
-      "blaze",
-      "breeze",
-      "enderman",
-      "endermite",
-      "ender_dragon",
-      "ghast",
-      "hoglin",
-      "magma_cube",
-      "piglin",
-      "piglin_brute",
-      "shulker",
-      "slime",
-      "warden"
-    ]
-  }
-  
+  "replace": true,
+  "values": [
+    "creeper",
+    "#illager",
+    "#illager_friends",
+    "#undead",
+    "#wither_friends",
+    "#sensitive_to_bane_of_arthropods",
+    "#sensitive_to_impaling",
+    "#sensitive_to_smite",
+    "blaze",
+    "breeze",
+    "enderman",
+    "endermite",
+    "ender_dragon",
+    "ghast",
+    "hoglin",
+    "magma_cube",
+    "piglin",
+    "piglin_brute",
+    "shulker",
+    "slime",
+    "warden",
+    "creaking"
+  ]
+}

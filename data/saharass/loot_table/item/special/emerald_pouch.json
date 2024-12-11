@@ -116,7 +116,6 @@
                   "components": {
                     "custom_data": "{\"Used\":1b,\"Loottable\":\"saharass:item/special/emerald_pouch\"}",
                     "item_model": "lime_bundle",
-                    "custom_model_data": 0,
                     "!bundle_contents": {},
                     "item_name": "{\"color\":\"green\",\"text\":\"エメラルドポーチ\"}",
                     "lore": [

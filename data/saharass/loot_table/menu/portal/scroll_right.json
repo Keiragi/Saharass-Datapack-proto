@@ -24,8 +24,7 @@
               "function": "set_components",
               "components": {
                 "hide_additional_tooltip": {},
-                "max_stack_size": 1,
-                "custom_model_data": 1
+                "max_stack_size": 1
               }
             }
           ]

@@ -19,10 +19,18 @@
               "function": "set_components",
               "components": {
                 "item_model": "wooden_shovel",
-                "custom_model_data": 1,
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
                 "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "spear"
+                ],
+                "mode": "append"
               }
             },
             {
@@ -127,7 +135,6 @@
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/spear/wooden\"}",
                     "item_model": "wooden_shovel",
-                    "custom_model_data": 1,
                     "attribute_modifiers": {
                       "modifiers": [
                         {
@@ -150,6 +157,15 @@
                     "item_name": "{\"color\":\"white\",\"text\":\"木の槍\"}"
                   }
                 }
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "strings": {
+                "values": [
+                  "spear"
+                ],
+                "mode": "append"
               }
             }
           ]

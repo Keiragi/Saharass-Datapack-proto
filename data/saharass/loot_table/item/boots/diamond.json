@@ -18,7 +18,6 @@
               "function": "set_components",
               "components": {
                 "item_model": "diamond_boots",
-                "custom_model_data": 0,
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
                 "rarity": "rare"
