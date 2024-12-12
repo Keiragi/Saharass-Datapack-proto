@@ -7,7 +7,17 @@
     "function": "set_components",
     "components": {
       "max_stack_size": 99
-    }
+    },
+    "conditions": [
+      {
+        "condition": "match_tool",
+        "predicate": {
+          "components": {
+            "max_stack_size": 1
+          }
+        }
+      }
+    ]
   },
   {
     "function": "set_custom_data",
