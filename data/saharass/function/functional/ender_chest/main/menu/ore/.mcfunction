@@ -16,4 +16,5 @@
   function saharass:functional/ender_chest/main/menu/.withdraw/run/
 
 # 残りを埋める
+  loot replace entity @s enderchest.26 loot saharass:menu/portal/withdraw
   function saharass:functional/ender_chest/main/menu/empty

@@ -8,5 +8,9 @@
   loot replace entity @s enderchest.14 loot saharass:item/pickaxe/golden
   loot replace entity @s enderchest.15 loot saharass:item/pickaxe/diamond
 
+# 個数の表示
+  function saharass:functional/ender_chest/main/menu/.withdraw/run/
+
 # 残りを埋める
+  loot replace entity @s enderchest.26 loot saharass:menu/portal/withdraw
   function saharass:functional/ender_chest/main/menu/empty

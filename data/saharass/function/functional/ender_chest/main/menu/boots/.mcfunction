@@ -7,6 +7,7 @@
   loot replace entity @s enderchest.13 loot saharass:item/boots/iron
   loot replace entity @s enderchest.14 loot saharass:item/boots/golden
   loot replace entity @s enderchest.15 loot saharass:item/boots/diamond
+  loot replace entity @s enderchest.26 loot saharass:menu/portal/withdraw
 
 # 個数の表示
   function saharass:functional/ender_chest/main/menu/.withdraw/run/
