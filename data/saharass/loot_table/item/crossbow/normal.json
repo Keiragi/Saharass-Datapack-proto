@@ -93,7 +93,6 @@
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/crossbow/normal\"}",
                     "item_model": "crossbow",
-                    "custom_model_data": 0,
                     "attribute_modifiers": {
                       "modifiers": [
                         {

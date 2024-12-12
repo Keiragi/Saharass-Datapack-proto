@@ -133,6 +133,11 @@
                   "id": "wooden_sword",
                   "count": 1,
                   "components": {
+                    "custom_model_data": {
+                      "strings": [
+                        "dagger"
+                      ]
+                    },
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/dagger/wooden\"}",
                     "item_model": "wooden_sword",
                     "attribute_modifiers": {

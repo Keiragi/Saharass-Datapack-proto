@@ -137,6 +137,11 @@
                   "id": "mace",
                   "count": 1,
                   "components": {
+                    "custom_model_data": {
+                      "strings": [
+                        "axe"
+                      ]
+                    },
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/axe/wooden\"}",
                     "item_model": "wooden_axe",
                     "attribute_modifiers": {
@@ -161,15 +166,6 @@
                     ]
                   }
                 }
-              }
-            },
-            {
-              "function": "set_custom_model_data",
-              "strings": {
-                "values": [
-                  "wooden"
-                ],
-                "mode": "append"
               }
             }
           ]
