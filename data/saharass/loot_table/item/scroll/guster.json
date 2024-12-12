@@ -27,7 +27,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{price:0,value:0,\"can_sell\":true,\"Saharass\":\"Sub\",\"Number\":0}"
+              "tag": "{price:0,value:0,\"can_sell\":true,\"Saharass\":\"Sub\",\"Number\":00}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"057\"}"
             },
             {
               "function": "set_lore",
@@ -87,7 +91,7 @@
                   "id": "guster_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/guster\"}",
+                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/guster\"}",
                     "item_model": "guster_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "use_cooldown": {
