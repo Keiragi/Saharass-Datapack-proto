@@ -47,17 +47,17 @@
 047
 048
 049
-050
-051
-052
-053
-054
-055
-056
-057
-058
-059
-060
+050 
+051 bordure_indented
+052 creeper
+053 field_masoned
+054 flow
+055 flower
+056 globe
+057 guster
+058 mojang
+059 piglin
+060 skull
 061
 062
 063
