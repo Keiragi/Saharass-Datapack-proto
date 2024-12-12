@@ -1,0 +1,46 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/amethyst"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/coal"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/copper"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/diamond"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/emerald"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/gold"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/iron"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/lapis_lazuli"
+        },
+        {
+          "type": "loot_table",
+          "value": "saharass:item/ore/redstone"
+        }
+      ]
+    }
+  ]
+}
