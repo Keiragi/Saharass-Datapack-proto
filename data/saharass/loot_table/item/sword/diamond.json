@@ -5,14 +5,14 @@
       "entries": [
         {
           "type": "item",
-          "name": "netherite_sword",
+          "name": "diamond_sword",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "Sword of Saharass",
-                "color": "gold"
+                "text": "ダイヤモンドの剣",
+                "color": "aqua"
               }
             },
             {
@@ -21,14 +21,14 @@
                 "item_model": "diamond_sword",
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
-                "rarity": "epic"
+                "rarity": "rare"
               }
             },
             {
               "function": "set_custom_model_data",
               "strings": {
                 "values": [
-                  "saharass_sword"
+                  "sword"
                 ],
                 "mode": "append"
               }
@@ -39,7 +39,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"016\"}"
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"015\"}"
             },
             {
               "function": "set_custom_data",
@@ -56,7 +56,17 @@
                     "italic": false
                   },
                   {
-                    "text": "「あなたの思いと決意を」"
+                    "text": "広く知られる普通の剣。"
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "color": "#D8D8D8",
+                    "italic": false
+                  },
+                  {
+                    "text": "平均的な能力で扱いやすい。"
                   }
                 ]
               ]
@@ -67,7 +77,7 @@
                 {
                   "id": "weapon_attack_damage",
                   "attribute": "attack_damage",
-                  "amount": 14,
+                  "amount": 10,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
@@ -123,12 +133,12 @@
                   "id": "diamond_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/sword/saharass\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/sword/diamond\"}",
                     "item_model": "diamond_sword",
                     "attribute_modifiers": {
                       "modifiers": [
                         {
-                          "id": "saharass_sword_none_attack",
+                          "id": "weapon_none_attack",
                           "type": "attack_damage",
                           "amount": -1,
                           "operation": "add_multiplied_total",
@@ -140,22 +150,13 @@
                     "unbreakable": {
                       "show_in_tooltip": false
                     },
+                    "item_name": "{\"color\": \"white\",\"text\":\"ダイヤモンドの剣\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"
-                    ],
-                    "item_name": "{\"color\":\"gold\",\"text\":\"Sword of Saharass\"}"
+                    ]
                   }
                 }
-              }
-            },
-            {
-              "function": "set_custom_model_data",
-              "strings": {
-                "values": [
-                  "saharass_sword"
-                ],
-                "mode": "append"
               }
             }
           ]
