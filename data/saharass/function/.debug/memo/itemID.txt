@@ -148,8 +148,8 @@
 148
 149
 150
-151
-152
+151 emerald_pouch
+152 ender_pouch
 153
 154
 155
@@ -299,8 +299,8 @@
 299
 300
 301 potion_regeneration
-302 potion_speed
-303 potion_strength
+302
+303
 304
 305
 306
@@ -308,7 +308,7 @@
 308
 309
 310
-311
+311 potion_speed
 312
 313
 314
@@ -318,7 +318,7 @@
 318
 319
 320
-321
+321 potion_strength
 322
 323
 324

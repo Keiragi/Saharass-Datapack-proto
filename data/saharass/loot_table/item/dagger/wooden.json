@@ -39,7 +39,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"021\"}"
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"021\",\"Menu\":{\"Button\":\"dagger/wooden\"}}"
             },
             {
               "function": "set_custom_data",

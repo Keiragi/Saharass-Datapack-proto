@@ -30,6 +30,10 @@
               "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Special\",\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
             },
             {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"special\",\"ItemID\":\"151\",\"Menu\":{\"Button\":\"special/emerald_pouch\"}}"
+            },
+            {
               "function": "set_lore",
               "entity": "this",
               "mode": "append",

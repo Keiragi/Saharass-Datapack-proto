@@ -27,7 +27,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Loot\",\"Type\":\"Cave\"}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Loot\",\"Menu\":{\"Button\":\"boss/cave\"}}"
             },
             {
               "function": "set_lore",

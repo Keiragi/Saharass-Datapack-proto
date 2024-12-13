@@ -50,7 +50,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"302\"}"
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"311\",\"Menu\":{\"Button\":\"potion/speed_1\"}}"
             },
             {
               "function": "set_lore",

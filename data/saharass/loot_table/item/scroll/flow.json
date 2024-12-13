@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"054\"}"
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"054\",\"Menu\":{\"Button\":\"scroll/flow\"}}"
             },
             {
               "function": "set_lore",
