@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "Blast_Iron": {
+      "conditions": {
+        "recipe_id": "iron_ingot_from_blasting_raw_iron"
+      },
+      "trigger": "recipe_crafted"
+    },
+    "Smelt_Iron": {
+      "conditions": {
+        "recipe_id": "iron_ingot_from_smelting_raw_iron"
+      },
+      "trigger": "recipe_crafted"
+    },
+    "Smelt_Gold": {
+      "conditions": {
+        "recipe_id": "gold_ingot_from_smelting_raw_gold"
+      },
+      "trigger": "recipe_crafted"
+    },
+    "Blast_Gold": {
+      "conditions": {
+        "recipe_id": "gold_ingot_from_blasting_raw_gold"
+      },
+      "trigger": "recipe_crafted"
+    },
+    "Smelt_Copper": {
+      "conditions": {
+        "recipe_id": "copper_ingot_from_smelting_raw_copper"
+      },
+      "trigger": "recipe_crafted"
+    },
+    "Blast_Copper": {
+      "conditions": {
+        "recipe_id": "copper_ingot_from_blasting_raw_copper"
+      },
+      "trigger": "recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "Smelt_Iron",
+      "Blast_Iron",
+      "Smelt_Gold",
+      "Blast_Gold",
+      "Smelt_Copper",
+      "Blast_Copper"
+    ]
+  ],
+  "rewards": {
+    "function": "core/craft/smelt/"
+  }
+}

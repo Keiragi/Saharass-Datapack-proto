@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "slots": {
+          "empty": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core/inventory/changed/full_inventory/full"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "minister": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Minister\"]}"
+        }
+      }
+    },
+    "depositor": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Depositor\"]}"
+        }
+      }
+    },
+    "ghost": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "time_check",
+            "value": {
+              "min": 13000,
+              "max": 23000
+            },
+            "period": 24000
+          }
+        ],
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Ghost\"]}"
+        }
+      }
+    },
+    "storager": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Storager\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minister",
+      "depositor",
+      "ghost",
+      "storager"
+    ]
+  ],
+  "rewards": {
+    "function": "object/interaction/npc/"
+  }
+}

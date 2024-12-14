@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "in_hometown": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "dimension": "overworld"
+            }
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "rewards": {
+    "function": "core/return/"
+  }
+}

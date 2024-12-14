@@ -1,0 +1,71 @@
+{
+  "criteria": {
+    "moco_enter": {
+      "trigger": "any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 45,
+                  "max": 46
+                },
+                "y": {
+                  "min": 14,
+                  "max": 15
+                },
+                "z": {
+                  "min": 11,
+                  "max": 12
+                }
+              },
+              "block": {
+                "blocks": "#buttons"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moco_exit": {
+      "trigger": "any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 43,
+                  "max": 44
+                },
+                "y": {
+                  "min": 16,
+                  "max": 17
+                },
+                "z": {
+                  "min": 17,
+                  "max": 18
+                }
+              },
+              "block": {
+                "blocks": "#buttons"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "moco_enter",
+      "moco_exit"
+    ]
+  ],
+  "rewards": {
+    "function": "object/button/"
+  }
+}

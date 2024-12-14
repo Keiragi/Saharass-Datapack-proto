@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": "{\"Saharass\":\"Consume\"}"
+          }
+        }
+      },
+      "trigger": "consume_item"
+    }
+  },
+  "rewards": {
+    "function": "item/consume/"
+  }
+}

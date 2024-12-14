@@ -1,0 +1,10 @@
+loot give @s loot item/scroll/bordure_indented
+loot give @s loot item/scroll/creeper
+loot give @s loot item/scroll/field_masoned
+loot give @s loot item/scroll/flow
+loot give @s loot item/scroll/flower
+loot give @s loot item/scroll/globe
+loot give @s loot item/scroll/guster
+loot give @s loot item/scroll/mojang
+loot give @s loot item/scroll/piglin
+loot give @s loot item/scroll/skull

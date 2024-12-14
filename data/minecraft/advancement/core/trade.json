@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "trade": {
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": "{\"Trade_Item\":1b}"
+          }
+        }
+      },
+      "trigger": "villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "core/shop/trade"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "cave",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "biome": "the_void",
+      "layers": []
+    }
+  }
+}

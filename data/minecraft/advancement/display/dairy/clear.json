@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "enchanted_golden_apple"
+    },
+    "title": "デイリータスクを完了する ",
+    "description": [
+      {
+        "text": "「来てくれてありがとう！」\n"
+      },
+      {
+        "text": "                                ",
+        "color": "dark_gray",
+        "strikethrough": true
+      },
+      {
+        "text": "\n報酬：エンチャントされた金のリンゴ×1"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "display/dairy/root",
+  "criteria": {
+    "1": {
+      "trigger": "impossible"
+    },
+    "2": {
+      "trigger": "impossible"
+    },
+    "3": {
+      "trigger": "impossible"
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "rewards": {
+    "function": "quest/dairy/clear/"
+  }
+}

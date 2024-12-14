@@ -1,0 +1,84 @@
+{
+  "criteria": {
+    "Ender_pouch": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "purple_bundle",
+            "predicates": {
+              "bundle_contents": {
+                "items": {
+                  "count": [
+                    {
+                      "test": {},
+                      "count": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Get_Emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald"
+          }
+        ]
+      }
+    },
+    "Get_Emerald_Block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald_block"
+          }
+        ]
+      }
+    },
+    "Item_Used": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": "{\"Used\":1b}"
+            }
+          }
+        ]
+      }
+    },
+    "Select_Menu": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": "{\"Display\":1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Ender_pouch",
+      "Get_Emerald",
+      "Get_Emerald_Block",
+      "Item_Used",
+      "Select_Menu"
+    ]
+  ],
+  "rewards": {
+    "function": "core/inventory/changed/"
+  }
+}

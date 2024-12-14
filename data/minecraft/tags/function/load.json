@@ -1,3 +1,5 @@
 {
-	"values": ["saharass:reload"]
+  "values": [
+    "reload"
+  ]
 }

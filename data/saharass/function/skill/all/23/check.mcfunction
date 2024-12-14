@@ -1,1 +1,0 @@
-execute if entity @s[tag=Meditation] run function saharass:skill/all/23/end

@@ -1,1 +1,0 @@
-advancement revoke @s only saharass:core/inventory_full/full

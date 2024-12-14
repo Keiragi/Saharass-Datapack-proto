@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "core/sleep"
+  }
+}

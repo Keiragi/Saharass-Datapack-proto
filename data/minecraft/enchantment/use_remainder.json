@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "saharass:item/use_remainder/"
+          "function": "item/use_remainder/"
         }
       }
     ]

@@ -1,1 +1,0 @@
-$function saharass:object/portal/change/set_data/$(To)

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "changed_dimension",
+      "conditions": {
+        "to": "overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "core/return/alive"
+  }
+}

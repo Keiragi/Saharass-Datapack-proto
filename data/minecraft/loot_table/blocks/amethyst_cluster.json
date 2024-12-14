@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "saharass:item/ore/amethyst"
+          "value": "item/ore/amethyst"
         }
       ]
     }

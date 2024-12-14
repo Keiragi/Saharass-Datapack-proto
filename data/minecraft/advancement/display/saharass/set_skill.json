@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "creeper_banner_pattern"
+    },
+    "title": "スキルをセットする",
+    "description": [
+      {
+        "text": "教会"
+      },
+      {
+        "color": "white",
+        "text": "\uE504"
+      },
+      "の看板を確認しよう"
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "display/saharass/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Enemy": {
+      "conditions": {
+        "entity": {
+          "type": "#enemy"
+        }
+      },
+      "trigger": "player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "combat/hud/health/"
+  }
+}

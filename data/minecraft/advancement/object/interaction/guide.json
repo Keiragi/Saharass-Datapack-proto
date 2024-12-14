@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "Mapboard": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Guide_Mapboard]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Mapboard"
+    ]
+  ],
+  "rewards": {
+    "function": "object/interaction/guide/"
+  }
+}

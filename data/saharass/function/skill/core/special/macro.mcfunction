@@ -1,1 +1,0 @@
-$function saharass:skill/core/special/$(Special)/$(Use)/

@@ -1,0 +1,191 @@
+{
+  "criteria": {
+    "to_appraiser": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_appraiser\"]}"
+        }
+      }
+    },
+    "to_blacksmith": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_blacksmith\"]}"
+        }
+      }
+    },
+    "to_cafe": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_cafe\"]}"
+        }
+      }
+    },
+    "to_campfire": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_campfire\"]}"
+        }
+      }
+    },
+    "to_cherry": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_cherry\"]}"
+        }
+      }
+    },
+    "to_church": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_church\"]}"
+        }
+      }
+    },
+    "to_depository": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_depository\"]}"
+        }
+      }
+    },
+    "to_guide": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_guide\"]}"
+        }
+      }
+    },
+    "to_home": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_home\"]}"
+        }
+      }
+    },
+    "to_inn": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_inn\"]}"
+        }
+      }
+    },
+    "to_library": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_library\"]}"
+        }
+      }
+    },
+    "to_minesite": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_minesite\"]}"
+        }
+      }
+    },
+    "to_pond": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_pond\"]}"
+        }
+      }
+    },
+    "to_portal": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_portal\"]}"
+        }
+      }
+    },
+    "to_shop": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_shop\"]}"
+        }
+      }
+    },
+    "to_tavern": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_tavern\"]}"
+        }
+      }
+    },
+    "to_townhall": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"to_townhall\"]}"
+        }
+      }
+    },
+    "current": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"current\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "to_appraiser",
+      "to_blacksmith",
+      "to_cafe",
+      "to_campfire",
+      "to_cherry",
+      "to_church",
+      "to_depository",
+      "to_guide",
+      "to_home",
+      "to_inn",
+      "to_library",
+      "to_minesite",
+      "to_pond",
+      "to_portal",
+      "to_shop",
+      "to_tavern",
+      "to_townhall",
+      "current"
+    ]
+  ],
+  "rewards": {
+    "function": "object/interaction/mapboard/"
+  }
+}

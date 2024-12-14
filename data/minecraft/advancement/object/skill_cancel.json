@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "inverted",
+                "term": {
+                  "condition": "location_check",
+                  "predicate": {
+                    "position": {
+                      "x": {
+                        "max": -14,
+                        "min": -29
+                      },
+                      "y": {
+                        "max": 10,
+                        "min": 4
+                      },
+                      "z": {
+                        "max": -47,
+                        "min": -56
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "location_check",
+                "predicate": {
+                  "dimension": "overworld"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "location"
+    }
+  },
+  "rewards": {
+    "function": "object/sign/church/tellraw/core/leave"
+  }
+}

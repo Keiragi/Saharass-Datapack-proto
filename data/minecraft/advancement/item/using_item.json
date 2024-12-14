@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "Inferno": {
+      "trigger": "using_item"
+    }
+  },
+  "rewards": {
+    "function": "skill/core/use_item/using/"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "criteria": {
+    "Spear": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "is_player_attack"
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "custom_data": "{\"Class\":\"Spear\"}"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "player_hurt_entity"
+    },
+    "Fire_Ball": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "fireball",
+              "nbt": "{Tags:[\"Fire_Ball\"]}"
+            }
+          }
+        }
+      },
+      "trigger": "player_hurt_entity"
+    },
+    "Sandbag_kun": {
+      "conditions": {
+        "entity": {
+          "type": "slime",
+          "nbt": "{Tags:[\"Sandbag_kun\"]}"
+        }
+      },
+      "trigger": "player_hurt_entity"
+    }
+  },
+  "requirements": [
+    [
+      "Spear",
+      "Fire_Ball",
+      "Sandbag_kun"
+    ]
+  ],
+  "rewards": {
+    "function": "combat/attack/"
+  }
+}
