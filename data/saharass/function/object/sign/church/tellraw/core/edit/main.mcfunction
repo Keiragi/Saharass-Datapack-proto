@@ -7,15 +7,15 @@
 # アイテムの変化 ここにcustom_dataのタイプとスキル数字のデータ
   $item modify entity @s weapon.mainhand saharass:scroll/$(Number)
   # 追加のデータを設定
-    execute if data entity @s SelectedItem.components.minecraft:custom_data{Saharass:Switch} run function saharass:object/sign/church/tellraw/core/edit/switch
-    execute if data entity @s SelectedItem.components.minecraft:custom_data{Saharass:Sub} run function saharass:object/sign/church/tellraw/core/edit/sub
+    execute if data entity @s SelectedItem.components.minecraft:custom_data{"Saharass":"Switch"} run function saharass:object/sign/church/tellraw/core/edit/switch
+    execute if data entity @s SelectedItem.components.minecraft:custom_data{"Saharass":"Sub"} run function saharass:object/sign/church/tellraw/core/edit/sub
 
 
 # スキルごとの独自データをセット
   $function saharass:skill/core/skill_set/set_data/$(Number)
 
 # 通知
-  tellraw @s ["スキルをセットしました：",{"nbt":"Set.Name","storage":"temp:"}]
+  tellraw @s ["スキルをセットしました：",{"nbt":"Item.Name","storage":"temp:"}]
 
 # 一つ前と上でセットしたデータからマクロを起動
-  function saharass:object/sign/church/tellraw/core/edit/every with storage temp: Set
+  function saharass:object/sign/church/tellraw/core/edit/every with storage temp: Item
