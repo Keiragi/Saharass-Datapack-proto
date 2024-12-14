@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"058\",\"Menu\":{\"Button\":\"scroll/mojang\"}}"
+              "tag": "{\"ItemID\":\"058\",\"Menu\":{\"Button\":\"scroll/mojang\"}}"
             },
             {
               "function": "set_lore",
@@ -92,6 +92,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/mojang\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "mojang_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "use_cooldown": {

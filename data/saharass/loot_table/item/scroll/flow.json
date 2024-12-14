@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"054\",\"Menu\":{\"Button\":\"scroll/flow\"}}"
+              "tag": "{\"ItemID\":\"054\",\"Menu\":{\"Button\":\"scroll/flow\"}}"
             },
             {
               "function": "set_lore",
@@ -92,6 +92,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"saharass:item/scroll/flow\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "flow_banner_pattern",
                     "item_name": "{\"color\":\"white\",\"text\":\"空のスクロール\"}",
                     "use_cooldown": {
