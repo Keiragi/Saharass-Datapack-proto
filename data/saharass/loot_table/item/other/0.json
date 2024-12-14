@@ -131,6 +131,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"saharass:item/other/0\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "spider_eye",
                     "item_name": "{\"color\":\"#850f0f\",\"bold\":true,\"underlined\":true,\"text\":\"天使の心臓\"}",
                     "use_cooldown": {

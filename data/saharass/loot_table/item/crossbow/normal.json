@@ -92,6 +92,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/crossbow/normal\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "crossbow",
                     "attribute_modifiers": {
                       "modifiers": [

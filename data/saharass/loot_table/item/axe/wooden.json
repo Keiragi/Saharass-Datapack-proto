@@ -143,6 +143,10 @@
                       ]
                     },
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/axe/wooden\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "wooden_axe",
                     "attribute_modifiers": {
                       "modifiers": [

@@ -134,6 +134,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"saharass:item/sword/iron\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "iron_sword",
                     "attribute_modifiers": {
                       "modifiers": [

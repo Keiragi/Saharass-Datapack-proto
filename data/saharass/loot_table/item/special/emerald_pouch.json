@@ -27,11 +27,11 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"Saharass\":\"Special\",\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
+              "tag": "{\"price\":10,\"value\":2,\"can_sell\":true,\"Special\":\"pouch\",\"Use\":\"emerald\",\"Emerald_Pouch\":1b}"
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"special\",\"ItemID\":\"151\",\"Menu\":{\"Button\":\"special/emerald_pouch\"}}"
+              "tag": "{\"Saharass\":\"Special\",\"ItemID\":\"151\",\"Menu\":{\"Button\":\"special/emerald_pouch\"}}"
             },
             {
               "function": "set_lore",
@@ -119,6 +119,10 @@
                   "count": 1,
                   "components": {
                     "custom_data": "{\"Used\":1b,\"Loottable\":\"saharass:item/special/emerald_pouch\"}",
+                    "enchantments": {
+                      "use_remainder": 1
+                    },
+                    "enchantment_glint_override": false,
                     "item_model": "lime_bundle",
                     "!bundle_contents": {},
                     "item_name": "{\"color\":\"green\",\"text\":\"エメラルドポーチ\"}",
