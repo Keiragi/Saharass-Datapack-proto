@@ -2,6 +2,7 @@
 summon interaction 15 0 -46 {width:0.6f,height:1.95f,Passengers:[{id:"villager",Silent:1b,Invulnerable:1b,VillagerData:{level:99,profession:"none"},Offers:{}}]}
 #教会
 summon villager -22 6.0625 -55 {Invulnerable:1b,Passengers:[{id:"interaction",width:0.605f,height:-1.955f}],attributes:[{id:"movement_speed",base:0}],VillagerData:{level:99,profession:"cleric"},Offers:{}}
+give @p oak_sign[block_entity_data={id:"sign",front_text:{has_glowing_text:1b,messages:['{"text":""}','{"text":""}','{"text":"スキルをセットする","clickEvent":{"action":"run_command","value":"/function object/sign/church/skill"}}','{"text":""}']},is_waxed:1b}] 1
 #預かり屋
 summon interaction 44 2.955 -31 {width:0.605f,height:-1.955f,Tags:["Depositor"],Passengers:[{id:"villager",Invulnerable:1b,VillagerData:{level:99,profession:"mason"},Offers:{}}]}
 #ショップ
@@ -24,20 +25,16 @@ summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects
 #サンドバッグくん
 execute in test positioned 0 0 -3 unless entity @e[type=endermite,dx=0,dz=0] run summon endermite 0 0 -3 {OnGround:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:999999999f,Tags:["NoAI"],CustomName:'"サンドバッグくん"',active_effects:[{id:"regeneration",amplifier:9,duration:-1,show_particles:0b}],attributes:[{id:"max_health",base:999999999}]}
 
-#そのまま食べるケーキ by tetoshiasan
-#give @p cake[food={nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"1"},"damage": 1,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"2"},"damage": 2,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"3"},"damage": 3,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"4"},"damage": 4,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"5"},"damage": 5,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8,using_converts_to:{id:"cake",components:{"block_state":{bites:"6"},"damage": 6,"max_damage": 7,food:{nutrition:1,saturation:1,eat_seconds:0.8}}}}}}}}}}}}}}}}}}}]
-
 #墓場の幽霊
 summon interaction -4 5 -52 {Silent:1b,width:0.6f,height:1.95f,Tags:["ghost"]}
 
 #夜 13000~23000
 #撮影用
 execute in overworld run tp @s 33.29 28.53 38.44 146.27 29.89
-#playsound block.gravel.break player @a ~ ~ ~ 1 0.6
-#playsound item.flintandsteel.use player @a ~ ~ ~ 1 0.8
-#playsound item.bucket.fill player @p ~ ~ ~ 1 1.5
-#playsound entity.ender_dragon.flap player @p ~ ~ ~ 1 2
-#give @p iron_shovel[lore=['" "','{"color":"gray","italic":false,"text":"利き手に持ったとき："}','{"color":"dark_green","italic":false,"text":" 4.5 攻撃力"}','{"color":"dark_green","italic":false,"text":" 1.6 攻撃速度"}','{"color":"dark_green","italic":false,"text":" 1 攻撃射程"}'],attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:1,operation:"add_value",slot:"mainhand"},{id:"attack_speed",type:"generic.attack_speed",amount:-2.4,operation:"add_value",slot:"mainhand"},{id:"attack_damage",type:"generic.attack_damage",amount:4.5,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+playsound block.gravel.break player @a ~ ~ ~ 1 0.6
+playsound item.flintandsteel.use player @a ~ ~ ~ 1 0.8
+playsound item.bucket.fill player @p ~ ~ ~ 1 1.5
+playsound entity.ender_dragon.flap player @p ~ ~ ~ 1 2
 
 #{id:"endermite",Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,PlayerSpawned:1b,active_effects:[{id:"invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"generic.scale",base:16}]}
 #{id:"enderman",Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,active_effects:[{id:"invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"generic.scale",base:2}]}
@@ -53,11 +50,6 @@ particle dust_color_transition{from_color:[0.000,0.867,1.000],scale:2,to_color:[
 #5 effect give @s hunger 1 199 true
 #6 effect give @s hunger 1 239 true
 
-#Boost
-#1 88
-#2 
-#4 159
-
 #tetoshia
 give @p armor_stand[entity_data={id:"armor_stand",Invulnerable:1b,ShowArms:1b,Small:1b,NoBasePlate:1b,Pose:{LeftArm:[0f,0f,354f],RightArm:[0f,0f,6f],LeftLeg:[0f,0f,354f],RightLeg:[0f,0f,6f],Head:[354f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{id:"leather_boots",count:1,components:{"dyed_color":952064}},{id:"leather_leggings",count:1,components:{"dyed_color":1564160,"trim":{material:"quartz",pattern:"tide"}}},{id:"leather_chestplate",count:1,components:{"dyed_color":1699840,"trim":{material:"iron",pattern:"dune"}}},{id:"player_head",count:1,components:{"profile":{name:"tetoshia"},"note_block_sound":"entity.cat.stray_ambient"}}]}] 1
 #moco
@@ -66,16 +58,9 @@ give @p armor_stand[entity_data={id:"armor_stand",NoGravity:1b,Invulnerable:1b,S
 summon armor_stand 39.50 11.00 14.50 {Brain: {memories: {}}, HurtByTimestamp: 0, Invulnerable: 1b, FallFlying: 0b, ShowArms: 1b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 4144959, DeathTime: 0s, Pose: {RightArm: [333.0f, 0.0f, 0.0f], LeftLeg: [349.0f, 0.0f, 0.0f], Head: [347.0f, 348.0f, 0.0f], LeftArm: [0.0f, 15.0f, 0.0f], RightLeg: [7.0f, 0.0f, 0.0f], Body: [358.0f, 0.0f, 0.0f]}, Invisible: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 1b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{}, {components: {"dyed_color": {rgb: 10981585}}, count: 1, id: "leather_leggings"}, {components: {"trim": {material: "lapis", pattern: "vex"}, "dyed_color": {rgb: 14204646}}, count: 1, id: "leather_chestplate"}, {components: {"lore": ['"https://namemc.com/skin/71b762da8ae4d8df"'], "profile": {id: [I; 718984754, 939675984, -1880121179, -1155775541], properties: [{name: "textures", value: "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RiMTRhOWI2NTQxMDhjOTgwMWMxZWZlODI0YTFiNWFhMTBjNGM1MmNjZDk4YzQxOTQ0ZTJkZDg2NWFiZWE0NyJ9fX0="}]}}, count: 1, id: "player_head"}], NoBasePlate: 1b, attributes: [{id: "armor", base: 0.0d}, {id: "movement_speed", base: 0.7d}, {id: "armor_toughness", base: 0.0d}], HurtTime: 0s}
 summon armor_stand 44.50 10.00 18.50 {NoGravity: 1b, Brain: {memories: {}}, HurtByTimestamp: 0, Invulnerable: 1b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 4144959, DeathTime: 0s, Pose: {}, Invisible: 1b, Motion: [0.0d, 0.0d, 0.0d], Small: 1b, Health: 20.0f, Air: 300s, OnGround: 0b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{count: 1, id: "netherite_boots"}, {}, {}, {}], NoBasePlate: 1b, attributes: [{id: "armor", base: 0.0d}, {id: "knockback_resistance", base: 0.0d}, {id: "movement_speed", base: 0.7d}, {id: "armor_toughness", base: 0.0d}], HurtTime: 0s}
 
-
 #無音
 playsound intentionally_empty
-give @p iron_sword[use_cooldown={seconds:1,cooldown_group:"skill"},consumable={consume_seconds:0,sound:"intentionally_empty",has_consume_particles:false},use_remainder={id:"iron_sword",count:1,components:{"use_cooldown":{seconds:1,cooldown_group:"main"},"custom_data":{Saharass:Main}}}] 1
-
-
-
-execute in overworld run tp @s 77.16 -44.79 23.58 658.27 29.75
-
 
 #nbt={Item:{components:{"custom_data":{Player:{Name:$(Name)}}}}}
 
-#give @p oak_sign[block_entity_data={id:"oak_sign",front_text:{messages:['{"text":""}','{"text":"手記","clickEvent":{"action":"run_command","value":"function object/sign/dungeon/cave/1"}}','{"text":""}','{"text":""}']},is_waxed:1b}] 1
+give @p oak_sign[block_entity_data={id:"sign",front_text:{messages:['{"text":""}','{"text":"手記","clickEvent":{"action":"run_command","value":"/function object/sign/dungeon/cave/1"}}','{"text":""}','{"text":""}']},is_waxed:1b}] 1
