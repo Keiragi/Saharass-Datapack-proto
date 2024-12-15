@@ -1,0 +1,10 @@
+{
+  "type": "the_nether",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "biome": "nether_wastes",
+      "layers": []
+    }
+  }
+}
