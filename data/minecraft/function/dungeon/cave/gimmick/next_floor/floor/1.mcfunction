@@ -12,3 +12,6 @@
 
 # アドベンチャーに
   gamemode adventure
+
+# タグ削除
+  tag @s remove In_Moveing
