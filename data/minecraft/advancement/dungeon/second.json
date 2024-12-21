@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "second": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dungeon/second/"
+  }
+}
