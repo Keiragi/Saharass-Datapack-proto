@@ -29,11 +29,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"107\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"leggings/chainmail\"}}"
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"107\",\"Menu\":{\"Button\":\"leggings/chainmail/\"}}"
             },
             {
               "function": "set_custom_data",

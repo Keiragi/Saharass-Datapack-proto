@@ -29,11 +29,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"105\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"helmet/chainmail\"}}"
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"105\",\"Menu\":{\"Button\":\"helmet/chainmail/\"}}"
             },
             {
               "function": "set_custom_data",

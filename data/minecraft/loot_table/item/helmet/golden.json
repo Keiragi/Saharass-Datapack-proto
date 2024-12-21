@@ -29,11 +29,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"113\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"helmet/golden\"}}"
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"113\",\"Menu\":{\"Button\":\"helmet/golden/\"}}"
             },
             {
               "function": "set_custom_data",

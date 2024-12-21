@@ -29,11 +29,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"104\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"boots/leather\"}}"
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"104\",\"Menu\":{\"Button\":\"boots/leather/\"}}"
             },
             {
               "function": "set_custom_data",

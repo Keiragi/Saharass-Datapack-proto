@@ -39,7 +39,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"013\",\"Menu\":{\"Button\":\"sword/iron\"}}"
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"013\",\"Menu\":{\"Button\":\"sword/iron/\"}}"
             },
             {
               "function": "set_custom_data",

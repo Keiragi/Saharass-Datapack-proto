@@ -29,11 +29,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"110\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"chestplate/iron\"}}"
+              "tag": "{\"Saharass\":\"Armor\",\"ItemID\":\"110\",\"Menu\":{\"Button\":\"chestplate/iron/\"}}"
             },
             {
               "function": "set_custom_data",

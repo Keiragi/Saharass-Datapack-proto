@@ -39,11 +39,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"031\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"axe/wooden\"}}"
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"031\",\"Menu\":{\"Button\":\"axe/wooden/\"}}"
             },
             {
               "function": "set_custom_data",
