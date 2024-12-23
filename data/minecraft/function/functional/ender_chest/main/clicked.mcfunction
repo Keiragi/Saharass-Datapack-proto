@@ -3,15 +3,12 @@
 
 # カーソルのアイテムのデータをストレージに入れる
   execute summon item_display run function functional/ender_chest/main/cursor_data
+  item replace entity @s player.cursor with air
 
 # 空アイテムの復帰
-  execute if data storage temp: Item.Cursor.components.minecraft:custom_data.Menu{Empty:1b} \
+  execute if data storage temp: Cursor.components.minecraft:custom_data.Menu{"Empty":1b} \
   run function functional/ender_chest/main/menu/empty
 
-# メニューアイテム
-  execute if data storage temp: Item.Cursor.components.minecraft:custom_data.Menu.Button \
-  run function functional/ender_chest/main/menu/ with \
-  storage temp: Item.Cursor.components.minecraft:custom_data.Menu
-
-# アイテム消去
-  item replace entity @s player.cursor with air
+# メニューアイテムをクリック
+  execute if data storage temp: Cursor.components.minecraft:custom_data.Menu.Button \
+  run function functional/ender_chest/main/menu/ with storage temp: Cursor.components.minecraft:custom_data.Menu
