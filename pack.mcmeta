@@ -7,27 +7,11 @@
     "block": [
       {
         "namespace": "minecraft",
-        "path": "advancement/adventure"
+        "path": "advancement/.*"
       },
       {
         "namespace": "minecraft",
-        "path": "advancement/end"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "advancement/husbandry"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "advancement/nether"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "advancement/recipes"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "advancement/story"
+        "path": "loot_table/.*"
       },
       {
         "namespace": "minecraft",
