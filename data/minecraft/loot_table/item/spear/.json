@@ -37,7 +37,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"spear/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/spear\"}}"
             },
             {
               "function": "set_components",

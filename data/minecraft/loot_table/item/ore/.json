@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"ore/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/ore\"}}"
             },
             {
               "function": "set_components",

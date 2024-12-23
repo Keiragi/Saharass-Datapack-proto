@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"boots/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/boots\"}}"
             },
             {
               "function": "set_components",

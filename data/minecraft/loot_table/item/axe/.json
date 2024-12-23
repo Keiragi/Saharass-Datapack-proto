@@ -28,7 +28,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"axe/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/axe\"}}"
             },
             {
               "function": "set_components",

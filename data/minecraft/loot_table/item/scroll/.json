@@ -30,7 +30,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"scroll/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/scroll\"}}"
             },
             {
               "function": "set_components",

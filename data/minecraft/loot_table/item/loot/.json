@@ -19,7 +19,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"loot/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/loot\"}}"
             },
             {
               "function": "set_components",

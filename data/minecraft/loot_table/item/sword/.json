@@ -28,7 +28,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"sword/\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"display/sword\"}}"
             },
             {
               "function": "set_components",
