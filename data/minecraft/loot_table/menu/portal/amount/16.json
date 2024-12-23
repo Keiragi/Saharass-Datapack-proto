@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "light_gray_stained_glass",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "16個引き出す"
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "\uF824▸ クリックで引き出す",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"withdraw/amount/number/16\"}}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "hide_additional_tooltip": {},
+                "max_stack_size": 16
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
