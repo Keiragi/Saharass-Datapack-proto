@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"ItemID\":\"058\",\"Menu\":{\"Button\":\"scroll/mojang\"}}"
+              "tag": "{\"ItemID\":\"058\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

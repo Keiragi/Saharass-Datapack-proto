@@ -35,7 +35,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"food/enchanted_golden_apple\"}}"
+              "tag": "{\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

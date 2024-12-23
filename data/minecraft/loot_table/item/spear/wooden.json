@@ -39,7 +39,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"041\",\"Menu\":{\"Button\":\"spear/wooden/\"}}"
+              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"041\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_custom_data",

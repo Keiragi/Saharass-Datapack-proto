@@ -33,7 +33,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Pickaxe\",\"ItemID\":\"401\",\"Menu\":{\"Button\":\"pickaxe/wooden/\"}}"
+              "tag": "{\"Saharass\":\"Pickaxe\",\"ItemID\":\"401\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_custom_data",

@@ -34,7 +34,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"ore/coal\"}}"
+              "tag": "{\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

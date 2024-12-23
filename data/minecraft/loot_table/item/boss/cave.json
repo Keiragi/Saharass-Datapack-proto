@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Loot\",\"Menu\":{\"Button\":\"boss/cave\"}}"
+              "tag": "{\"Saharass\":\"Loot\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

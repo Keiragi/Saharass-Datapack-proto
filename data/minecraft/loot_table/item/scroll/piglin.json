@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"ItemID\":\"059\",\"Menu\":{\"Button\":\"scroll/piglin\"}}"
+              "tag": "{\"ItemID\":\"059\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

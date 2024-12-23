@@ -50,7 +50,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"301\",\"Menu\":{\"Button\":\"potion/regeneration_1\"}}"
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"301\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

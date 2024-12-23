@@ -133,7 +133,7 @@
                   "id": "diamond_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/sword/diamond\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"withdraw/amount/\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

@@ -30,7 +30,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Crossbow\",\"Menu\":{\"Button\":\"crossbow/normal\"}}"
+              "tag": "{\"Saharass\":\"Crossbow\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_custom_data",

@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"ItemID\":\"057\",\"Menu\":{\"Button\":\"scroll/guster\"}}"
+              "tag": "{\"ItemID\":\"057\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

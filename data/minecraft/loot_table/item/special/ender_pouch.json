@@ -30,7 +30,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Special\",\"ItemID\":\"152\",\"Menu\":{\"Button\":\"special/ender_pouch\"}}"
+              "tag": "{\"Saharass\":\"Special\",\"ItemID\":\"152\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_custom_data",
