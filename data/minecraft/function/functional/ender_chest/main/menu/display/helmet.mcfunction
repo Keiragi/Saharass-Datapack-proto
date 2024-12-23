@@ -10,7 +10,7 @@
   loot replace entity @s enderchest.26 loot menu/portal/withdraw
 
 # 個数の表示
-  function functional/ender_chest/main/menu/.withdraw/run/
+  function functional/ender_chest/main/menu/withdraw/run/
 
 # 残りを埋める
   function functional/ender_chest/main/menu/empty

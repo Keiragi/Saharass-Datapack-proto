@@ -1,4 +1,4 @@
-##sword
+#>functional/ender_chest/main/menu/sword/
 
 # GUI復帰
   function functional/ender_chest/reset
@@ -9,7 +9,7 @@
   loot replace entity @s enderchest.15 loot item/sword/diamond
 
 # 個数の表示
-  function functional/ender_chest/main/menu/.withdraw/run/
+  function functional/ender_chest/main/menu/withdraw/run/
 
 # 残りを埋める
   loot replace entity @s enderchest.26 loot menu/portal/withdraw
