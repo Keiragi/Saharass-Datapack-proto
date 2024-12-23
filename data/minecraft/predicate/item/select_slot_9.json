@@ -2,6 +2,6 @@
   "condition": "entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItemSlot:8}"
+    "nbt": "{\"SelectedItemSlot\":8}"
   }
 }
