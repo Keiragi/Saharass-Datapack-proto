@@ -33,6 +33,10 @@
               "tag": "{\"Saharass\":\"Special\",\"ItemID\":\"152\",\"Menu\":{\"Button\":\"special/ender_pouch\"}}"
             },
             {
+              "function": "set_custom_data",
+              "tag": "{\"ui\":{\"list_store\":1b}}"
+            },
+            {
               "function": "set_lore",
               "entity": "this",
               "mode": "append",
