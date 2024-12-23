@@ -18,7 +18,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\".hub/right\"}}"
+              "tag": "{\"Display\":1b,\"Menu\":{\"Button\":\"hub/right\"}}"
             },
             {
               "function": "set_components",
