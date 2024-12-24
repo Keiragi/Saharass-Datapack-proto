@@ -58,7 +58,7 @@
 058 mojang
 059 piglin
 060 skull
-061
+061 normal_crossbow
 062
 063
 064
