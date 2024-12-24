@@ -2,9 +2,9 @@
 
 # GUI復帰
   function functional/ender_chest/reset
-  loot replace entity @s enderchest.1 loot item/potion/regeneration
-  loot replace entity @s enderchest.2 loot item/potion/speed
-  loot replace entity @s enderchest.3 loot item/potion/strength
+  loot replace entity @s enderchest.1 loot item/301
+  loot replace entity @s enderchest.2 loot item/321
+  loot replace entity @s enderchest.3 loot item/321
 
 # 個数の表示
   function functional/ender_chest/main/menu/withdraw/run/
