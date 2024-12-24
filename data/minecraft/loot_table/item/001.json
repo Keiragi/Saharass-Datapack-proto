@@ -31,11 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"001\"}"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"001\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",

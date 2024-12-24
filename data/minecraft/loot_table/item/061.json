@@ -5,32 +5,23 @@
       "entries": [
         {
           "type": "item",
-          "name": "diamond_sword",
+          "name": "crossbow",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
               "name": {
-                "text": "ダイヤモンドの剣",
-                "color": "aqua"
+                "text": "クロスボウ",
+                "color": "white"
               }
             },
             {
               "function": "set_components",
               "components": {
-                "item_model": "diamond_sword",
+                "item_model": "crossbow",
                 "unbreakable": {},
                 "hide_additional_tooltip": {},
-                "rarity": "rare"
-              }
-            },
-            {
-              "function": "set_custom_model_data",
-              "strings": {
-                "values": [
-                  "sword"
-                ],
-                "mode": "append"
+                "rarity": "common"
               }
             },
             {
@@ -39,7 +30,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Main\",\"ItemID\":\"015\",\"Menu\":{\"Button\":\"sword/diamond/\"}}"
+              "tag": "{\"Saharass\":\"Crossbow\",\"ItemID\":\"061\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_custom_data",
@@ -56,7 +47,7 @@
                     "italic": false
                   },
                   {
-                    "text": "広く知られる普通の剣。"
+                    "text": "とても大きなクロスボウ。"
                   }
                 ],
                 [
@@ -69,39 +60,6 @@
                     "text": "平均的な能力で扱いやすい。"
                   }
                 ]
-              ]
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "id": "weapon_attack_damage",
-                  "attribute": "attack_damage",
-                  "amount": 10,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "weapon_attack_range",
-                  "attribute": "entity_interaction_range",
-                  "amount": 1,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "weapon_sweeping_damage_ratio",
-                  "attribute": "sweeping_damage_ratio",
-                  "amount": 1,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "weapon_attack_speed",
-                  "attribute": "attack_speed",
-                  "amount": -2.4,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
               ]
             },
             {
@@ -130,19 +88,19 @@
                   "has_consume_particles": false
                 },
                 "use_remainder": {
-                  "id": "diamond_sword",
+                  "id": "crossbow",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"withdraw/amount/\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/crossbow/normal\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },
                     "enchantment_glint_override": false,
-                    "item_model": "diamond_sword",
+                    "item_model": "crossbow",
                     "attribute_modifiers": {
                       "modifiers": [
                         {
-                          "id": "weapon_none_attack",
+                          "id": "crossbow_none_attack",
                           "type": "attack_damage",
                           "amount": -1,
                           "operation": "add_multiplied_total",
@@ -154,7 +112,6 @@
                     "unbreakable": {
                       "show_in_tooltip": false
                     },
-                    "item_name": "{\"color\": \"white\",\"text\":\"ダイヤモンドの剣\"}",
                     "lore": [
                       "{\"italic\":false,\"text\":\"このアイテムが残っているなら、\"}",
                       "{\"italic\":false,\"text\":\"バグが起きたということ。\"}"

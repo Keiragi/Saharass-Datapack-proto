@@ -6,39 +6,39 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "item/ore/amethyst"
+          "value": "item/201"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/coal"
+          "value": "item/202"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/copper"
+          "value": "item/203"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/diamond"
+          "value": "item/204"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/emerald"
+          "value": "item/205"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/gold"
+          "value": "item/206"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/iron"
+          "value": "item/207"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/lapis_lazuli"
+          "value": "item/208"
         },
         {
           "type": "loot_table",
-          "value": "item/ore/redstone"
+          "value": "item/209"
         }
       ]
     }

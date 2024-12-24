@@ -31,7 +31,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{\"Saharass\":\"Loot\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
+              "tag": "{\"Saharass\":\"Loot\",\"ItemID\":\"501\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
             },
             {
               "function": "set_lore",
