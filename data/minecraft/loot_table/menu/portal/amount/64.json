@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "light_gray_stained_glass",
+          "name": "black_stained_glass",
           "functions": [
             {
               "function": "set_name",
