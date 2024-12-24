@@ -1,10 +1,10 @@
 ##.Withdraw/run/each_item
 # IDの収納
   data modify storage temp: Chest[-1].components.minecraft:custom_data.Slot set from storage temp: Chest[-1].Slot
+  #data modify storage temp: Chest[-1].components.minecraft:custom_data.id set from storage temp: Chest[-1].id
 
-# 固有アイテムなら集計
-  execute if data storage temp: Chest[-1].components.minecraft:custom_data.ItemID \
-  run function functional/ender_chest/main/menu/withdraw/run/count with \
+# 集計
+  function functional/ender_chest/main/menu/withdraw/run/count with \
   storage temp: Chest[-1].components.minecraft:custom_data
 
 # 最後のデータ削除
