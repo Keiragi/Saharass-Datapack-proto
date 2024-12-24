@@ -10,10 +10,13 @@
     },
     "conditions": [
       {
-        "condition": "match_tool",
-        "predicate": {
-          "components": {
-            "max_stack_size": 1
+        "condition": "inverted",
+        "term": {
+          "condition": "match_tool",
+          "predicate": {
+            "components": {
+              "max_stack_size": 1
+            }
           }
         }
       }

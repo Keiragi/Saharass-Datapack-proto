@@ -9,3 +9,4 @@
 
 # 表示用のアイテム編集
   $item modify entity @s enderchest.$(Slot) menu/general
+  #$item modify entity @s enderchest.$(Slot) {"function":"set_components","components":{"item_model":"$(id)"}}
