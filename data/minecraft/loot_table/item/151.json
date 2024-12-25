@@ -118,7 +118,7 @@
                   "id": "nautilus_shell",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Used\":1b,\"Loottable\":\"item/special/emerald_pouch\"}",
+                    "custom_data": "{\"Used\":1b,\"Loottable\":\"item/151\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

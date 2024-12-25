@@ -91,7 +91,7 @@
                   "id": "field_masoned_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/scroll/field_masoned\"}",
+                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/053\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

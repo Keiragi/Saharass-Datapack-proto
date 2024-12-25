@@ -91,7 +91,7 @@
                   "id": "bordure_indented_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/scroll/bordure_indented\"}",
+                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/051\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

@@ -91,7 +91,7 @@
                   "id": "flower_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/scroll/flower\"}",
+                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/055\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

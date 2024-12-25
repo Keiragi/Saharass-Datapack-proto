@@ -138,7 +138,7 @@
                         "dagger"
                       ]
                     },
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/dagger/wooden\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/021\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

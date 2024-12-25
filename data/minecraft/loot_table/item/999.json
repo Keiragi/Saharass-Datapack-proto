@@ -130,7 +130,7 @@
                   "id": "spider_eye",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"item/other/0\"}",
+                    "custom_data": "{\"Number\":0,\"Used\":1b,\"Loottable\":\"item/999\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

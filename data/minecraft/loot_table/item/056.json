@@ -91,7 +91,7 @@
                   "id": "globe_banner_pattern",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/scroll/globe\"}",
+                    "custom_data": "{\"Number\":00,\"Used\":1b,\"Loottable\":\"item/056\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

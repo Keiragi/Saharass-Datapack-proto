@@ -133,7 +133,7 @@
                   "id": "golden_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/sword/golden\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/014\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

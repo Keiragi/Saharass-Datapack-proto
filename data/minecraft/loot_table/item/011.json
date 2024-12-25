@@ -133,7 +133,7 @@
                   "id": "wooden_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/sword/wooden\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/011\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },

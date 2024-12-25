@@ -133,7 +133,7 @@
                   "id": "stone_sword",
                   "count": 1,
                   "components": {
-                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/sword/stone\"}",
+                    "custom_data": "{\"Saharass\":\"Main\",\"Used\":1b,\"Loottable\":\"item/012\"}",
                     "enchantments": {
                       "use_remainder": 1
                     },
