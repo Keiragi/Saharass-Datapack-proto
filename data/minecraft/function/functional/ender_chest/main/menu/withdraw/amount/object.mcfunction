@@ -2,6 +2,9 @@
 # カーソルアイテムを10番に入れる
   function functional/ender_chest/main/menu/withdraw/amount/copy
 
+# 個数の表示
+  function functional/ender_chest/main/menu/withdraw/run/
+
 # 引き出し個数の配置
   loot replace entity @s enderchest.12 loot menu/portal/amount/1
   loot replace entity @s enderchest.13 loot menu/portal/amount/4
