@@ -4,8 +4,8 @@
 # 個人ストレージ起動
   function #oh_my_dat:please
 
-# アイテムストレージ初期化
-  data remove storage temp: Item
+# 軽量化用にデータ保存
+  data modify storage temp: Item set from entity @s SelectedItem
 
 # Switch,Special,Otherは常に発動
   function skill/core/use_item/always
