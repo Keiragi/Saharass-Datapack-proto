@@ -5,7 +5,7 @@
   execute if entity @s[tag=UseEarth] run function elements/store/earth
 
 # インフェルノをセットしていたら戻す
-  function skill/core/switch/inferno/immediate/
+  function skill/core/switch/mode/immediate/
 
 # 使っている属性のタグを削除
   tag @s remove UseFire
