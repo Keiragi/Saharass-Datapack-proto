@@ -9,4 +9,4 @@
   loot give @s mine 0 -2 0 debug_stick
 
 # まだデータがあり、インベントリに空きがあるなら繰り返す
-  execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0] unless predicate full_inventory run function object/interaction/npc/depositor/return_item/ with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0]
+  execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0] unless predicate player/full_inventory run function object/interaction/npc/depositor/return_item/ with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item[0]

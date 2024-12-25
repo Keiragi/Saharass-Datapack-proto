@@ -1,7 +1,7 @@
 # 演出 + コスト
   playsound block.sniffer_egg.plop player @a[distance=..16] ~ ~ ~ 1 1 0.1
-  title @s[predicate=!sneaking] actionbar [{"color":"green","text":"エアバレット"}]
-  title @s[predicate=sneaking] actionbar [{"color":"green","text":"エアバレット(追尾)"}]
+  title @s[predicate=!flags/sneaking] actionbar [{"color":"green","text":"エアバレット"}]
+  title @s[predicate=flags/sneaking] actionbar [{"color":"green","text":"エアバレット(追尾)"}]
   particle cloud ~ ~1 ~ 0.1 0.1 0.1 0.05 8 force
   effect give @s hunger 1 39 true
 
@@ -13,5 +13,5 @@
   run data modify storage temp: Motion set from entity @s Pos
 
 # バレット召喚 + 情報指定
-  execute unless predicate sneaking anchored eyes positioned ^ ^ ^ summon shulker_bullet run function skill/all/25/bullet
-  execute if predicate sneaking anchored eyes positioned ^ ^ ^ summon shulker_bullet run function skill/all/25/bullet_follow
+  execute unless predicate flags/sneaking anchored eyes positioned ^ ^ ^ summon shulker_bullet run function skill/all/25/bullet
+  execute if predicate flags/sneaking anchored eyes positioned ^ ^ ^ summon shulker_bullet run function skill/all/25/bullet_follow
