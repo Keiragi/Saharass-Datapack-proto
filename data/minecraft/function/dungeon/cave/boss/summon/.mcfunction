@@ -21,3 +21,6 @@
 
 # HP表示
   bossbar set cave visible true
+
+# 行動パターン発生
+  function dungeon/cave/boss/behavior/

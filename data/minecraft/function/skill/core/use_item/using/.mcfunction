@@ -7,9 +7,12 @@
 
 # ホールドモードでなければ戻す
   function #oh_my_dat:please
-  execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:"06"} \
-  unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{Number:"07"} \
+  execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{"Number":"06"} \
+  unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{"Number":"07"} \
   run item modify entity @s weapon.mainhand skill/immediate
+  execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{"Number":"06"} \
+  unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill{"Number":"07"} \
+  run item modify entity @s weapon.offhand skill/immediate
 
 # 進捗のリセット
   advancement revoke @s only item/using_item

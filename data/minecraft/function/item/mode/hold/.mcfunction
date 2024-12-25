@@ -2,4 +2,4 @@
   data modify storage temp: Stuff.Inventory set from entity @s Inventory
 
 # アイテムチェックの再帰ループ
-  execute if data storage temp: Stuff.Inventory[-1] run function skill/core/switch/mode/hold/each_item
+  execute if data storage temp: Stuff.Inventory[-1] run function item/mode/hold/each_item
