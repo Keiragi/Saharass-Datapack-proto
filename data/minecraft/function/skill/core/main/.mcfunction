@@ -8,4 +8,4 @@
   $execute if predicate skill/check_food run function skill/all/$(Number)/ {"Damage":"$(Damage)"}
 
 # 無ければエラーメッセージ
-  execute unless predicate skill/check_food run function skill/core/no_satisfaction
+  execute unless predicate skill/check_food run function skill/core/error/no_satisfaction
