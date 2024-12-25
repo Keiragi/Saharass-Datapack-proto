@@ -1,1 +1,1 @@
-function skill/core/special/macro with entity @s SelectedItem.components.minecraft:custom_data
+$function skill/core/special/item/$(ItemID)

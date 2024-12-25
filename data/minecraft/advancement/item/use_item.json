@@ -39,16 +39,6 @@
           }
         }
       }
-    },
-    "Other": {
-      "trigger": "consume_item",
-      "conditions": {
-        "item": {
-          "predicates": {
-            "custom_data": "{\"Saharass\":\"Other\"}"
-          }
-        }
-      }
     }
   },
   "requirements": [
@@ -56,8 +46,7 @@
       "Main",
       "Sub",
       "Switch",
-      "Special",
-      "Other"
+      "Special"
     ]
   ],
   "rewards": {
