@@ -5,9 +5,9 @@
   particle flash ~ ~ ~
 
 # タイトル
-  title @a[distance=0..] times 0.5s 1.5s 0.5s
-  title @a[distance=0..] title {"bold":true,"text":"ラヴェドーガ"}
-  title @a[distance=0..] subtitle [{"bold":true,"text":"= BOSS ="}]
+  title @a[distance=..32] times 0.5s 1.5s 0.5s
+  title @a[distance=..32] title {"bold":true,"text":"ラヴェドーガ"}
+  title @a[distance=..32] subtitle {"bold":true,"text":"= BOSS ="}
 
 # 通知
   tellraw @a ["",{"color":"light_purple","text":"[BOSS]"}," >> ",\
@@ -20,7 +20,8 @@
 
 
 # HP表示
-  bossbar set cave visible true
+  bossbar set cave players @a[distance=0..]
 
-# 行動パターン発生
-  function dungeon/cave/boss/behavior/
+# 行動パターン計算
+  function dungeon/core/boss/calc {"dungeon":"cave"}
+  function dungeon/core/boss/loop with storage dungeon: cave

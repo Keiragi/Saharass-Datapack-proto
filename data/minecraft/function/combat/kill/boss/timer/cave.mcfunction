@@ -1,9 +1,9 @@
 # ボスバー設定
 # 時間を1減らす
-  execute store result bossbar cave_timer value run scoreboard players remove cave Timer_Count 1
+  execute store result bossbar cave_return value run scoreboard players remove cave Timer_Count 1
 
 # ボスバーの表示
-  execute in cave run bossbar set cave_timer players @a[distance=0..]
+  execute in cave run bossbar set cave_return players @a[distance=0..]
 
 # 帰還処理
   execute if score cave Timer_Count matches 0 run function combat/kill/boss/return {"dungeon":"cave"}

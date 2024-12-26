@@ -14,5 +14,9 @@
   setblock -28 -49 70 light[level=15]
 
 # HP非表示
-  bossbar set cave visible false
-  bossbar set cave_timer visible false
+  bossbar set cave players
+  bossbar set cave_return players
+
+# schedule削除
+  schedule clear dungeon/cave/boss/behavior/pre_delay
+  schedule clear dungeon/cave/boss/behavior/post_delay
