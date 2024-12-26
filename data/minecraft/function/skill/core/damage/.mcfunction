@@ -19,8 +19,8 @@ scoreboard players operation $Total DamageCalculation += $Weapon DamageCalculati
   scoreboard players operation $Total DamageCalculation /= #10 DamageCalculation
 
 # レベルを足す
-  execute store result score $Level DamageCalculation run data get entity @s XpLevel
-  scoreboard players operation $Total DamageCalculation += $Level DamageCalculation
+  execute store result score $level DamageCalculation run data get entity @s XpLevel
+  scoreboard players operation $Total DamageCalculation += $level DamageCalculation
 
 # 火事場力補正
   execute if score @s HealthCalculation matches 2.. run scoreboard players operation $Total DamageCalculation *= @s HealthCalculation

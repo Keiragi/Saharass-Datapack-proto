@@ -13,7 +13,7 @@ function #oh_my_dat:please
   scoreboard players operation $Total DamageCalculation /= #10 DamageCalculation
 
 # レベルを足す
-  execute store result score $Level DamageCalculation run data get entity @s XpLevel
-  scoreboard players operation $Total DamageCalculation += $Level DamageCalculation
+  execute store result score $level DamageCalculation run data get entity @s XpLevel
+  scoreboard players operation $Total DamageCalculation += $level DamageCalculation
 
 execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Damage int 1 run scoreboard players get $Total DamageCalculation

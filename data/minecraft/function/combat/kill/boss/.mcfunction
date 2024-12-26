@@ -6,8 +6,8 @@
   tellraw @a "\uF82A\uF824>> 10秒後にダンジョンがリセットされます\n"
 
 # HP非表示
-  $bossbar set $(dungeon) visible false
-  $bossbar set $(dungeon)_timer visible true
+  $bossbar set $(dungeon) players
+  $bossbar set $(dungeon)_return players @a[distance=0..]
   $scoreboard players set $(dungeon) Timer_Count 11
 
 # 帰還タイマー
