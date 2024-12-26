@@ -34,10 +34,11 @@ scoreboard objectives add ItemStorage dummy
 scoreboard objectives add Inferno_Timer minecraft.custom:minecraft.play_time
 scoreboard objectives add Level level
 scoreboard objectives add Previous_Level dummy
+scoreboard objectives add Behavior dummy
 
 team add HideName
 team add Players
 
 bossbar add sandbag ""
 bossbar add cave ""
-bossbar add cave_timer ""
+bossbar add cave_return ""
