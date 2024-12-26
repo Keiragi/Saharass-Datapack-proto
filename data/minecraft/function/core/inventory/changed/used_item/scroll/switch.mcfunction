@@ -6,7 +6,7 @@
 
 # スキルごとの独自データをセット
   function object/sign/church/tellraw/core/edit/switch
-  $function skill/core/skill_set/set_data/$(Number)
+  $function item/scroll/set_data/$(Number)
 
 # 上でセットしたデータからマクロを起動
   function object/sign/church/tellraw/core/edit/every with storage temp: Item
