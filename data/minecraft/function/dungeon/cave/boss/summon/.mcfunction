@@ -4,14 +4,11 @@
   particle poof ~ ~1 ~ 0 0 0 1 100
   particle flash ~ ~ ~
 
-# タイトル
+# タイトル + 通知
   title @a[distance=..32] times 0.5s 1.5s 0.5s
   title @a[distance=..32] title {"bold":true,"text":"ラヴェドーガ"}
   title @a[distance=..32] subtitle {"bold":true,"text":"= BOSS ="}
-
-# 通知
-  tellraw @a ["",{"color":"light_purple","text":"[BOSS]"}," >> ",\
-  {"bold":true,"color":"gray","text":"ラヴェドーガ"},"【",{"bold":true,"text":"Lv."},{"bold":true,"nbt":"cave.Level","storage":"dungeon:"},"】","が出現した！"]
+  tellraw @a ["",{"color":"light_purple","text":"[BOSS]"}," >> ",{"bold":true,"color":"gray","text":"ラヴェドーガ"},"【",{"bold":true,"text":"Lv."},{"bold":true,"nbt":"cave.Level","storage":"dungeon:"},"】","が出現した！"]
 
 # 召喚
   execute summon ravager run function dungeon/cave/boss/summon/set_data
