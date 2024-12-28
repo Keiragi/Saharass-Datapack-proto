@@ -7,3 +7,4 @@
   data modify entity @s data.name set value "ラヴェドーガ"
   data modify entity @s data.dungeon set value "cave"
   data modify entity @s data.color set value "gray"
+  data modify entity @s data.display set value "大洞窟"
