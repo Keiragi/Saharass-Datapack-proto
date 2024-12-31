@@ -11,7 +11,9 @@
   tellraw @a ["",{"color":"light_purple","text":"[BOSS]"}," >> ",{"bold":true,"color":"gray","text":"ラヴェドーガ"},"【",{"bold":true,"text":"Lv."},{"bold":true,"nbt":"cave.Level","storage":"dungeon:"},"】","が出現した！"]
 
 # 召喚
-  execute summon ravager run function dungeon/cave/boss/summon/set_data
+  kill 00000000-0000-0000-0000-000100000000
+  summon ravager ~ ~ ~ {UUID:[I;0,0,1,0]}
+  execute as 00000000-0000-0000-0000-000100000000 run function dungeon/cave/boss/summon/set_data
   # データマーカーセット
     execute summon marker run function dungeon/cave/boss/summon/marker
 
@@ -21,4 +23,4 @@
 
 # 行動パターン計算
   function dungeon/core/boss/calc {"dungeon":"cave"}
-  function dungeon/core/boss/loop with storage dungeon: cave
+  function dungeon/cave/boss/behavior/loop

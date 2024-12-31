@@ -18,5 +18,12 @@
   bossbar set cave_return players
 
 # schedule削除
-  schedule clear dungeon/cave/boss/behavior/pre_delay
-  schedule clear dungeon/cave/boss/behavior/post_delay
+  schedule clear minecraft:dungeon/cave/boss/behavior/pre
+  schedule clear minecraft:dungeon/cave/boss/behavior/post
+  schedule clear minecraft:dungeon/cave/boss/behavior/loop
+  schedule clear minecraft:combat/kill/boss/timer/cave
+  schedule clear minecraft:dungeon/cave/boss/behavior/type/1/pre_delay
+  schedule clear minecraft:dungeon/cave/boss/behavior/type/2/pre_delay
+  schedule clear minecraft:dungeon/cave/boss/behavior/type/3/pre_delay
+  schedule clear minecraft:dungeon/cave/boss/behavior/type/4/pre_delay
+  schedule clear minecraft:dungeon/cave/boss/behavior/type/5/pre_delay
