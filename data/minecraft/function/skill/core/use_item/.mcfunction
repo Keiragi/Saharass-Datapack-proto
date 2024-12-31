@@ -5,7 +5,8 @@
   function #oh_my_dat:please
 
 # 軽量化用にデータ保存
-  data modify storage temp: Item set from entity @s SelectedItem
+  data modify storage temp: SelectedItem set from entity @s SelectedItem
+  data modify storage temp: OffhandItem set from entity @s Inventory[{Slot:-106b}]
 
 # Switch,Specialは常に発動
   function skill/core/use_item/always

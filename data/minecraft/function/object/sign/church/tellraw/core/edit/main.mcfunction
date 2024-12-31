@@ -13,6 +13,7 @@
 
 # スキルごとの独自データをセット
   $function item/scroll/set_data/$(Number)
+  data modify storage temp: Item.which set value "main"
 
 # 通知
   tellraw @s ["スキルをセットしました：",{"nbt":"Item.Name","storage":"temp:"}]
