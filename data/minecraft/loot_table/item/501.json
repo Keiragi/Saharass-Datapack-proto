@@ -21,7 +21,7 @@
                 "item_model": "sentry_armor_trim_smithing_template",
                 "enchantment_glint_override": true,
                 "hide_additional_tooltip": {},
-                "max_stack_size": 1,
+                "max_stack_size": 99,
                 "rarity": "rare"
               }
             },
