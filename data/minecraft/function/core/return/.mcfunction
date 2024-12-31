@@ -1,4 +1,6 @@
 ## ホームタウンへ移動
+  execute in overworld run tp @s 26 1 51 180 0
+  spawnpoint @s 26 1 51 180
 
 # エフェクト効果の初期化
   effect clear @s
