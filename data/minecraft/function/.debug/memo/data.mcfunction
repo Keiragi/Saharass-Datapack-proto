@@ -35,6 +35,7 @@ scoreboard objectives add Inferno_Timer minecraft.custom:minecraft.play_time
 scoreboard objectives add Level level
 scoreboard objectives add Previous_Level dummy
 scoreboard objectives add Behavior dummy
+scoreboard objectives add Boss_Cave dummy
 
 team add HideName
 team add Players
