@@ -7,7 +7,7 @@
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item append from entity @s Inventory[{Slot:17b}].components.minecraft:bundle_contents[]
 
 # ポーチの復帰
-  loot replace entity @s container.17 loot item/special/ender_pouch
+  loot replace entity @s container.17 loot item/152
 
 # デバッグ用 クリエイティブだと増殖するので削除
   execute if entity @s[gamemode=creative] run data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Ender_Pouch.Item
