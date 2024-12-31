@@ -1,7 +1,7 @@
 
 execute unless entity @s[advancements={location/generic={fire=false,water=false,wind=false,earth=false}}] run function elements/check
 
-execute if entity @s[advancements={location/generic={passive=true}}] run function world/tick
+execute if entity @s[advancements={location/generic={passive=true}}] run function world/player/passive
 
 execute if entity @s[advancements={location/generic={on_portal=true}}] run function object/portal/check/
 
