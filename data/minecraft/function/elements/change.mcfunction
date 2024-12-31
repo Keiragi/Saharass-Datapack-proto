@@ -3,6 +3,7 @@
 
 # 使用スキルをリセット
   scoreboard players set @p SkillNumber 0
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill.Number set value "00"
 
 # 表示リセット
   title @s clear
