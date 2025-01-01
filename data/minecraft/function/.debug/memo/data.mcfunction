@@ -36,6 +36,7 @@ scoreboard objectives add Level level
 scoreboard objectives add Previous_Level dummy
 scoreboard objectives add Behavior dummy
 scoreboard objectives add Boss_Cave dummy
+scoreboard objectives add SkillTimer minecraft.custom:minecraft.play_time
 
 team add HideName
 team add Players
