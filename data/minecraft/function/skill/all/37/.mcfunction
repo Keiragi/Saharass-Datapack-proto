@@ -1,4 +1,4 @@
-## 37 エスケープ
+## エスケープ
   # 演出
     title @s actionbar [{"color":"gold","text":"エスケープ"}]
     particle firework ~ ~1 ~ -0.5 -0.5 -0.5 0.1 25
