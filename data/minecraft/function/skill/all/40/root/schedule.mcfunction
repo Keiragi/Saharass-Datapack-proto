@@ -1,2 +1,3 @@
-#ワールド全体で実行されるため実行者を設定
-execute as @a[scores={Timer_Yggdrasil=9..}] at @s run function skill/all/40/schedule
+# 個人ストレージ起動
+  function #oh_my_dat:please
+  function skill/all/40/root/delete with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill

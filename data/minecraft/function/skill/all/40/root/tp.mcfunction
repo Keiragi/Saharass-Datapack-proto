@@ -1,1 +1,3 @@
-$execute as @e[type=block_display,tag=Yggdrasil_$(Name)] at @s run tp @s ~ ~2 ~
+# 移動 + 完了のタグ
+  tp @s ~ ~2 ~
+  tag @s add done
