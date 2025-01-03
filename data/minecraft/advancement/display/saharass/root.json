@@ -4,8 +4,8 @@
       "id": "feather",
       "components": {
         "custom_model_data": {
-          "colors": [
-            8181758
+          "floats": [
+            1
           ]
         }
       }
