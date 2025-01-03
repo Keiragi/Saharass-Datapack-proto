@@ -5,3 +5,6 @@
 
 # リストにデータを入れる
   $data modify storage item: $(ItemID) append from storage temp: Chest[-1]
+
+# 繰り返しが終わったら数える
+  $execute store result score $$(ItemID) ItemStorage run data get storage item: $(ItemID)
