@@ -1,0 +1,34 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "item/206",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "uniform",
+                "max": 5.0,
+                "min": 4.0
+              },
+              "function": "set_count"
+            },
+            {
+              "enchantment": "fortune",
+              "formula": "uniform_bonus_count",
+              "function": "apply_bonus",
+              "parameters": {
+                "bonusMultiplier": 1
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "blocks/deepslate_redstone_ore"
+}

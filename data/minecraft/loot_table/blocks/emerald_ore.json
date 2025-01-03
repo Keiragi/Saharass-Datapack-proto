@@ -5,17 +5,15 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "item/209",
+          "value": "item/207",
           "functions": [
-            {
-              "add": false,
-              "count": 4.0,
-              "function": "set_count"
-            },
             {
               "enchantment": "fortune",
               "formula": "ore_drops",
               "function": "apply_bonus"
+            },
+            {
+              "function": "explosion_decay"
             }
           ]
         }
@@ -23,5 +21,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blocks/amethyst_cluster"
+  "random_sequence": "blocks/emerald_ore"
 }

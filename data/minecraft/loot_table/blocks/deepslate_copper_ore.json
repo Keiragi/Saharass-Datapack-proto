@@ -5,17 +5,24 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "item/209",
+          "value": "item/203",
           "functions": [
             {
               "add": false,
-              "count": 4.0,
+              "count": {
+                "type": "uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
               "function": "set_count"
             },
             {
               "enchantment": "fortune",
               "formula": "ore_drops",
               "function": "apply_bonus"
+            },
+            {
+              "function": "explosion_decay"
             }
           ]
         }
@@ -23,5 +30,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blocks/amethyst_cluster"
+  "random_sequence": "blocks/deepslate_copper_ore"
 }
