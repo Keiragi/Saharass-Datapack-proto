@@ -24,7 +24,7 @@
         "text": "\n報酬：レベルアップ×1"
       }
     ],
-    "show_toast": false,
+    "show_toast": true,
     "announce_to_chat": false
   },
   "parent": "display/dairy/clear",

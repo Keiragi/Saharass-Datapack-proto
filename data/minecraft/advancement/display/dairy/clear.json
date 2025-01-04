@@ -17,8 +17,8 @@
         "text": "\n報酬：エンチャントされた金のリンゴ×1"
       }
     ],
-    "show_toast": false,
-    "announce_to_chat": true
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "display/dairy/root",
   "criteria": {
