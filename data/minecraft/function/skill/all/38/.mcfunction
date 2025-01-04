@@ -6,4 +6,4 @@
     particle ash ~ ~3 ~ 2 1 2 0 100
 
   # 重力を増加
-    execute as @e[type=#enemy,distance=..10] run attribute @s gravity base set 0.4
+    execute as @e[type=#enemy,distance=..16] run attribute @s gravity base set 0.4
