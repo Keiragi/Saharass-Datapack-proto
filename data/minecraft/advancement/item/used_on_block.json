@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "place_block": true
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "place_block": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item/place_block/"
+  }
+}
