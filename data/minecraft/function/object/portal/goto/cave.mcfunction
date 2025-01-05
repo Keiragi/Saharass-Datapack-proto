@@ -1,3 +1,4 @@
+execute in cave unless entity @a[distance=0..] run function dungeon/cave/start/
 title @s times 0 1s 1s
 title @s title {"underlined":true,"bold":true,"color":"gray","text":"大洞窟"}
 title @s subtitle {"text":"\uE000"}
