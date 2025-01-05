@@ -3,11 +3,11 @@
 
 # ムービーの場所へ
   tag @s add Next_Floor_Cave
-  tp @s 9 58 -35
+  tp @s -11 58 -95
   gamemode spectator
 
 # b_display召喚 + spectate
-  execute positioned 9 58 -35 summon block_display run function dungeon/cave/gimmick/next_floor/set_b_dis
+  execute positioned -11 58 -95 summon block_display run function dungeon/cave/gimmick/next_floor/set_b_dis
   tag @s remove Next_Floor_Cave
 
 # フェードアウト
