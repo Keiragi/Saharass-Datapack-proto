@@ -1,7 +1,7 @@
 # ドロップアイテム + 表示
   execute unless data entity @s data.loot \
-  run data merge entity @s {data:{loot:"empty",XP:10,Emerald:10}}
-  function combat/kill/enemy/drop with entity @s data
+  run data merge entity @s {"data":{"loot":"empty","XP":0,"Emerald":0}}
+  function combat/kill/enemy/drop with entity @s data.loot
 
 # 表示の消去予約
   schedule function combat/kill/enemy/kill_display 3s append
