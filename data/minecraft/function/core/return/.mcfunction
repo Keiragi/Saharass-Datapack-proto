@@ -17,5 +17,8 @@
   scoreboard players reset @s GetEmerald
   scoreboard players reset @s Consume
 
+# ダンジョンのリセット
+  execute in cave unless entity @a[distance=0..] run function dungeon/core/reset/cave/
+
 # 消費したアイテムデータを初期化
   data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Item.Consume
