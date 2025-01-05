@@ -11,6 +11,7 @@
   "ambient_light": 0.15,
   "logical_height": 384,
   "effects": "overworld",
+  "fixed_time": 6000,
   "infiniburn": "#infiniburn_overworld",
   "min_y": -64,
   "height": 384,
