@@ -18,3 +18,6 @@
   execute if entity @s[advancements={location/generic={water=true}}] run function elements/seconds/water with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Water
   execute if entity @s[advancements={location/generic={wind=true}}] run function elements/seconds/wind with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Wind
   execute if entity @s[advancements={location/generic={earth=true}}] run function elements/seconds/earth with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Earth
+
+# 移動
+  tp @s -22 5.5 -51 180 -10

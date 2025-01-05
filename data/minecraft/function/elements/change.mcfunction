@@ -8,12 +8,13 @@
 # 表示リセット
   title @s clear
 
-# 初回と以降で場所が違う
-  tp @s[tag=Register] 26 1 51 180 0
-  tp @s[tag=!Register] -22 5.5 -51 180 -10
-  execute if entity @s[tag=Register] run function elements/first/
-  execute if entity @s[tag=!Register] run function elements/seconds/
-
 # 進捗を解放
-  advancement grant @s only display/saharass/root
-  advancement grant @s only display/dairy/root
+  advancement grant @s[tag=Register] only display/saharass/root
+  advancement grant @s[tag=Register] only display/dairy/root
+
+# 初回と以降で場所を変更
+  execute if entity @s[tag=!Register] run function elements/seconds/
+  execute if entity @s[tag=Register] run function elements/first/
+
+# レベル検知をリセット
+  scoreboard players operation @s Previous_Level = @s Level

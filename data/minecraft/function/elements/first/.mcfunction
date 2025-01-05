@@ -21,5 +21,6 @@
   execute if entity @s[advancements={location/generic={wind=true}}] run function elements/first/wind
   execute if entity @s[advancements={location/generic={earth=true}}] run function elements/first/earth
 
-# スポーン地点の変更
+# 移動 + スポーン地点の変更
+  tp @s 26 1 51 180 0
   spawnpoint @s 26 0 51 180
