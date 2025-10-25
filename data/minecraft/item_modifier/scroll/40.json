@@ -58,6 +58,6 @@
   },
   {
     "function": "set_custom_data",
-    "tag": "{\"Saharass\":\"Switch\",\"Used\":0b,Number:40}"
+    "tag": "{\"Saharass\":\"Switch\",\"Used\":0b,\"Number\":40}"
   }
 ]

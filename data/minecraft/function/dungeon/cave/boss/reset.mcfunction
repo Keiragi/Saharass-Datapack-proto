@@ -1,6 +1,6 @@
 # ディメンションが違うなら中止処理
-  execute unless dimension cave run return run tellraw @p [{"text":"Error","color":"red"},{"text": " >> ","color":"red"},{"text":"このディメンションでは使えません","color":"white"}]
-  execute if entity @e[tag=Summon_Altar] run return run tellraw @p [{"text":"Error","color":"red"},{"text": " >> ","color":"red"},{"text":"既に台座が存在しています","color":"white"}]
+#execute unless dimension cave run return run tellraw @p [{"text":"Error","color":"red"},{"text": " >> ","color":"red"},{"text":"このディメンションでは使えません","color":"white"}]
+#execute if entity @e[tag=Summon_Altar] run return run tellraw @p [{"text":"Error","color":"red"},{"text": " >> ","color":"red"},{"text":"既に台座が存在しています","color":"white"}]
 
 # ボスを削除
   tp @e[tag=BOSS,distance=0..] 0 -10000 0
@@ -25,5 +25,5 @@
   schedule clear minecraft:dungeon/cave/boss/behavior/type/1/pre_delay
   schedule clear minecraft:dungeon/cave/boss/behavior/type/2/pre_delay
   schedule clear minecraft:dungeon/cave/boss/behavior/type/3/pre_delay
-  schedule clear minecraft:dungeon/cave/boss/behavior/type/4/pre_delay
-  schedule clear minecraft:dungeon/cave/boss/behavior/type/5/pre_delay
+  #schedule clear minecraft:dungeon/cave/boss/behavior/type/4/pre_delay
+  #schedule clear minecraft:dungeon/cave/boss/behavior/type/5/pre_delay

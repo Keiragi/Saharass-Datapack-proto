@@ -77,7 +77,7 @@
                 {
                   "id": "weapon_attack_damage",
                   "attribute": "attack_damage",
-                  "amount": 8,
+                  "amount": 9,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },

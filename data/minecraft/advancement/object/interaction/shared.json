@@ -53,6 +53,15 @@
           "nbt": "{Tags:[\"Summon_Altar\"]}"
         }
       }
+    },
+    "Return_Town": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"Return_Town\"]}"
+        }
+      }
     }
   },
   "requirements": [
@@ -62,7 +71,8 @@
       "Deposit2",
       "Escape",
       "Next_Floor",
-      "Summon_Altar"
+      "Summon_Altar",
+      "Return_Town"
     ]
   ],
   "rewards": {

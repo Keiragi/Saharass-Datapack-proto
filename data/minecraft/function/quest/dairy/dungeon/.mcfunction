@@ -4,4 +4,5 @@ function quest/core/done
 
 advancement grant @s only display/dairy/clear 1
 
-xp add @s 1 levels
+xp add @s[scores={Level=..49}] 1 levels
+function level/check

@@ -42,8 +42,8 @@ execute positioned 96 -1 -116 run function dungeon/cave/spawner/place with stora
 execute positioned 145 6 -108 run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
 execute positioned 145 3 -74 run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
 execute positioned 127 -26 -106 run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
-#execute positioned  run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
-#execute positioned  run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
+execute positioned 161 -27 -74 run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
+execute positioned 138 -21 -10 run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
 #execute positioned  run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
 #execute positioned  run function dungeon/cave/spawner/place with storage dungeon: cave.zombie
 #execute positioned  run function dungeon/cave/spawner/place with storage dungeon: cave.zombie

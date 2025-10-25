@@ -1,5 +1,6 @@
 # ダメージの計算
-  $function skill/core/damage/ {"Number":"$(Number)"}
+  $execute store result score $Skill DamageCalculation run data get storage skill: Damage[$(Number)]
+  function skill/core/damage/
 
 # コストの配列から取り出してスコアボードに代入
   $data modify storage temp: Skill.Cost set from storage skill: Cost[$(Number)]

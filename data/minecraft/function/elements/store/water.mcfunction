@@ -1,2 +1,0 @@
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Water.Level int 1 run xp query @s levels
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Elements.XP.Water.Points int 1 run xp query @s points

@@ -5,7 +5,6 @@ function #oh_my_dat:please
   scoreboard players operation $Total DamageCalculation = $Strength DamageCalculation
 
 # ストレージからスキルダメージを持ってきて10足す
-  $execute store result score $Skill DamageCalculation run data get storage skill: Damage[$(Number)]
   scoreboard players add $Skill DamageCalculation 10
 
 # 攻撃力とスキル+10をかけて10で割る

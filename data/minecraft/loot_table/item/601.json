@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bread",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": {
+                "text": "パン",
+                "color": "white"
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "bread",
+                "enchantment_glint_override": false,
+                "hide_additional_tooltip": {},
+                "max_stack_size": 64,
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"value\":2,\"can_sell\":true}"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{\"Saharass\":\"Consume\",\"ItemID\":\"601\",\"Menu\":{\"Button\":\"withdraw/amount/\"}}"
+            },
+            {
+              "function": "set_lore",
+              "entity": "this",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "細長い形をしたパン。",
+                  "color": "#D8D8D8",
+                  "italic": false
+                },
+                {
+                  "text": "少しかたい。",
+                  "color": "#D8D8D8",
+                  "italic": false
+                },
+                {
+                  "text": "                          ",
+                  "color": "dark_gray",
+                  "strikethrough": true
+                },
+                {
+                  "text": "満腹度回復 : \uE201\uE201\uE202",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "                          ",
+                  "color": "dark_gray",
+                  "strikethrough": true
+                },
+                [
+                  {
+                    "text": "✦ 消費【",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ノーマル",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "】",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "toggle_tooltips",
+              "toggles": {
+                "trim": false,
+                "dyed_color": false,
+                "enchantments": true,
+                "stored_enchantments": false,
+                "unbreakable": false,
+                "can_break": false,
+                "can_place_on": false,
+                "attribute_modifiers": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

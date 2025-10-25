@@ -13,11 +13,11 @@
 013 iron_sword
 014 golden_sword
 015 diamond_sword
-016
-017
+016 copper_sword
+017 emerald_sword
 018
 019
-020
+020 saharass_sword
 021 wooden_dagger
 022 stone_dagger
 023 iron_dagger
@@ -598,7 +598,7 @@
 598
 599
 600
-601
+601 bread
 602
 603
 604

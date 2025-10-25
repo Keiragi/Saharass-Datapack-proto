@@ -12,3 +12,5 @@
 
 # 検知をリセット
   scoreboard players operation @s Previous_Level = @s Level
+
+execute if score @s Level matches 50 run function level/max

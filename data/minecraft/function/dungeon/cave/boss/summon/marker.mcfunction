@@ -3,7 +3,7 @@
 
 # データセット
   tag @s add BOSS
-  data modify entity @s data.loot set value "item/501"
+  data modify entity @s data.drop set value "item/501"
   data modify entity @s data.name set value "ラヴェドーガ"
   data modify entity @s data.dungeon set value "cave"
   data modify entity @s data.color set value "gray"
